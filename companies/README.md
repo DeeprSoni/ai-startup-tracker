@@ -1,4 +1,4 @@
-# Company Tracker — 35 companies
+# Company Tracker — 40 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -39,6 +39,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Corgi Insurance](https://www.corgi.com) | Vertical SaaS AI-native — insurance (full-stack AI-native carrier) | Series B1 | $4.0B (Jul 2026) | ~$40M premium/revenue since Jul 2025 carrier license | Revisit — novel wedge but takes on insurance risk directly; valuation ran 6x in ~6 months |
 | [Sixfold](https://www.sixfold.ai) | Vertical SaaS AI-native — insurance (underwriting automation) | Series B | unconfirmed | $51.5M total raised; carriers incl. Zurich, Guardian, New York Life ($265-270B GWP) | Watch — blue-chip carrier base, Guidewire strategic backing |
 | [Variance](https://www.variance.com) | AI-native fintech — fraud/risk/compliance investigation agents | Series A | unconfirmed | $26M total raised; ~300K automated enforcement actions/day-scale | Watch — cleanest fintech thesis-fit this week after Taktile |
+| [Rillet](https://www.rillet.com) | Vertical SaaS AI-native — finance/accounting back-office (AI-native ERP) | Series C | $1.0B (Aug 2026) | n/a (600+ customers; new ARR doubled in trailing 3 months) | Watch — fastest fundraising pace this batch, 3 rounds in ~14 months |
+| [Exaforce](https://www.exaforce.com) | Agent infrastructure — security operations (agentic SOC) | Series B | $725M (May 2026) | n/a (no customer count/ARR disclosed) | Watch — textbook thesis fit, credible repeat security founder |
+| [Basis Theory](https://basistheory.com) | AI-native fintech — agentic commerce/payments & identity infra | Series B | unconfirmed | ~$50M total raised; named customers Pinterest, Melio, MoneyGram | Watch — established infra co. building agentic-payments standards |
+| [Optura](https://optura.ai) | Vertical SaaS AI-native — healthcare (AI initiative deployment/ROI) | Series A | unconfirmed | $25M+ total raised; named payers/providers incl. Independence Blue Cross | Revisit — real logos but self-reported metrics, closer to tooling than owned workflow |
+| [Vapi](https://vapi.ai) | Agent infrastructure — voice agent infrastructure/telephony runtime | Series B | $500M (May 2026) | $72M total raised; 1B+ calls handled, 10x enterprise ARR growth | Watch — real usage at scale, won Amazon Ring over 40 rivals |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -82,6 +87,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Corgi Insurance — `rec:01M1HNB7SX6QFZ2Z478MN2WJDZ`
 - Sixfold — `rec:01M1HNBFC19H3FQ318DSG4RE0R`
 - Variance — `rec:01M1HNBPQSCS9XJPN98JHS9DJW`
+- Rillet — `rec:01M1HNS10Q4Z9Z5ST19GV2NDKB`
+- Exaforce — `rec:01M1HNSA209V539VXTA4TY3NQN`
+- Basis Theory — `rec:01M1HNSMY5KHTNFJJEG5QRDKSE`
+- Optura — `rec:01M1HNSYSMBDX2VPX5NJXC5KA3`
+- Vapi — `rec:01M1HNT9JAZW6FXVP0459V1S7Q`
 
 ## How to update a company over time
 

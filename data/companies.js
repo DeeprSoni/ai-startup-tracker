@@ -930,5 +930,142 @@ window.COMPANIES = [
     verdict: "watch",
     verdict_rationale: "Cleanest AI-native-fintech thesis fit sourced this week after Taktile — regulated decision point, disclosed automation-scale metrics, and a founding team YC backed for a second, larger round. Caveat: came out of stealth with the raise itself, so there's limited independent history to check the disclosed numbers against — revisit at the next disclosed metric.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "rillet",
+    name: "Rillet",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Finance / accounting back-office (AI-native ERP)",
+    stage: "Series C",
+    website: "https://www.rillet.com",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/company/team-rillet" },
+    founding_team: "Nicolas Kopp (CEO, former US CEO of N26) and Stelios Modes (CTO, formerly the technical architect behind N26's payment infrastructure) — co-founders. Founded 2021; product built with 50+ CPAs from the Big Four and operators from legacy ERP vendors.",
+    product_wedge: "AI-native ERP where AI agents perform real accounting work directly inside a live general ledger alongside finance teams ('Accounting Superintelligence') — close, reconciliation, and reporting handled by agents operating on the same data, policies, controls, and audit trail as human accountants, built first for SaaS/subscription businesses.",
+    funding_history: [
+      { date: "2024-07-29", event: "$13.5M Seed", valuation: null, lead: "unconfirmed" },
+      { date: "2025-05-28", event: "$25M Series A", valuation: null, lead: "Sequoia Capital" },
+      { date: "2025-08-06", event: "$70M Series B", valuation: null, lead: "Andreessen Horowitz, ICONIQ (co-led)" },
+      { date: "2026-08-19", event: "$100M Series C (total raised: $200M+)", valuation: 1000, lead: "ICONIQ", other_investors: "Sequoia, Andreessen Horowitz, Sequoia Global Equities, Bain Capital Ventures, Oak HC/FT, Battery Ventures, FirstMark, Scale Venture Partners, Creandum" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "customers", value: "600+ customers, including publicly listed enterprises (company-disclosed; no named-logo list published)" },
+      { date: "2026-08", metric: "ARR growth", value: "New ARR doubled in the trailing 3 months (company-disclosed rate, no absolute ARR figure given)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08", note: "Reached $1B (unicorn) valuation roughly 2 years after emerging from stealth, and this was the company's 3rd fundraising round in ~14 months — fast, repeated investor conviction rather than a single outsized markup." }
+    ],
+    thesis_fit: "Medium-high — AI agents doing real, audited GL work (not a chat copilot) is genuine autonomous execution, and growth/fundraising pace is real evidence of product-market fit, but an AI-native ERP is closer to horizontal finance software than a single regulated vertical with proprietary outside-workflow data — a different flavor of moat than theses.md's core examples (Harvey, Sierra, Abridge).",
+    verdict: "watch",
+    verdict_rationale: "Best-evidenced pick this week on pure momentum — 3 rounds and a 3x-plus valuation step-up in about 14 months, 600+ paying customers, and a credible fintech-operator founding team (ex-N26). Thesis fit is real but not textbook: the moat is workflow ownership and trust/audit infrastructure rather than access to proprietary regulated data a horizontal player can't get, so watch as a strong operator rather than a lock on theses.md's tightest wedge.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "exaforce",
+    name: "Exaforce",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Security operations (agentic SOC — autonomous detection, triage, investigation, response)",
+    stage: "Series B",
+    website: "https://www.exaforce.com",
+    socials: { twitter: "https://x.com/exaforceAI", linkedin: "https://www.linkedin.com/company/exaforce" },
+    founding_team: "Ankur Singla (CEO) — founder of 3 prior companies including Volterra (acquired by F5), where he also ran security at scale protecting major banks and social networks; Jakub Pavlik and Devesh Mittal (Head of Engineering) — co-founders. Founded 2023, San Jose.",
+    product_wedge: "Agentic SOC platform built around autonomous AI agents ('Exabots') that run the full security-operations lifecycle — detection, triage, investigation, and response — for cloud and SaaS environments, positioned around real-time reasoning fast enough to counter AI-powered attacks rather than just flagging alerts for a human analyst.",
+    funding_history: [
+      { date: "2025-04-17", event: "$75M Series A", valuation: null, lead: "Khosla Ventures, Mayfield, Thomvest Ventures, Touring Capital (co-led)" },
+      { date: "2026-05-12", event: "$125M Series B (total raised: $200M)", valuation: 725, lead: "HarbourVest", other_investors: "Peak XV, Mayfield, Khosla Ventures, Seligman Ventures, AICONIC" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "traction", value: "No customer count or ARR publicly disclosed — flagged explicitly rather than inferred from funding size" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05", note: "Series B closed almost exactly 1 year after Series A, at a valuation roughly 5x the round size before it — fast follow-on financing pace that implies real usage momentum even without disclosed ARR. Funds earmarked partly for go-to-market expansion into Japan and Europe." }
+    ],
+    thesis_fit: "High — solves a specific, named production failure mode (SOC alert fatigue and slow triage/response), founder has directly relevant operating history (ran security at scale at F5, founded and sold Volterra), matching theses.md's cue that high-fit teams 'have operated agents in production before.'",
+    verdict: "watch",
+    verdict_rationale: "Textbook agent-infrastructure thesis fit on paper — concrete failure mode, credible repeat security founder, and a fast, large Series B less than a year after Series A — but the one real gap is that no customer count, named logos, or ARR are publicly disclosed, so the traction case currently rests on funding pace and founder pedigree rather than independently verifiable usage; revisit once a customer number or revenue metric surfaces.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "basis-theory",
+    name: "Basis Theory",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Agentic commerce — payments & identity infrastructure",
+    stage: "Series B",
+    website: "https://basistheory.com",
+    socials: { twitter: "https://x.com/basistheory", linkedin: "https://www.linkedin.com/company/basis-theory" },
+    founding_team: "Colin Luce, Brian Billingsley, and Ben Milne — fintech veterans; Milne previously founded payments company Dwolla. Founded 2020, Mill Valley, CA.",
+    product_wedge: "Cloud-native, PCI-compliant payments vault and tokenization infrastructure, processor-agnostic by design, extended in 2026 into 'Agentic Payments' — an API that gives AI agents bounded, scoped authority to pay on a user's or business's behalf. Co-founded the Agentic Commerce Consortium (with Skyfire, Rye, Crossmint, Lithic, Channel3) to publish shared fraud and bot-detection standards for agent transactions.",
+    funding_history: [
+      { date: "2021-11-15", event: "$17M Series A", valuation: null, lead: "Bessemer Venture Partners, Kindred Capital, Conversion Capital, BoxGroup, Offline Ventures" },
+      { date: "2025-10-16", event: "$33M Series B (total raised: ~$50M)", valuation: null, lead: "Costanoa Ventures", other_investors: "Stage 2 Capital, Moneta VC, Bessemer Venture Partners, Kindred Ventures, Box Group, Offline Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026 (summer)", metric: "processing scale", value: "Hundreds of millions of transactions processed cumulatively (company-disclosed, no precise date or figure given)" },
+      { date: "2026 (summer)", metric: "named customers", value: "Pinterest, Melio, MoneyGram" },
+      { date: "2026 (summer)", metric: "benchmark", value: "Web Elements v3 reported by the company to load/tokenize faster than Stripe, Adyen, VGS, and Braintree in its own benchmarks — not independently verified" }
+    ],
+    qualitative_signal: [
+      { date: "2026 (summer)", note: "Launched 'Agentic Payments' API (successor to its earlier Agentic Commerce API) and co-founded the Agentic Commerce Consortium to set fraud/bot-detection standards across the agent-payments ecosystem — positions Basis Theory as an infrastructure standard-setter in agentic payments rather than just one vendor among many." }
+    ],
+    thesis_fit: "Medium-high — sits in the agentic-payments/agent-first-execution sub-thread theses.md flags as the newest and least-crowded in AI-native fintech, with real pre-existing enterprise customers and processing scale that de-risks the business versus a stealth pivot; softer fit on the 'AI at a regulated decision point' cue since Basis Theory is payments/identity infrastructure and tokenization rather than an AI system making underwriting, risk, or compliance decisions itself.",
+    verdict: "watch",
+    verdict_rationale: "An established, revenue-generating infrastructure company (not a stealth relaunch) with real blue-chip logos, credibly building the rails and standards for the agentic-payments sub-thread theses.md calls out for disproportionate attention. Caveat: the funding itself is ~11 months old, so what's actually new this week is the 2026 Agentic Payments API and consortium formation, not a fresh round — worth checking back at the next disclosed funding or transaction-volume figure.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "optura",
+    name: "Optura",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Healthcare (AI initiative deployment & ROI operating system)",
+    stage: "Series A",
+    website: "https://optura.ai",
+    socials: { twitter: "https://x.com/OpturaAI", linkedin: "https://www.linkedin.com/company/optura-ai" },
+    founding_team: "Andy Fanning (Co-founder/CEO) — formerly VP of AI & Automation at Cigna (credited by Cigna's CFO with over $500M in realized value) and previously led Gen AI globally at Evernorth. Other co-founder(s) not independently named in sources checked — flagged rather than guessed. Founded 2024, Nashville/Franklin, TN.",
+    product_wedge: "'ROAI' (Return on AI Investment) platform for healthcare organizations: maps an org's fragmented data into a unified knowledge layer, scores and prioritizes candidate AI use cases, builds healthcare-specific AI agents from existing workflows/SOPs, simulates expected value before deployment, then deploys agents and tracks outcomes in real time — positioned as a healthcare 'AI operating system' rather than a single point-solution agent.",
+    funding_history: [
+      { date: "2026-05-14", event: "$17.5M Series A (total raised: $25M+)", valuation: null, lead: "Salesforce Ventures", other_investors: "Echo Health Ventures, Susa Ventures, Matrix Partners, HC9 Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "platform scale", value: "$120M in tracked value across in-flight AI initiatives; 700% ROAI on in-flight projects; 250+ use cases identified; $2B in AI initiatives loaded on the platform (all company-disclosed and self-reported — no independent verification found)" },
+      { date: "2026-05", metric: "named customers", value: "Independence Blue Cross, Prime Therapeutics, Ardent Health" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Featured on the HLTH industry podcast discussing healthcare AI transformation — sustained press/analyst attention around and after the Series A." }
+    ],
+    thesis_fit: "Medium — healthcare is a regulated, data-rich vertical matching theses.md's core examples, and named payer/provider logos are a real signal, but the product reads closer to a horizontal 'identify AI use cases + build agents + track ROI' platform scoped to one vertical than a company that owns one specific end-to-end workflow the way Abridge owns ambient clinical notes — closer to the 'no-code agent builder' pattern theses.md flags as lower fit.",
+    verdict: "revisit",
+    verdict_rationale: "Real payer/provider customers and a credible operator-founder (ex-Cigna VP with a large realized-value track record) are genuine positives, but the headline traction metrics ($120M tracked value, 700% ROAI) are entirely self-reported with no independent corroboration, and the platform's breadth (use-case scoring + agent builder + ROI dashboard) is architecturally closer to tooling than to owning a single defensible workflow — revisit once a customer discloses outcome data independently or Optura narrows to one wedge.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "vapi",
+    name: "Vapi",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Voice agent infrastructure (telephony runtime for production voice agents)",
+    stage: "Series B",
+    website: "https://vapi.ai",
+    socials: { twitter: "https://x.com/Vapi_AI", linkedin: "https://www.linkedin.com/company/vapi-ai" },
+    founding_team: "Jordan Dearsley (CEO) and Nikhil Gupta (CTO) — met at the University of Waterloo, previously built a profitable YC-backed productivity app (Superpowered) together before pivoting from an AI-therapist side project into voice infrastructure. San Francisco; sources vary on exact founding year (2020 per some listings, YC W21 batch per others) — flagged rather than picking one.",
+    product_wedge: "Low-latency runtime/infrastructure for building and running production voice AI agents at scale — telephony integration, orchestration, and reliability handled as infrastructure rather than a chat-wrapper product — distributed developer-first (1M+ developers, 2.7M+ agents built on the platform) with enterprise logos won via head-to-head competitive bake-offs.",
+    funding_history: [
+      { date: "2024-12-12", event: "$20M Series A", valuation: null, lead: "Bessemer Venture Partners", other_investors: "Abstract Ventures, AI Grant, Y Combinator, Saga Ventures, Michael Ovitz" },
+      { date: "2026-05-12", event: "$50M Series B (total raised: $72M)", valuation: 500, lead: "Peak XV", other_investors: "M12 (Microsoft), Kleiner Perkins, Bessemer Venture Partners" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "usage", value: "1B+ cumulative calls handled on the platform" },
+      { date: "2026-05", metric: "ARR growth", value: "Enterprise ARR grew 10x since the prior round (company-disclosed rate, no absolute ARR figure given)" },
+      { date: "2026-05", metric: "named customers", value: "Amazon Ring (selected over 40 competing platforms), Kavak, Instawork, New York Life, Cherry, Intuit" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05", note: "Amazon Ring selected Vapi's platform over 40 competing vendors in a head-to-head evaluation — a strong competitive-bake-off signal in an increasingly crowded voice-AI infrastructure field." }
+    ],
+    thesis_fit: "High — solves a concrete production-reliability problem (low-latency, high-uptime voice infrastructure at scale) that foundation model labs don't productize themselves, developer-first distribution matches theses.md's preferred pre-Series-B go-to-market for this layer, and 1B+ calls plus a documented win over 40 rivals is real, hard-to-fake usage evidence rather than a demo metric.",
+    verdict: "watch",
+    verdict_rationale: "Clearest 'boring systems software for a new runtime' pick this week — real usage at scale (1B+ calls), a competitive win against 40 rivals for a marquee logo (Amazon Ring), and the developer-led distribution model theses.md explicitly favors at this stage. Main open question is durability of the lead: the Ring bake-off implies at least 40 funded competitors in voice-agent infra, so this is a crowded field even if Vapi is currently winning it.",
+    last_updated: "2026-09-02"
   }
 ];
