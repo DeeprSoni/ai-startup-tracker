@@ -398,5 +398,135 @@ window.COMPANIES = [
     verdict: "watch",
     verdict_rationale: "Closest fit in this week's batch to the core fintech thesis after Taktile — real bank customers at a regulated decision point, bank-affiliated lead investor — the founding team's engineering-over-banking background is the one soft spot worth watching into the next round.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "trase",
+    name: "Trase",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Orchestration / governance OS for regulated industries",
+    stage: "Seed",
+    website: "https://www.trase.ai",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Grant Verstandig (CEO, ex-Senior Advisor to the CEO at UnitedHealth Group; founder of venture studio Red Cell Partners, which incubated Trase) and Joe Laws (Chief Architect, ex-principal engineer at Reddit/Dropbox/Google, former US Army infantry officer) — co-founders. Leadership also includes President Baskar Sridharan and CTO Srirama Koneru, both former AWS Bedrock/SageMaker GMs. Socials unconfirmed — not guessing rather than listing an unverified handle.",
+    product_wedge: "Agentic 'operating system' (Trase Origin OS, Trase Arena SDK, Trase Leagues agents) providing orchestration, governance, and security for AI agents across cloud, on-prem, and edge environments in high-stakes regulated industries — live at Duke Health's Division of Cardiology (automating fax triage and prescription refills) and reportedly with the US Navy.",
+    funding_history: [
+      { date: "2025-11", event: "Company launched, incubated inside venture studio Red Cell Partners", valuation: null, lead: "Red Cell Partners" },
+      { date: "2026-06-25", event: "$107M Seed (total raised to date: $117.5M)", valuation: null, lead: "ARCH Venture Partners" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "Duke Health cardiology deployment", value: "AI fax-triage routing 7.1x faster than manual processing, saving staff ~1,395 hours/month and unlocking $285,450 in annual staff capacity (company-disclosed)" },
+      { date: "2026-06", metric: "use cases developed", value: "~200 AI use cases built to date (company-disclosed); early customers named as Duke Health and the US Navy" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "A $107M round labeled 'seed' is unusually large — signals investors treating regulated-industry agent infrastructure as a land-grab category. Emerged from a venture studio (Red Cell Partners) rather than an independent founding story, which is worth tracking for governance/incentive-alignment reasons as the company scales." }
+    ],
+    thesis_fit: "High — orchestration/governance/durable execution for agents is exactly the gap theses.md names as one of the three real agent-infra problems, and the Duke Health deployment provides real, dated, quantified production evidence rather than a demo.",
+    verdict: "watch",
+    verdict_rationale: "Rare combination at 'seed' stage: dated, quantified production traction (Duke Health) plus a technically credible leadership team (ex-AWS Bedrock/SageMaker GMs, ex-Google/Reddit engineer) and a top-tier lead investor (ARCH). Caveat: incubated inside a venture studio rather than built independently, and the outsized round size raises the question of whether narrative is ahead of proven traction — reassess at the next disclosed metric or round.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "concentrate-ai",
+    name: "Concentrate AI",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Gateway / proxy (LLM routing, spend & governance)",
+    stage: "Pre-seed",
+    website: "https://concentrate.ai",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Ari Jacoby (CEO) and Todd Lieberman — co-founders; this is their fifth company built together, following cybersecurity company Deduce (acquired by CHEQ), which was also backed by lead investor True Ventures. Founded 2025. Company socials unconfirmed — not guessing rather than listing an unverified handle (only personal founder profiles were found).",
+    product_wedge: "Free LLM gateway giving unified API access, routing, and spend/governance across OpenAI, Anthropic, Google, xAI and others — SSO, RBAC, audit logging, sensitive-data guardrails, and zero data retention on by default at no cost; monetizes via at-cost token pass-through (no platform markup) plus a premium enterprise tier, explicitly targeting teams too small for a typical enterprise AI-governance sales cycle.",
+    funding_history: [
+      { date: "2026-06-10", event: "$5.1M Pre-seed", valuation: null, lead: "True Ventures, RRE Ventures (co-led)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "customers / usage", value: "No customer count, usage volume, or revenue disclosed at public launch" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Repeat-founder pattern with a real prior exit (Deduce → CHEQ), same lead investor following them again — a credible signal even pre-revenue. Launching into an already-consolidating gateway sub-category: OpenRouter (raised $113M Series B, since reportedly being acquired by Stripe for $7B+) and LiteLLM are established incumbents." }
+    ],
+    thesis_fit: "Moderate-high — gateways/proxies is one of the three named agent-infra gaps in theses.md, but the free/at-cost pricing model is an unproven business and the sub-category is already crowded and consolidating around well-capitalized players.",
+    verdict: "revisit",
+    verdict_rationale: "Credible repeat founders and a clean thematic fit to the gateway sub-category, but pre-seed with zero disclosed usage and a monetization model (free product, at-cost tokens, no markup) that is unproven against far better-capitalized competitors (OpenRouter/Stripe, LiteLLM) — check back once the company discloses actual usage or revenue rather than scoring on thesis fit alone.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "brickanta",
+    name: "Brickanta",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction (pre-construction: bid analysis / cost estimation / procurement)",
+    stage: "Seed",
+    website: "https://brickanta.com",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/brickanta" },
+    founding_team: "Lucas Otterling (CEO) and Linus B. Fahlander — co-founders; both have built and applied AI in construction/industry since 2018 across roles at ABB, Fabege, Husqvarna, IKEA, and Konecranes. Stockholm-based, went through Y Combinator.",
+    product_wedge: "AI-native operating system for construction's pre-build decisions — automates bid analysis, cost estimation, and procurement, the workflows that largely determine whether a project stays on budget or spirals into overruns; positioned as applying agentic AI to construction's 'messiest decisions.'",
+    funding_history: [
+      { date: "2026-01-27", event: "$8M Seed (€7.4M)", valuation: null, lead: "Northzone", other_investors: "Y Combinator; angels incl. founders of Lovable and Tandem Health, and individuals from OpenAI, Google, Meta, Airbnb, Klarna, Spotify, and Plangrid-Autodesk" }
+    ],
+    disclosed_traction: [
+      { date: "2026-01", metric: "traction", value: "No ARR, customer count, or usage volume disclosed at raise" }
+    ],
+    qualitative_signal: [
+      { date: "2026-01", note: "Round reported to have closed in under two weeks and was oversubscribed — fast investor conviction; some press coverage (Tech Funding News) flagged limited founding-team-diversity disclosure. Construction is explicitly named in theses.md as an 'open window' vertical worth extra sourcing attention." }
+    ],
+    thesis_fit: "Moderate — construction is one of the explicit 'open window' verticals theses.md flags, and the wedge (parallelizing bid analysis/cost estimation across proprietary project data) fits the workflow-ownership pattern the thesis rewards; but scope is narrower (pre-construction only, not the full build lifecycle) than the 'own the full workflow' ideal, and there is no disclosed revenue or usage yet.",
+    verdict: "revisit",
+    verdict_rationale: "Right vertical and a credible domain-operator founding team (both built AI/industry tooling inside large industrial companies since 2018), backed by a fast YC + Northzone seed — but zero disclosed revenue or customer traction this early. Same profile as Build (already tracked, also scored 'revisit') — worth comparing the two construction bets again once either discloses real usage.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "alpaca",
+    name: "Alpaca",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Agent-first brokerage / trading infrastructure",
+    stage: "Series D (growth)",
+    website: "https://alpaca.markets",
+    socials: { twitter: "https://x.com/AlpacaHQ", linkedin: "https://linkedin.com/company/alpacamarkets" },
+    founding_team: "Yoshi Yokokawa (co-founder, co-CEO) and Hitoshi Harada (co-founder); Rohit Mulani serves as co-CEO alongside Yokokawa. Company went through YC (W19); founded 2015.",
+    product_wedge: "Developer-first, API-based brokerage and prime-brokerage infrastructure — 'AWS of Finance' positioning — now expanding into agent-first and API-first brokerage for tokenized markets, explicitly built so AI agents (not just human traders) can open accounts, place trades, and manage portfolios programmatically across traditional and on-chain markets.",
+    funding_history: [
+      { date: "2025-04", event: "$52M Series C", valuation: null, lead: "unconfirmed" },
+      { date: "2026-01-14", event: "$150M Series D", valuation: 1150, lead: "unconfirmed" },
+      { date: "2026-07-16", event: "$135M raised (equity) to scale agent-first brokerage infrastructure; $435M total financing package incl. debt", valuation: null, lead: "Peak XV Partners", other_investors: "Elefund, Opera Tech Ventures (BNP Paribas), Unbound; debt from Payward (Kraken) and BMO" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "usage growth", value: "Monthly active API users grew nearly 4x in the six months preceding the July 2026 raise (company-disclosed)" },
+      { date: "2026-07", metric: "total raised", value: "$433M+ in equity across 13 rounds since 2015, plus new debt facilities" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07", note: "theses.md explicitly names Alpaca's agent-first brokerage raise as the proof point for the newest, least-crowded AI-native-fintech sub-thread (agentic payments/agent-first execution) — this entry logs that named example directly." }
+    ],
+    thesis_fit: "High — AI/agents sit directly at execution (trading, brokerage), a regulated decision point, and the agent-first framing is the least-crowded fintech sub-thread theses.md calls out for disproportionate sourcing attention.",
+    verdict: "watch",
+    verdict_rationale: "Real, fast-growing API usage (~4x MAU growth in 6 months) and a credible strategic syndicate (Peak XV, BNP Paribas' venture arm, Kraken debt financing) validate the agent-first brokerage thesis — but at a $1.15B+ valuation and 13 rounds since 2015, this is a bellwether/comp for earlier-stage agentic-trading infra, not a ground-floor pick, the same caveat as Harvey/Sierra/HappyRobot.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "ralio",
+    name: "Ralio",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Agentic payments trust / guardrail infrastructure",
+    stage: "Pre-seed",
+    website: "https://www.ralio.co",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Ghali Bennani Laafiret (CEO, previously scaled revenue operations at fintech Alan and B2B software LumApps) and Leonardo Rosales (CTO, previously rebuilt payment infrastructure for Tier 1 banks at Form3) — co-founders; UK (London)-based, founded 2025.",
+    product_wedge: "Rail-agnostic 'trust layer' sitting between AI agents and payment rails — verifies agent identity, enforces per-workflow spend rules and approvals, and produces a full audit trail tying every payment back to the agent, prompt, and policy that triggered it; connects to bank rails (FPS, BACS, SEPA), card networks (Visa, Mastercard, Amex), stablecoins (EURC, USDT, USDC), and its own Ralio Wallet for instant settlement.",
+    funding_history: [
+      { date: "2026-04-14", event: "$2.5M Pre-seed (oversubscribed 3x)", valuation: null, lead: "Sure Valley Ventures (SVV)", other_investors: "Seed X, Love Ventures, Plug and Play, rule30, Adeline Arts and Science, Endurance Ventures, Campus Fund, Antler (existing investor)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-04", metric: "traction", value: "No customer count, transaction volume, or revenue disclosed — raise reported roughly 3 months after founding" }
+    ],
+    qualitative_signal: [
+      { date: "2026-04", note: "Press described this as Europe's largest agentic-payments raise to date at pre-seed — a thin superlative given how nascent the category is, but the founding-team pairing (fintech GTM operator + Tier-1-bank payments infra builder) is a credible combination for a regulated-rails product." }
+    ],
+    thesis_fit: "High on paper — agentic payments is the exact sub-thread theses.md flags as newest and least-crowded within AI-native fintech, and the wedge (guardrails/audit trail at the point of an agent initiating a payment) sits at a real compliance-relevant decision point rather than a chat layer — but this is thematic fit only, not yet proven by disclosed usage.",
+    verdict: "revisit",
+    verdict_rationale: "Strong thematic fit and a well-matched founding team, but three months old with no disclosed transaction volume or customers — too early to score 'watch' on narrative alone; track into the seed round for real usage evidence.",
+    last_updated: "2026-09-02"
   }
 ];

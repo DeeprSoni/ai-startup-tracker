@@ -1,4 +1,4 @@
-# Company Tracker — 15 companies
+# Company Tracker — 20 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -19,6 +19,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [HappyRobot](https://www.happyrobot.ai) | Vertical SaaS AI-native — logistics/freight voice agents | Series C | $1.2B (Aug 2026) | n/a (150+ enterprise customers incl. DHL, Uber) | Watch — unicorn in 20 months, best comp for operational voice agents |
 | [FurtherAI](https://www.furtherai.com) | Vertical SaaS AI-native — insurance underwriting/claims | Series A | unconfirmed | n/a (named carriers: Accelerant, MSI, Leavitt Group) | Watch — real efficiency metrics, fast a16z-led Series A |
 | [Casca](https://www.cascading.ai) | AI-native fintech — loan origination/underwriting | Series A | unconfirmed | $33M total raised; banks incl. Live Oak, Huntington Nat'l | Watch — closest fit to core fintech thesis after Taktile |
+| [Trase](https://www.trase.ai) | Agent infrastructure — orchestration/governance OS | Seed | unconfirmed | $117.5M total raised; Duke Health fax-triage 7.1x faster, 1,395 hrs/mo saved | Watch — real dated production traction, but venture-studio-incubated and outsized seed round |
+| [Concentrate AI](https://concentrate.ai) | Agent infrastructure — LLM gateway/spend governance | Pre-seed | unconfirmed | n/a (no usage disclosed; product just launched) | Revisit — credible repeat founders, but unproven free/at-cost model in a crowded, consolidating sub-category |
+| [Brickanta](https://brickanta.com) | Vertical SaaS AI-native — construction (pre-build/bid/procurement) | Seed | unconfirmed | n/a (no ARR disclosed) | Revisit — right vertical, credible domain founders, too early like Build |
+| [Alpaca](https://alpaca.markets) | AI-native fintech — agent-first brokerage/trading infra | Series D | $1.15B (Jan 2026) | ~4x MAU growth in 6mo (Jul 2026); $433M+ total raised | Watch — validates the agent-first-brokerage thesis, but a late-stage comp not a ground-floor pick |
+| [Ralio](https://www.ralio.co) | AI-native fintech — agentic payments trust/guardrail infra | Pre-seed | unconfirmed | n/a (3 months old, no usage disclosed) | Revisit — strong thematic fit and founder pairing, too early to score watch |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -42,6 +47,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - HappyRobot — `rec:01M1HK7S4PHV64242GERJMBP5B`
 - FurtherAI — `rec:01M1HK82C6FMJY26Y6WSKH5N7F`
 - Casca — `rec:01M1HK8A5WZKZCSN755G5VXRN2`
+- Trase — `rec:01M1HKR04J7ZYWZV3CK9TVC5E6`
+- Concentrate AI — `rec:01M1HKR80N3EQ4MXSJEFTFK4DF`
+- Brickanta — `rec:01M1HKRH20V6QE8KJX0JJKB4JP`
+- Alpaca — `rec:01M1HKRTJDWYY7NKM4GCQCKBD8`
+- Ralio — `rec:01M1HKS2KV3AJ6QEV455QG7MYM`
 
 ## How to update a company over time
 
