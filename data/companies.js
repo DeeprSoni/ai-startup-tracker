@@ -528,5 +528,134 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Strong thematic fit and a well-matched founding team, but three months old with no disclosed transaction volume or customers — too early to score 'watch' on narrative alone; track into the seed round for real usage evidence.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "xbuild",
+    name: "XBuild",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction (estimating / insurance restoration)",
+    stage: "Series A",
+    website: "https://x.build",
+    socials: { twitter: "https://x.com/xbuildai", linkedin: null },
+    founding_team: "Jahan Khanna and Rob Moran (both ex-Uber, ex-Postmates) and Sharuk Khanna (civil engineer) — co-founders.",
+    product_wedge: "AI-native estimating platform for construction contractors — ingests measurement reports (EagleView, Hover, Roofr) and job-site photos to generate trade-specific, supplier-priced proposals (live pricing via ABC Supply integration) in under 15 minutes, with e-signature and embedded Stripe payments; launched 'Roofing Proposals' for residential roofing and insurance-restoration work, expanding next into concrete, landscaping, painting, windows/doors, glass/glazing, insulation, HVAC, and plumbing estimating.",
+    funding_history: [
+      { date: "2026-01-20", event: "$19M Series A", valuation: null, lead: "N47", other_investors: "Rackhouse Ventures, Andreessen Horowitz" }
+    ],
+    disclosed_traction: [
+      { date: "2026-01", metric: "usage", value: "15,000+ projects run to completion representing ~$250M in construction project value in its first year; contractors saved 40,000+ hours on estimating (company-disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-01", note: "Positioned explicitly against legacy template-driven estimating software as the incumbent to replace, not a copilot layered on top of it; targets the insurance-restoration intersection of construction and insurance, a workflow that sits at the seam of two 'open window' verticals theses.md calls out." }
+    ],
+    thesis_fit: "High — construction is an explicit 'open window' vertical in theses.md, and the wedge (owning the estimating-to-proposal workflow with proprietary supplier-pricing integration, not a single-task copilot) fits the 'own an end-to-end workflow' pattern the thesis rewards; real, dated usage volume (not just a demo) strengthens the case.",
+    verdict: "watch",
+    verdict_rationale: "Real disclosed usage ($250M in project value, 15K+ completed projects) at Series A, a founding team with relevant operating pedigree (Uber/Postmates marketplace experience) plus domain expertise (civil engineer co-founder), and a credible investor syndicate (a16z, Rackhouse, N47) — best-balanced pick of this week's batch between thesis fit and evidence, similar in profile to Shepherd and FurtherAI already tracked.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "bretton-ai",
+    name: "Bretton AI",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "AML / KYC / fraud & compliance back-office",
+    stage: "Series B",
+    website: "https://www.bretton.com",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/company/bretton-ai" },
+    founding_team: "Will Lawrence (CEO) — previously led product for Facebook's anti-money-laundering platform and built compliance infrastructure at fintech Paxos; Alex Jin (CTO) — co-founders; founded 2023, San Francisco, as Greenlite AI, rebranded to Bretton AI in Feb 2026.",
+    product_wedge: "AI-native operations platform for bank/fintech back offices — automates KYC/KYB reviews, AML and sanctions investigations, and ongoing transaction monitoring, plus 'Bretton AI Managed Services' pairing the software with human financial-crime expertise; used directly inside OCC/Fed/FDIC-regulated banks' compliance, risk, and fraud workflows rather than as an assistive chat layer.",
+    funding_history: [
+      { date: "2023 (approx.)", event: "Seed (as Greenlite AI)", valuation: null, lead: "unconfirmed", other_investors: "Y Combinator" },
+      { date: "2025-05", event: "$15M Series A", valuation: null, lead: "unconfirmed" },
+      { date: "2026-02-09", event: "$75M Series B; rebranded Greenlite AI → Bretton AI", valuation: null, lead: "Sapphire Ventures", other_investors: "Greylock, Thomson Reuters Ventures, Canvas Ventures, Y Combinator, TIAA Ventures (new)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-02", metric: "total raised", value: "$94.8M across all rounds (company/Tracxn-reported)" },
+      { date: "2026-08-06", metric: "named customer", value: "MVB Bank selected Bretton AI to run its back-office operations as it scales its fintech business" },
+      { date: "2026-02", metric: "customers", value: "Company-disclosed usage at Mercury, Ramp, and Betterment; no ARR figure disclosed" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07-08", note: "Launched AI-Native Managed Services and hired financial-crimes veteran Rick Shooman to lead the offering — signals a move from pure software toward a software-plus-expert-services model for compliance." }
+    ],
+    thesis_fit: "Very high — AI sits directly at a regulated decision point (AML/KYC/fraud/compliance investigations) inside actual FDIC/OCC/Fed-regulated banks, the exact wedge theses.md defines as winning; founding team has real, directly relevant fintech/regulatory operating experience (Meta AML product lead, Paxos compliance infra) rather than a generalist engineering background.",
+    verdict: "watch",
+    verdict_rationale: "Fast, credible funding trajectory (seed to $75M Series B in under 3 years) with a real named bank customer (MVB Bank) and a founding team whose prior operating experience maps directly onto the product — the clearest fintech thesis-fit sourced this week alongside Taktile and Casca, already tracked.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "nava",
+    name: "Nava",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Guardrails / verification & escrow for autonomous financial agents",
+    stage: "Seed",
+    website: "https://navalabs.ai",
+    socials: { twitter: "https://x.com/navaai", linkedin: "https://www.linkedin.com/company/nava-ai-labs" },
+    founding_team: "Co-founders include Krishnan and Brianna Montgomery, previously at EigenLayer; team includes research talent recruited from Carnegie Mellon. EigenLayer founder Sreeram Kannan is an investor/backer.",
+    product_wedge: "'Arbiter' — an escrow-and-verification layer sitting between an AI agent and payment/execution rails: holds funds in escrow until a proposed transaction is verified against the user's stated intent (combining deterministic rules with semantic reasoning), then posts the reasoning on-chain as a public, agent-referenceable audit trail; the verification framework is peer-reviewed at NDSS 2026. Targets agents that trade, lend, stake, or manage treasury with real capital.",
+    funding_history: [
+      { date: "2026-04-14", event: "$8.3M Seed (emerged from stealth)", valuation: null, lead: "Polychain Capital, Archetype (co-led)", other_investors: "FalconX, Hack VC, Seed Club Ventures; angels incl. Sreeram Kannan (EigenLayer founder)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-04", metric: "traction", value: "No customer count, transaction volume, or revenue disclosed at seed emergence from stealth" }
+    ],
+    qualitative_signal: [
+      { date: "2026-04", note: "Verification framework is peer-reviewed at NDSS 2026, a real academic security venue — a stronger technical-credibility signal than typical crypto-native launches; framing is explicitly crypto/on-chain (DeFi trading, staking, treasury) rather than traditional regulated banking rails." }
+    ],
+    thesis_fit: "Moderate — solves a named, concrete production failure mode (an agent's executed transaction diverging from stated intent) that theses.md rewards in agent infrastructure, with a credible EigenLayer-alumni founding team, but the wedge is crypto-native rather than the enterprise or traditional-regulated-finance surface most of this tracker's agent-infra and fintech picks assume, so it sits awkwardly between categories rather than squarely fitting either.",
+    verdict: "revisit",
+    verdict_rationale: "Real technical differentiation (peer-reviewed verification framework, credible team) and a clean 'named failure mode' wedge, but pre-revenue at $8.3M seed and built for crypto-native agents rather than the enterprise/regulated-finance surface most comparable picks target — track into the next round to see whether it expands toward traditional finance rails or stays crypto-only.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "8090",
+    name: "8090",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Horizontal agent-orchestrated software development (\"agent builder\")",
+    stage: "Series A",
+    website: "https://www.8090.ai",
+    socials: { twitter: "https://x.com/8090_Factory", linkedin: "https://www.linkedin.com/company/8090solutions/" },
+    founding_team: "Chamath Palihapitiya (CEO, ex-Facebook, founder of Social Capital) took the CEO seat around the Series A; company (8090 Solutions / 8090 Labs) has been operating roughly 18 months building 'Software Factory' per Palihapitiya's own public account.",
+    product_wedge: "Software Factory: a governed control plane/SDLC platform where humans and AI agents jointly build and maintain enterprise software — business requirements captured in plain English, full audit trail and documentation-first knowledge graph, positioned as a controlled alternative to ungoverned 'vibe coding' agent tools; also powers 8090's own enterprise custom-software delivery business across healthcare, insurance, life sciences, manufacturing, and government.",
+    funding_history: [
+      { date: "2026-06-29", event: "$135M Series A", valuation: null, lead: "Salesforce Ventures", other_investors: "WNDR, Craft Ventures, TPB, LAUNCH; angels incl. Nikesh Arora, Adam D'Angelo, Thomas Laffont" }
+    ],
+    disclosed_traction: [
+      { date: "2026", metric: "named work (company-disclosed)", value: "Analyzed 18M+ lines of legacy Medicare claims code; helped BISSELL automate parts-approval processing to a 99%+ automatic-approval rate. No ARR or customer-count figure disclosed." }
+    ],
+    qualitative_signal: [
+      { date: "2025-07", note: "Palihapitiya publicly framed 2025 as a 'year of letdowns' for AI agents broadly, positioning Software Factory as a governed, no-hype alternative — but external commentary has called the pitch 'vague and quite ordinary' and noted the four-module platform may be more than most teams want to adopt at once." }
+    ],
+    thesis_fit: "Low — close to the exact pattern theses.md calls out as overhyped: a horizontal 'agents plus humans build software' platform competing on general capability and governance/audit-trail framing rather than solving one named, concrete production failure mode (durable execution, evaluation, cost/latency control) that the labs won't solve themselves; enterprise software development is also not one of the three tracked categories' core wedges.",
+    verdict: "pass",
+    verdict_rationale: "A large round and a well-known operator don't offset a weak thesis match: this reads as a generic 'build software with agents' platform — the pattern theses.md flags as overhyped and likely to get squeezed out as labs ship better agent SDKs directly — and even sympathetic coverage calls the pitch vague. Logged as a deliberate 'pass' rather than silently skipped, since it was a real, well-covered raise worth scoring honestly.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "manifest-os",
+    name: "Manifest OS",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Legal (AI-native law firm model)",
+    stage: "Series A",
+    website: "https://manifestos.com",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/company/manifest-o-s" },
+    founding_team: "Dan Mishin (Founder/CEO) — immigrant entrepreneur and prior venture-backed founder; his own experience navigating the U.S. immigration system (O-1 visa to citizenship) shaped the choice of business immigration as the first practice area.",
+    product_wedge: "Rather than selling software to existing law firms, Manifest OS builds and operates AI-native law firms itself — operating under the 'Manifest Law' brand, starting with business immigration via Arizona's alternative business structure (ABS) program — with AI-assisted client communication, research, drafting, billing, and back office aimed at replacing the billable hour with fixed-fee/outcomes-based pricing.",
+    funding_history: [
+      { date: "2026-04-27", event: "$60M Series A", valuation: 750, lead: "Menlo Ventures", other_investors: "Kleiner Perkins, First Round Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-04", metric: "traction", value: "No client count, case volume, or revenue disclosed at raise; company describes itself as incubating its first law firm (immigration) at time of announcement" }
+    ],
+    qualitative_signal: [
+      { date: "2026-04", note: "Structurally different wedge than typical 'legal AI' copilot tools: Manifest OS assumes the legal-liability and bar-admission complexity of actually operating law firms (via ABS structures) rather than selling software to existing ones — a differentiated but higher-risk model than a pure SaaS play." }
+    ],
+    thesis_fit: "Moderate — legal is explicitly flagged in theses.md as an already-crowded vertical (Harvey, already tracked, is a category leader) that needs a differentiated sub-niche or wedge to score well; Manifest OS's 'own-the-firm' structural model is a genuine differentiator from copilot-style legal AI, but is unproven at Series A with real added regulatory/liability complexity a pure software vendor wouldn't carry.",
+    verdict: "revisit",
+    verdict_rationale: "The business-model differentiation (operating AI-native law firms rather than selling to incumbents) is the kind of real structural wedge theses.md rewards, and the investor syndicate (Menlo, Kleiner, First Round) is credible — but crowded-vertical risk plus zero disclosed client/revenue traction and added regulatory complexity make this a name to revisit once Manifest Law reports real case volume, not a watch yet.",
+    last_updated: "2026-09-02"
   }
 ];

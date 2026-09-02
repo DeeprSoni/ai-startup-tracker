@@ -1,4 +1,4 @@
-# Company Tracker — 20 companies
+# Company Tracker — 25 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -24,6 +24,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Brickanta](https://brickanta.com) | Vertical SaaS AI-native — construction (pre-build/bid/procurement) | Seed | unconfirmed | n/a (no ARR disclosed) | Revisit — right vertical, credible domain founders, too early like Build |
 | [Alpaca](https://alpaca.markets) | AI-native fintech — agent-first brokerage/trading infra | Series D | $1.15B (Jan 2026) | ~4x MAU growth in 6mo (Jul 2026); $433M+ total raised | Watch — validates the agent-first-brokerage thesis, but a late-stage comp not a ground-floor pick |
 | [Ralio](https://www.ralio.co) | AI-native fintech — agentic payments trust/guardrail infra | Pre-seed | unconfirmed | n/a (3 months old, no usage disclosed) | Revisit — strong thematic fit and founder pairing, too early to score watch |
+| [XBuild](https://x.build) | Vertical SaaS AI-native — construction estimating/insurance restoration | Series A | unconfirmed | n/a ($250M+ project value across 15K+ completed projects, no ARR disclosed) | Watch — best-balanced pick this week, real usage at Series A |
+| [Bretton AI](https://www.bretton.com) | AI-native fintech — AML/KYC/fraud & compliance back-office | Series B | unconfirmed | $94.8M total raised; named customer MVB Bank (Aug 2026) | Watch — clearest fintech thesis-fit sourced this week |
+| [Nava](https://navalabs.ai) | Agent infrastructure — guardrails/escrow for autonomous financial agents | Seed | unconfirmed | n/a (pre-revenue; peer-reviewed verification framework, NDSS 2026) | Revisit — real tech differentiation, but crypto-native wedge sits between categories |
+| [8090](https://www.8090.ai) | Agent infrastructure — horizontal agent-orchestrated software development | Series A | unconfirmed | n/a (named case studies: Medicare claims code, BISSELL parts approval) | Pass — generic "build software with agents" platform, weak thesis fit despite large round |
+| [Manifest OS](https://manifestos.com) | Vertical SaaS AI-native — legal (AI-native law firm model) | Series A | $750M (Apr 2026) | n/a (no client/case volume disclosed) | Revisit — differentiated own-the-firm model, but crowded vertical and no disclosed traction |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -52,6 +57,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Brickanta — `rec:01M1HKRH20V6QE8KJX0JJKB4JP`
 - Alpaca — `rec:01M1HKRTJDWYY7NKM4GCQCKBD8`
 - Ralio — `rec:01M1HKS2KV3AJ6QEV455QG7MYM`
+- XBuild — `rec:01M1HM7SQRQDVVQJJ4S2FCW7HZ`
+- Bretton AI — `rec:01M1HM84RGJTYYKW3M4VTT7AJ5`
+- Nava — `rec:01M1HM8DCPWQF75XVDMEEHYBQY`
+- 8090 — `rec:01M1HM8RA9G5DBNKJXSJ48T1FA`
+- Manifest OS — `rec:01M1HM90KGSH6JE8NFCCFFNCR5`
 
 ## How to update a company over time
 
