@@ -1,4 +1,4 @@
-# Company Tracker — 55 companies
+# Company Tracker — 60 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -59,6 +59,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Axle](https://www.axle.insure) | Vertical SaaS AI-native — insurance (AI-native clearinghouse) | Series A | unconfirmed | $100B+ coverage cleared/yr; Fortune 500 customers (Rocket Mortgage, Avis) | Watch — best-evidenced pick this week, real scale in an underexplored insurance niche |
 | [Assort Health](https://www.assorthealth.com) | Vertical SaaS AI-native — healthcare (patient-access voice agents) | Series C | $1.2B (Jun 2026) | n/a (190M-interaction proprietary dataset; 1,000+ provider sites) | Watch — unicorn scale and real data moat, but crowded/richly-valued vertical |
 | [Nekuda](https://nekuda.ai) | AI-native fintech — agentic payments (identity/mandates) | Seed | unconfirmed | n/a (no transaction volume/customers disclosed) | Revisit — strong Visa/Amex strategic signal, too early, crowded sub-thread |
+| [Reserv](https://www.reserv.com) | Vertical SaaS AI-native — insurance (claims/AI-native TPA) | Series C | unconfirmed | $100M ARR (May 2026); 500K annual complex claims processed | Watch — fast-scaling ARR, KKR-led $125M round, real claims-workflow autonomy |
+| [Bunkerhill Health](https://www.bunkerhillhealth.com) | Vertical SaaS AI-native — healthcare (health-system AI agent platform) | Series B | unconfirmed | 20x revenue growth (trailing yr); 15 health systems incl. Cleveland Clinic, Mayo | Watch — strongest healthcare pick this week, blue-chip logos, 9 FDA clearances |
+| [Sardine](https://www.sardine.ai) | AI-native fintech — fraud/compliance/credit-underwriting | Series C | $660M (May 2026) | $170M total raised; 250+ enterprise customers, 70+ countries | Watch — fresh National Bank of Canada production deployment validates the thesis |
+| [RockRose Risk](https://www.rockroserisk.com) | Vertical SaaS AI-native — insurance (wildfire risk/brokerage) | Series A | unconfirmed | n/a (21% avg policy-price reduction; CA/CO/NV live) | Revisit — real data moat but human-in-loop decisions, drifting toward services roll-up |
+| [Xpander](https://xpander.ai) | Agent infrastructure — enterprise agent governance/agent-builder | Seed | unconfirmed | n/a (no ARR/customers disclosed; self-reported 90.9% GAIA score) | Pass — generic horizontal agent-builder pattern, weak thesis fit despite fresh seed |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -122,6 +127,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Axle — `rec:01M1HQ7JNA2SKCF1DBZ74GB2J6`
 - Assort Health — `rec:01M1HQ7TA3G77F5VZHQJBERQHX`
 - Nekuda — `rec:01M1HQ8252T321V2GRP9453ZX0`
+- Reserv — `rec:01M1HQNWPA2BXS1TB3MF0TDFYW`
+- Bunkerhill Health — `rec:01M1HQP3WS5YYW0SKMRXRCDE52`
+- Sardine — `rec:01M1HQPCB7DVMMF51CEJ3JKE4D`
+- RockRose Risk — `rec:01M1HQPNX8PMEXZCYGG7BW84RQ`
+- Xpander — `rec:01M1HQPXKH0RDYDEKDKPSP1DJF`
 
 ## How to update a company over time
 

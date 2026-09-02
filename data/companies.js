@@ -1459,5 +1459,144 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Genuinely good strategic signal — Visa and Amex corporate VCs backing an agentic-payments infra startup is a stronger tell than a typical seed round — but there's no disclosed transaction volume or customer count to underwrite a 'watch,' and the tracker already carries four other agentic-payments plays; revisit once usage numbers surface.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "reserv",
+    name: "Reserv",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (claims / AI-native TPA)",
+    stage: "Series C",
+    website: "https://www.reserv.com",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/company/reserv-ai" },
+    founding_team: "CJ Przybyl (CEO) — previously scaled claims-tech company Snapsheet — and Martha Dreiling (COO) — prior operating roles at OnDeck, Attune, Rhino, and BCG financial-services strategy — co-founded the company in 2022.",
+    product_wedge: "AI-native third-party administrator (TPA) for property & casualty insurance claims — full claims handling and adjudication built around AI models from the ground up rather than a SaaS layer bolted onto legacy adjusters — serving ~200 insurers, MGAs, corporate captives and brokers across North America, the UK and EU.",
+    funding_history: [
+      { date: "2022-07-26", event: "$8M Seed", valuation: null, lead: "Altai Ventures, Bain Capital Ventures" },
+      { date: "2025-06-04", event: "$25M Series B", valuation: null, lead: "Flourish Ventures", other_investors: "Bain Capital Ventures, Altai Ventures, Accenture Ventures" },
+      { date: "2025-09-18", event: "Series B extended to $41M total", valuation: null, lead: "QBE Ventures" },
+      { date: "2026-05-04", event: "$125M Series C", valuation: null, lead: "KKR", other_investors: "Bain Capital Ventures, Flourish Ventures, select strategic partners/clients" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "ARR", value: "$100M" },
+      { date: "2026-05", metric: "claims volume", value: "500,000 annual complex claims processed, more than doubling capacity year over year; plan to scale to 30M within 4 years" },
+      { date: "2026-05", metric: "customers", value: "~200 insurers, corporate captives, MGAs and brokers" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05", note: "One of the largest nine-figure P&C insurtech financings globally since the sector's 2021 funding peak; KKR-led round signals late-stage/growth-investor conviction, not just venture." }
+    ],
+    thesis_fit: "High — sits inside a regulated, data-rich vertical (P&C claims handling) where compliance and claims-outcome data are the moat; genuine autonomous execution (claims adjudication, not just an assistive copilot) with $100M ARR and a founding team (Snapsheet, OnDeck/Attune/Rhino) that has actually operated in this workflow before.",
+    verdict: "watch",
+    verdict_rationale: "Real, fast-scaling ARR ($100M, claims volume doubling annually) plus a KKR-led $125M Series C is exactly the 'speed to meaningful ARR' signal theses.md treats as proof of product-market fit in vertical SaaS; insurance claims is a less crowded niche than legal/healthcare, so this is a strong pick even though it's already growth-stage.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "bunkerhill-health",
+    name: "Bunkerhill Health",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Healthcare (health-system AI agent operating layer)",
+    stage: "Series B",
+    website: "https://www.bunkerhillhealth.com",
+    socials: { twitter: "https://x.com/joinBunkerhill", linkedin: "https://www.linkedin.com/company/bunkerhill-health" },
+    founding_team: "David Eng and Nishith Khandwala, co-founders; company grew out of a Stanford project using existing radiology scans to surface cardiac risk. Founded 2018, San Francisco.",
+    product_wedge: "Carebricks — a platform that lets health systems build and run clinical, operational and administrative AI agents themselves, on top of Bunkerhill's library of FDA-cleared algorithms — positioned as an 'operating layer' for healthcare AI rather than a single-purpose point tool.",
+    funding_history: [
+      { date: "2026-07-16", event: "$25M Series B", valuation: null, lead: "Khosla Ventures", other_investors: "Sequoia Capital, Felicis, Optum Ventures, Y Combinator" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "total funding", value: "$55M raised to date (seed + Series A + Series B; seed/A split not disclosed)" },
+      { date: "2026-07", metric: "revenue growth", value: "20x revenue growth over the trailing year" },
+      { date: "2026-07", metric: "customers", value: "15 health systems live incl. Cleveland Clinic, Mayo Clinic and Intermountain Health; 9 FDA-cleared algorithms; signed 12+ health systems in the past year" }
+    ],
+    qualitative_signal: [
+      { date: "2026", note: "Cited by Sequoia Capital as an example of 'AI's killer app' in healthcare." }
+    ],
+    thesis_fit: "High — proprietary access to health-system clinical/operational workflows (not just a chat layer), disclosed 20x revenue growth and blue-chip health-system logos, and a platform model (build-your-own clinical agents on FDA-cleared building blocks) that owns more of the workflow over time rather than a single narrow task.",
+    verdict: "watch",
+    verdict_rationale: "20x trailing-year revenue growth plus marquee health-system customers (Cleveland Clinic, Mayo, Intermountain) and 9 FDA clearances is unusually well-evidenced for a Series B — real regulatory and data moat, and the strongest healthcare pick sourced this week.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "sardine",
+    name: "Sardine",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Fraud prevention / compliance / credit underwriting",
+    stage: "Series C",
+    website: "https://www.sardine.ai",
+    socials: { twitter: "https://x.com/sardine", linkedin: "https://www.linkedin.com/company/sardineai" },
+    founding_team: "Soups Ranjan (CEO) — ex-Head of Risk at Coinbase, ex-Head of Financial Crime at Revolut — co-founded with Aditya Goel and Zahid Shaikh in 2020; deep fintech/regulatory operating experience across all three founders.",
+    product_wedge: "AI risk platform combining device intelligence, behavioral biometrics and machine learning to make real-time fraud, compliance (KYC/AML) and credit-underwriting decisions for banks and fintechs — sits directly at the regulated decision point rather than a support/chat layer.",
+    funding_history: [
+      { date: "2022-09-20", event: "$51.5M Series B", valuation: null, lead: "Andreessen Horowitz Growth Fund" },
+      { date: "2025-02-11", event: "$70M Series C", valuation: null, lead: "Activant Capital", other_investors: "a16z, Nyca Partners, Google Ventures, Geodesic Capital, Cross Creek Capital, Moody's Analytics, Experian Ventures, NAventures" },
+      { date: "2026-05-21", event: "$25M Series C extension", valuation: 660, lead: "National Bank of Canada" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "total funding", value: "$170M raised to date" },
+      { date: "2026-05", metric: "customers", value: "250+ enterprise customers across 70+ countries" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05", note: "National Bank of Canada is rolling out Sardine's device intelligence and real-time risk scoring across retail, commercial and wealth operations after a live platform evaluation showed improved fraud detection and fewer false positives — a real bank production deployment, not a pilot announcement." }
+    ],
+    thesis_fit: "High — AI sits directly at the regulated decision point (fraud, KYC/AML, credit risk) rather than a chat UI; founding team has genuine fintech/regulatory operating experience (Coinbase, Revolut risk leadership); proprietary device-intelligence/behavioral data most banks can't replicate in-house.",
+    verdict: "watch",
+    verdict_rationale: "Not a brand-new startup, but the May 2026 National Bank of Canada production rollout is a fresh, verifiable, regulated-institution deployment that validates the core AI-native-fintech thesis cue (a real bank betting its fraud/risk stack on it) — logged now on the strength of that dated signal rather than the company's age.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "rockrose-risk",
+    name: "RockRose Risk",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (wildfire risk mitigation & brokerage)",
+    stage: "Series A",
+    website: "https://www.rockroserisk.com",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/company/rockrose-risk" },
+    founding_team: "Andrew Engler, founder & CEO — 20 years in catastrophe risk and insurance; company founded ~2023, based in San Francisco.",
+    product_wedge: "Technology-enabled wildfire-insurance brokerage that scores wildfire risk with ML models over satellite/weather/imagery data plus 'Rosebud,' a purpose-built lidar/camera assessment rover for ground-level property inspection — then ties verified mitigation work to lower insurance costs; expanding via acquisition (tree-trimming, roofing) into a vertically integrated risk manager.",
+    funding_history: [
+      { date: "2026-03-16", event: "$9M Seed", valuation: null, lead: "unconfirmed" },
+      { date: "2026-08-19", event: "$12.5M Series A", valuation: null, lead: "Crosslink Capital, Congruent Ventures (co-led)", other_investors: "Nuveen" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "pricing outcome", value: "Average 21% reduction in policy prices for commercial property owners using its mitigation-first model" },
+      { date: "2026-08", metric: "markets", value: "Live in California, Colorado and Nevada" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07", note: "Launched Rosebud, a lidar/camera-equipped assessment rover, to capture ground-level property conditions satellite imagery and ZIP-code models miss." },
+      { date: "2026-08", note: "Company states human experts remain in the loop for high-impact insurance decisions rather than leaving coverage calls entirely to the model." }
+    ],
+    thesis_fit: "Moderate — real proprietary data (physical rover inspections + ML risk scoring) in a regulated, underserved niche (wildfire property insurance), but the model keeps humans in the loop for high-impact decisions rather than autonomous execution, and the growth strategy (acquiring tree-trimming/roofing firms) is pulling the business toward a services roll-up as much as an AI-native software company.",
+    verdict: "revisit",
+    verdict_rationale: "Genuinely differentiated data collection (the Rosebud rover) and a real, measured pricing outcome (21% average reduction) are promising, but the company explicitly keeps AI as a decision-support input rather than the autonomous executor, and its next phase leans into acquiring physical-services businesses — worth rechecking once it's clearer whether the wedge stays software-led or becomes primarily a brokerage/services roll-up.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "xpander",
+    name: "Xpander",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Enterprise agent governance / agent-builder platform",
+    stage: "Seed",
+    website: "https://xpander.ai",
+    socials: { twitter: "https://x.com/xpander_ai", linkedin: "https://www.linkedin.com/company/xpander-ai" },
+    founding_team: "David Twizer, Moriel Pahima and Ran Sheinberg — former AWS engineers — founded the company in 2024; based in Tel Aviv.",
+    product_wedge: "A 'universal agent harness' that lets enterprises build, run, secure and govern AI agents as portable workloads across any cloud, model or framework, keeping execution inside the customer's own environment; ships 'Omni,' a flagship enterprise agent, and a governance layer positioned as 'a personal AI agent for every employee.'",
+    funding_history: [
+      { date: "2026-08-17", event: "$7.5M Seed", valuation: null, lead: "Pico Venture Partners", other_investors: "Emerge Ventures, Samsung Next, SeedIL" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "usage/customers", value: "No ARR or customer count publicly disclosed" },
+      { date: "2026-08", metric: "benchmark", value: "Self-reported: Omni agent scored 90.9% on the GAIA benchmark; Agent Graph System reported a 98% success rate on multi-step tasks vs. 24% for traditional methods in internal testing" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08", note: "Positions itself as a horizontal, vendor-neutral 'AI enablement platform' and 'personal AI agent for every employee,' rather than around one named production failure mode." }
+    ],
+    thesis_fit: "Low-to-moderate — real underlying engineering (portable agent runtime, credible benchmark results) but the go-to-market framing is exactly the horizontal 'agent builder' / 'agent for every employee' pattern theses.md calls out as overhyped and likely to get squeezed out by labs shipping better agent SDKs directly, rather than solving one specific, named production reliability problem.",
+    verdict: "pass",
+    verdict_rationale: "Credible team (ex-AWS) and a real technical benchmark, but the positioning is squarely the generic horizontal agent-builder pattern the thesis explicitly flags as low-fit and due for consolidation — no disclosed customers or ARR yet to argue otherwise, so this is a pass rather than a ground-floor pick.",
+    last_updated: "2026-09-02"
   }
 ];
