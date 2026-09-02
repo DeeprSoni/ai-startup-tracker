@@ -1,4 +1,4 @@
-# Company Tracker — 75 companies
+# Company Tracker — 80 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -79,6 +79,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Hadrius](https://hadrius.com) | AI-native fintech — compliance/regulatory decisioning | Series A | unconfirmed | $27M total raised (Jul 2026); 500+ financial-institution customers, 95% false-positive reduction, 70% manual-work reduction | Watch — clearest fintech thesis-fit this week, dated efficiency metrics at a real regulated-decision point |
 | [Runable](https://runable.com) | Agent infrastructure — horizontal agent platform (SMB software + growth ops) | Series A | $65M (Aug 2026) | $2M ARR in 3 weeks, 1.5M users (Aug 2026, company-reported) | Pass — generic horizontal "do everything" agent builder, same overhyped pattern as 8090/Wonderful |
 | [Alan](https://alan.com) | Vertical SaaS AI-native — healthcare/health insurance (full-stack AI-native carrier) | Growth (Series G) | $6.3B (Jun 2026) | €800M+ ARR, +53% YoY (Q1 2026); 1.1M+ members | Pass — important scale/valuation comp, but reads as an incumbent insurer with an AI feature layer, not an AI-native architecture edge |
+| [Cambio](https://cambio.ai) | Vertical SaaS AI-native — commercial real estate (capital planning/compliance) | Series A | $100M (Jan 2026) | n/a (blue-chip CRE customers; $9.2M disclosed energy savings for Nuveen) | Watch — best-evidenced pick this week, named institutional customers plus a dated dollar outcome |
+| [Lio](https://lio.ai) | Vertical SaaS AI-native — procurement / enterprise purchasing | Series A | unconfirmed | $33M total raised; F500/Global 2000 customers incl. Walmart, Munich Re | Watch — real full-workflow autonomous execution, but efficiency stats are unverified company marketing |
+| [Baseten](https://baseten.co) | Agent infrastructure — inference / cost-latency infrastructure | Series F | $13B (Jun 2026) | ~$600M ARR run-rate, 20x YoY; 1B+ inference calls/day | Watch — real usage at massive scale, but a late-stage bellwether not a ground-floor pick |
+| [Arca](https://arcawealth.ai) | AI-native fintech — wealth management/advisory | Series A | unconfirmed | $64M total raised; $1B+ AUM | Revisit — real scale, but trade press disputes how much growth is AI-driven vs. acquired RIA rollups |
+| [Grace Investment Machine](https://graceim.ai) | AI-native fintech — agentic trading / proprietary asset management | Series A | unconfirmed | $30M+ total raised (3 rounds in year 1); no AUM/track record disclosed | Pass — proprietary trading shop, not the fintech infra/software category the thesis scores |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -162,6 +167,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Hadrius — `rec:01M1HSCPECSQYB5SPPXRM5JN69`
 - Runable — `rec:01M1HSCXGHR0A7SE06EVW1Q701`
 - Alan — `rec:01M1HSD6CRBCJ09SCZYW7GDRQV`
+- Cambio — `rec:01M1HSZ1CFCV05DEH1P5ZN8CVV`
+- Lio — `rec:01M1HSZAPTFRWEXZFYTKKFK488`
+- Baseten — `rec:01M1HSZMS5DF1WH1H4KV8NVX25`
+- Arca — `rec:01M1HSZWQ83KMA9VVT6RBC0R4V`
+- Grace Investment Machine — `rec:01M1HT06FCZT7S2MFMT0RPJZVN`
 
 ## How to update a company over time
 

@@ -1999,5 +1999,137 @@ window.COMPANIES = [
     verdict: "pass",
     verdict_rationale: "Alan is an important comp to track as Europe's health-insurance-AI bellwether (€6.3B valuation, €800M+ ARR, profitable), but at this scale and with 'AI-native' reading more like a feature layer on a decade-old insurance business than the from-inception architecture edge theses.md is looking for, it doesn't fit the tracker's ground-floor/thesis-fit mandate — logging it mainly as a scale/valuation reference point, not a pick.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "cambio",
+    name: "Cambio",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Commercial real estate (capital planning / compliance / retrofit strategy)",
+    stage: "Series A",
+    website: "https://cambio.ai",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/cambioai" },
+    founding_team: "Leia de Guzman (co-founder, ex-Oxford Properties Group and OMERS) and Stephanie Grayson (co-founder, ex-KKR) — both institutional CRE operators who met while completing masters degrees at Stanford; founded 2022.",
+    product_wedge: "AI-native commercial real estate operations platform that ingests unstructured building documents plus utility/performance data and uses agentic AI to generate priority-ranked, investment-grade capital planning, compliance, and retrofit recommendations — compressing work that took months into minutes for institutional owners and asset managers.",
+    funding_history: [
+      { date: "2026-01-22", event: "$18M Series A", valuation: 100, lead: "Maverick Ventures", other_investors: "Y Combinator, Adverb Ventures, Peterson Ventures; angels from Procore, OpenAI, Anthropic, Vanta, Vercel, ServiceNow, Notion, Amplitude" }
+    ],
+    disclosed_traction: [
+      { date: "2026-01", metric: "customers", value: "Principal Real Estate, Nuveen Real Estate, BGO, LaSalle Investment Management, Oxford Properties Group, Madison International Realty, Beacon Capital Partners; deployed in 35+ countries during stealth" },
+      { date: "2026-01", metric: "disclosed outcome", value: "Nuveen identified $9.2M in energy cost savings across its affordable housing portfolio using Cambio (company-disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-01", note: "Founders are institutional CRE operators (ex-Oxford Properties/OMERS, ex-KKR) rather than pure technologists — the domain-operator-plus-AI founding pattern theses.md flags as higher-fit; angel investors include operators from Procore, OpenAI, and Anthropic." }
+    ],
+    thesis_fit: "High — owns the capital-planning/compliance workflow on proprietary building performance data for institutional CRE owners, with a real dated customer outcome ($9.2M in disclosed energy savings for Nuveen) rather than a demo; real estate/CRE sits adjacent to the construction/infrastructure 'open window' verticals theses.md calls out for extra sourcing attention.",
+    verdict: "watch",
+    verdict_rationale: "Rare combination at Series A: named blue-chip institutional customers, a concrete dated dollar outcome, and a domain-operator founding team (ex-Oxford Properties, ex-KKR) rather than pure technologists — best-evidenced pick in this week's batch.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "lio",
+    name: "Lio",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Procurement / enterprise purchasing operations",
+    stage: "Series A",
+    website: "https://lio.ai",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/lio-ai" },
+    founding_team: "Vladimir Keil (CEO, repeat founder — two prior startups including AI company Gabriel, which partnered with Germany's federal police) with co-founders Lukas Heinzmann, Matty Driesnack, and David Köthnig; team includes engineers with Silicon Valley and SAP backgrounds. Formerly branded askLio; founded 2023.",
+    product_wedge: "Multi-agent 'AI procurement workforce' that runs the full purchase-request lifecycle end to end for enterprises — vendor research, quote analysis, negotiation, approvals, vendor onboarding, and order placement directly into ERP/contract systems — rather than assisting a human procurement team on a single step.",
+    funding_history: [
+      { date: "2026-03-05", event: "$30M Series A (total raised to date: $33M)", valuation: null, lead: "Andreessen Horowitz (a16z)", other_investors: "SV Angels, Harry Stebbings, Y Combinator" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "customers", value: "Dozens of Global 2000/Fortune 500 companies incl. Munich Re, Brose, Novozymes, Walmart, Schaeffler; manages billions of dollars in enterprise spend" },
+      { date: "2026-03", metric: "efficiency (company-disclosed)", value: "95% adoption rate, 85% reduction in manual work, 10% incremental savings, 100% customer retention; one global industrial manufacturer automated 75% of outsourced procurement work in 6 months" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Market framing emphasizes that enterprises spend ~$180B/year on procurement labor vs. ~$10B on procurement software — a labor-replacement thesis, not a software-upsell one." }
+    ],
+    thesis_fit: "Moderate-high — owns the full purchase-to-order workflow with genuine autonomous execution (not a copilot) and real named Fortune 500 customers, fitting the pattern theses.md rewards; but procurement isn't one of the vertical names theses.md explicitly flags as an 'open window,' and the round's efficiency statistics (95%/85%/100%) are company-disclosed superlatives that read like fundraising marketing rather than audited metrics.",
+    verdict: "watch",
+    verdict_rationale: "Named Fortune 500/Global 2000 customers, a credible a16z-led round, and real full-workflow autonomous execution support a watch — but the cluster of round-number efficiency claims is unverified and worth discounting until independently corroborated.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "baseten",
+    name: "Baseten",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Inference / cost-latency infrastructure",
+    stage: "Series F",
+    website: "https://baseten.co",
+    socials: { twitter: "https://x.com/basetenco", linkedin: "https://linkedin.com/company/baseten" },
+    founding_team: "Tuhin Srivastava (CEO), Amir Haghighat (CTO), Phil Howes (Chief Scientist), and Pankaj Gupta — co-founders; founded 2019 to address the difficulty of deploying and scaling ML systems in production.",
+    product_wedge: "Proprietary inference stack and infrastructure for deploying and serving AI models (including agent workloads) at production scale — global availability, 99.99% uptime, and cost/latency optimization across open and proprietary models — positioned as the contested infrastructure layer between model labs and applications as usage shifts from training to serving.",
+    funding_history: [
+      { date: "2026-01-20", event: "$300M Series E", valuation: 5000, lead: "IVP, CapitalG (co-led)", other_investors: "01A, Altimeter, Battery Ventures, BOND, BoxGroup, Blackbird Ventures, Conviction, Greylock, NVIDIA" },
+      { date: "2026-06-22", event: "$1.5B Series F", valuation: 13000, lead: "Altimeter Capital, Conviction, Spark Capital (co-led)", other_investors: "Sands Capital, Wellington Management (co-led)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "annualized revenue run rate", value: "~$600M, 20x YoY revenue growth" },
+      { date: "2026-06", metric: "usage", value: "1B+ inference calls/day; inference volume grew 40x YoY" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Two mega-rounds in 5 months ($300M Series E in Jan, $1.5B Series F in Jun) — valuation roughly 2.6x in that window; explicitly framed around inference becoming 'AI's most contested infrastructure layer' as enterprises move from training to production serving." }
+    ],
+    thesis_fit: "High — squarely the 'cost/latency control at scale' wedge theses.md names as one of the real agent-infra gaps the foundation labs won't solve themselves, backed by real, large-scale, dated usage (1B+ daily inference calls, 20x YoY revenue growth); more horizontal ML-serving infra than an agent-only durable-execution play, a modest gap against the thesis's 'systems software for a new runtime' framing.",
+    verdict: "watch",
+    verdict_rationale: "Real, audited-scale usage and revenue growth prove the cost/latency-control problem is genuine and large — but at a $13B valuation and Series F, this is a bellwether/comp for the inference-infra layer (same caveat as Temporal in durable execution), not a ground-floor pick.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "arca",
+    name: "Arca",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Wealth management / advisory",
+    stage: "Series A",
+    website: "https://arcawealth.ai",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/arcafinance" },
+    founding_team: "Rron Rexha (founder/CEO) — immigrant from Kosovo, ex-product leader at Plaid, Google, and Cadre, master's in engineering from Penn; founded 2025, Bethesda, MD. Team includes hires from Stripe, Ramp, Plaid, Rippling, and Glean.",
+    product_wedge: "AI-native RIA platform that pairs every client with a human financial advisor plus a coordinated set of AI agents monitoring emails, calls, documents, market activity, and news across investment management, retirement, tax, estate, equity comp, and business-exit planning — automating back-office and repetitive work rather than replacing the advisor.",
+    funding_history: [
+      { date: "2025 (approx.)", event: "$15.5M Seed", valuation: null, lead: "Venrock" },
+      { date: "2026-06-24", event: "$48.5M Series A (total raised: $64M)", valuation: null, lead: "General Catalyst", other_investors: "Index Ventures, Venrock" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "AUM", value: "$1B+ in client assets, 28 employees" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Trade press coverage (RIABiz) reports Arca's $1B+ in assets came primarily through acquiring existing RIA books (seeded via Granite Bay Wealth Management, then acquired ~$682M Sandbox Financial Partners) rather than organic AI-driven client growth, and quotes an anonymous industry source stating there is 'little to no organically AI-generated AUM yet' — a material counterpoint to the AI-native growth narrative in the raise announcement." }
+    ],
+    thesis_fit: "Moderate — real disclosed AUM and a credible team/board, but this is advisor-augmentation (AI assists a human advisor on back-office work) rather than AI executing at a regulated decision point (underwriting, risk, trade execution) that theses.md defines as the winning fintech wedge; independent reporting also questions how much of the AUM and growth is genuinely AI-driven versus acquired via RIA rollups.",
+    verdict: "revisit",
+    verdict_rationale: "Strong team and real scale ($1B+ AUM), but the 'AI-native' framing is contested by trade press reporting that most growth came from acquisitions rather than organic AI-driven traction, and the product is assistive rather than decision-execution — same weaker-fit pattern already flagged for LinqAlpha; revisit once organic, AI-attributable growth is disclosed separately from rollup AUM.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "grace-investment-machine",
+    name: "Grace Investment Machine",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Agentic trading / proprietary asset management",
+    stage: "Series A",
+    website: "https://graceim.ai",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/grace-investment-machine" },
+    founding_team: "Jiahao Xu (CEO, ex-investor at Neumann Advisors and Wuyuan Capital, 10+ years in primary/secondary capital markets) and Qi Liu (co-founder, assistant professor of computer science at the University of Hong Kong, Oxford CS PhD, ex-DeepMind and Meta AI researcher); founded July 2025, Beijing/Shanghai.",
+    product_wedge: "Multi-agent 'CogAlpha' architecture — a seven-layer agent system that generates, tests, and refines investment hypotheses from market data — moving from research/backtesting into live deployment of AI-driven trading strategies across multiple asset classes ('Agentic Investing Lab' positioning).",
+    funding_history: [
+      { date: "2025-07", event: "Company founded with initial backing", valuation: null, lead: "5Y Capital, SAIF Partners, Wuyuan Capital" },
+      { date: "2026-06", event: "Angel round", valuation: null, lead: "SAIF Partners" },
+      { date: "2026-07-09", event: "$20M Series A (total raised to date: $30M+ across 3 rounds in first year)", valuation: null, lead: "Hony Capital + unnamed US venture firm (co-led)", other_investors: "IDG Capital, Monolith Capital (repeat)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "traction", value: "No AUM, performance track record, or regulatory registration disclosed; company states it is moving from research into 'live validation' of AI-driven strategies (company-disclosed, not independently verified). Research on its CogAlpha architecture was accepted at ACL 2026." }
+    ],
+    qualitative_signal: [
+      { date: "2026-07", note: "Company appears to be building and running its own proprietary AI-driven trading strategies rather than selling execution/brokerage infrastructure to other regulated institutions — a structurally different business than infra plays like Alpaca." }
+    ],
+    thesis_fit: "Low — theses.md's winning fintech wedge is AI embedded at a regulated decision point inside infrastructure other institutions integrate (per Taktile, Casca, Alpaca); GIM instead reads as a proprietary trading/asset-management operation running its own strategies, closer to a quant fund than an infrastructure vendor, with no disclosed AUM, returns, or regulatory status to evaluate the underlying claims.",
+    verdict: "pass",
+    verdict_rationale: "Fast repeat fundraising (3 rounds in its first year) and a research-credible co-founder (ex-DeepMind/Meta AI, Oxford PhD) are real signals, but this is structurally a proprietary trading shop rather than the fintech software/infrastructure category theses.md is scoring, and zero disclosed AUM, returns, or regulatory registration makes the 'live execution' claims unverifiable — logged for visibility into the agentic-trading space, not as a pick.",
+    last_updated: "2026-09-02"
   }
 ];
