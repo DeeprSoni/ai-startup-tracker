@@ -4,7 +4,7 @@
 
 This isn't a scraped spreadsheet. It's a repeatable pipeline: written investment theses that define what "good" looks like *before* any company is scored, a reusable sourcing system to find candidates on a weekly cadence, structured per-company profiles with dated changelogs (not one-time snapshots), and a dashboard to browse and compare them — all built solo, from data model to UI to deployment.
 
-**[→ Live dashboard](https://startups.deepsoni.com/)** &nbsp;·&nbsp; **[Category theses](theses.md)** &nbsp;·&nbsp; **[Sourcing methodology](sourcing-list.md)**
+**[→ Live dashboard](https://startups.deepsoni.com/)** &nbsp;·&nbsp; **[Category theses](theses.md)** &nbsp;·&nbsp; **[Sourcing methodology](sourcing-list.md)** &nbsp;·&nbsp; **[Sample memo: Taktile](memos/taktile.md)**
 
 ---
 
@@ -22,6 +22,8 @@ This repo is the public face of that practice: the methodology and the tooling, 
 | **Sourcing system** | 18 concrete, reusable sources across general + category-specific lists, plus a weekly cadence (Mon/Wed/Fri) — designed so sourcing 80+ companies is a repeatable habit, not a fresh search every time. | [`sourcing-list.md`](sourcing-list.md) |
 | **Company tracker (dashboard)** | A live, filterable, searchable dashboard over every tracked company — funding history, disclosed traction, qualitative signal, and a scored verdict, each on a dated changelog. Zero build step: plain HTML/CSS/JS, deployed straight to GitHub Pages. | [`index.html`](index.html) |
 | **Structured data** | The tracker's data model — one record per company, versioned as code. | [`data/companies.js`](data/companies.js) |
+| **Memo template + rubric** | 9-section memo structure and a weighted scorecard (market timing, team, wedge defensibility, traction, thesis fit) applied to the highest-conviction picks. | [`memo-template.md`](memo-template.md) |
+| **Sample scored memo** | A full worked memo on Taktile (AI-native fintech) — includes named competitors, disclosed risks, an unresolved research gap stated plainly, and a scored verdict with what would change it. | [`memos/taktile.md`](memos/taktile.md) |
 
 ## The dashboard
 
@@ -57,8 +59,8 @@ That distinction matters: for private companies, "performance" isn't a continuou
 
 ## What's next
 
-- Scale toward 80+ tracked companies at a ~4-5/week sourcing cadence.
-- A scored investment memo template applied to the highest-conviction picks (in progress — see the pipeline's task list).
+- Scale toward 80+ tracked companies at a ~4-5/week sourcing cadence — automated via a scheduled weekly agent run (source → research → score → commit → deploy), so the tracker grows on its own between visits.
+- More scored memos on the highest-conviction picks as they clear the bar.
 - Public-facing written notes (LinkedIn/Substack) once the practice has a real track record behind it — deliberately not yet.
 
 ---
