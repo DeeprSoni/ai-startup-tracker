@@ -1,4 +1,4 @@
-# Company Tracker — 65 companies
+# Company Tracker — 70 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -69,6 +69,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Spektr](https://www.spektr.com) | AI-native fintech — compliance/KYC-KYB decisioning | Series A | unconfirmed | $26M total raised; customers incl. Pleo, Santander Leasing, Mercuryo | Watch — cleanest fintech thesis-fit this cycle, repeat founders with a real prior exit |
 | [Nomic](https://www.nomic.ai) | Vertical SaaS AI-native — construction/AEC (code compliance & document intelligence) | Series A + 2026 strategic investment | $100M (Jul 2023, pre-pivot) | n/a (Arcadis strategic investment after 150-engineer pilot, amount undisclosed) | Watch — rare real-operator (Arcadis) validation after a genuine pilot, not just a VC round |
 | [Earlytrade](https://earlytrade.com) | Vertical SaaS AI-native — construction (subcontractor payments marketplace + new agentic AI layer) | Growth (multiple rounds since 2019) | unconfirmed | ~$25M total raised; 211K+ subcontractors, $3B+ facilitated, 7x US revenue growth | Revisit — largest verified traction this batch, but it's pre-AI marketplace traction; AI layer is unshipped |
+| [Daytona](https://www.daytona.io) | Agent infrastructure — durable execution/agent-native compute sandboxes | Series A | unconfirmed | $1M forward-revenue run-rate reached in <3mo, doubled ~6wk later (May 2026); customers incl. LangChain, Turing, Writer, SambaNova | Watch — strategic backing from Datadog/Figma, real usage-driven growth in a top-tier infra sub-category |
+| [Crosby](https://crosby.ai) | Vertical SaaS AI-native — legal (AI-native law firm) | Series B | $400M (Apr 2026) | Negotiated contract volume grew $30M → $1B (Jun 2025–Apr 2026); customer incl. Cursor | Watch — owns the full legal work product via a two-entity law-firm model, differentiated from copilot-style peers |
+| [Ivo](https://www.ivo.ai) | Vertical SaaS AI-native — legal (contract review/intelligence tool) | Series B | unconfirmed | $55M total Series B; ARR +500%, customers +134%, F500 adoption +250% (Jan 2026); named customers Uber, Shopify, Canva | Revisit — strong growth but an assistive point solution, weaker thesis-fit than full-workflow peers Harvey/Crosby |
+| [Catena Labs](https://catena.com) | AI-native fintech — agentic payments/AI-native banking infrastructure | Series A | unconfirmed | $48M total raised ($18M seed + $30M Series A, May 2026); filed for OCC national trust bank charter, pre-revenue | Watch — best-pedigreed team (Circle/USDC co-founder) and clearest regulatory moat in the least-crowded fintech sub-thread |
+| [Saris](https://saris.ai) | AI-native fintech — bank/credit-union lending back-office automation | Series A | unconfirmed | $28.8M Series A (May 2026); customers report 70% lending-task automation, 35% cost reduction, 2x+ output | Watch — concrete regulated-institution efficiency proof points, though boundary with vertical-SaaS back-office tooling is blurry |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -142,6 +147,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Spektr — `rec:01M1HRA5P9XJSJJ35YT9DJ6YVC`
 - Nomic — `rec:01M1HRAFJKC94P33F8H52KC5SF`
 - Earlytrade — `rec:01M1HRASPZTPW7V3XR9EHB8DW6`
+- Daytona — `rec:01M1HRS611KX3C2DZDTAY18A3D`
+- Crosby — `rec:01M1HRSEHK3HJYQ1EVF6ZPZQHM`
+- Ivo — `rec:01M1HRSQ9SW0Y066XXRVTH8XQ9`
+- Catena Labs — `rec:01M1HRSZHET38DGDGJSV2R9T15`
+- Saris — `rec:01M1HRT81VACWRS6AKEG7ZP6K5`
 
 ## How to update a company over time
 

@@ -1731,5 +1731,140 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "The most verifiably large-scale traction sourced this week (211K+ subcontractors, $3B+ facilitated, 7x US revenue growth) — but it's traction from the pre-AI marketplace business, and the agentic-AI angle that makes this relevant to the thesis is unshipped and unmeasured; revisit once Earlytrade discloses actual agent usage or outcomes rather than scoring the announcement itself as thesis fit.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "daytona",
+    name: "Daytona",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Durable execution / agent-native compute sandboxes",
+    stage: "Series A",
+    website: "https://www.daytona.io",
+    socials: { twitter: "https://x.com/daytonaio", linkedin: "https://linkedin.com/company/daytonaio" },
+    founding_team: "Ivan Burazin (CEO), Vedran Jukic (CTO), and Goran Draganić (Chief Architect) — co-founders; Burazin previously founded Codeanywhere and was Chief Developer Experience Officer at Infobip. Founded 2023, pivoted from self-hosted dev-environment tooling to agent-native compute infrastructure.",
+    product_wedge: "Stateful, composable 'computers' for AI agents — isolated sandboxes (dedicated kernel, filesystem, network stack) that spin up in under 90ms and can be paused, snapshotted, and forked into parallel execution branches, letting agents preserve state across failures and explore multiple paths. Positions itself as the compute/runtime layer, distinct from orchestration or eval tooling.",
+    funding_history: [
+      { date: "2023-11", event: "$2M pre-seed", valuation: null, lead: "unconfirmed" },
+      { date: "2024-06", event: "$5M seed", valuation: null, lead: "Upfront Ventures" },
+      { date: "2026-04", event: "$24M Series A", valuation: null, lead: "FirstMark Capital", other_investors: "Pace Capital, Upfront Ventures, E2VC, Darkmode; strategic investment from Datadog and Figma Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-04", metric: "forward revenue run-rate", value: "$1M reached within ~3 months of launching the current product; doubled roughly 6 weeks later (company-disclosed, exact dates not published)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-04", note: "Named customers span early-stage YC startups to Fortune 100s, including LangChain, Turing, Writer, and SambaNova; Datadog and Figma Ventures joined as strategic investors alongside the Series A." }
+    ],
+    thesis_fit: "High — solves a concrete production problem (stateful, isolated compute for agent execution) that foundation model labs are unlikely to own themselves; open-source-adjacent, developer-led distribution matches the go-to-market theses.md flags as the winning pattern pre-Series B.",
+    verdict: "watch",
+    verdict_rationale: "Fast, usage-driven revenue growth (self-reported doubling within weeks) plus credible infra-focused strategic backers (Datadog, Figma) support the durable-execution/compute sub-thesis theses.md flags as one of the two agent-infra sub-categories most likely to matter in 3 years. Figures are still small and self-reported — recheck once a disclosed ARR number exists.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "crosby",
+    name: "Crosby",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Legal (AI-native law firm / services-as-software)",
+    stage: "Series B",
+    website: "https://crosby.ai",
+    socials: { twitter: "https://x.com/crosbylegal", linkedin: null },
+    founding_team: "Ryan Daniels (CEO) — Stanford JD, ex-Cooley associate, ex-Bain EIR, ex-A.Team General Counsel — and John Sarihan (CTO) — ex-Ramp product leader, Penn M&T. Co-founded 2024.",
+    product_wedge: "Operates as an actual two-entity law firm (Crosby Legal PLLC for the legal work, Crosby Legal Inc. for the AI technology) rather than selling software to lawyers — AI drafts and negotiates MSAs/DPAs/NDAs with licensed lawyers in the loop, reviewing a new contract in under an hour. A 'services-as-software' model that replaces outside-counsel spend directly rather than assisting it.",
+    funding_history: [
+      { date: "2024", event: "$5.8M seed", valuation: null, lead: "Sequoia Capital" },
+      { date: "2026-04", event: "$60M Series B", valuation: 400, lead: "Lux Capital, Index Ventures (co-led)", other_investors: "Sequoia Capital, 01 Advisors, Bain Capital Ventures, Elad Gil (angel)" }
+    ],
+    disclosed_traction: [
+      { date: "2025-06", metric: "total negotiated contract volume", value: "$30M" },
+      { date: "2026-04", metric: "total negotiated contract volume", value: "$1B" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Named customers include Cursor; press framing positions Crosby as 'ditching the billable hour,' distinguishing it from both traditional law firms and copilot-style legal-AI tools." }
+    ],
+    thesis_fit: "High — legal is an explicitly 'crowded but real' vertical per theses.md; Crosby differentiates by owning the full workflow (delivering the actual legal work product, not just a review tool), which is the wedge theses.md identifies as the one that wins.",
+    verdict: "watch",
+    verdict_rationale: "Negotiated contract volume grew from $30M to $1B in under a year, and the two-entity law-firm structure is a genuine model innovation rather than a feature bolt-on. Legal is already crowded and richly valued (Harvey is logged here too), so this is a differentiated sub-niche bet rather than a first-mover pick.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "ivo",
+    name: "Ivo",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Legal (contract review / contract intelligence tool)",
+    stage: "Series B",
+    website: "https://www.ivo.ai",
+    socials: { twitter: "https://x.com/heyivoai", linkedin: "https://linkedin.com/company/ivoai" },
+    founding_team: "Min-Kyu Jung (CEO/founder) — former corporate lawyer in New Zealand who taught himself to code and built the first version of the product himself. Founded 2021 (originally as 'Latch'), relocated HQ to San Francisco in 2023.",
+    product_wedge: "AI-powered contract review and redlining delivered as a Word add-in for in-house legal teams — compares each deal against a company's prior negotiated agreements and auto-detects relationships across a contract library (amendments, restatements, supersessions) without manual tagging. An assistive tool embedded in the legal team's existing workflow, not a replacement for outside counsel.",
+    funding_history: [
+      { date: "2026-01", event: "$55M Series B", valuation: null, lead: "Blackbird (existing investor)", other_investors: "Costanoa Ventures, Uncork Capital, Fika Ventures, GD1, Icehouse Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-01", metric: "ARR growth since last round", value: "+500%" },
+      { date: "2026-01", metric: "customer count growth since last round", value: "+134%" },
+      { date: "2026-01", metric: "Fortune 500 adoption growth since last round", value: "+250%" },
+      { date: "2026-01", metric: "named customers", value: "Uber, Shopify, Atlassian, Reddit, Canva (hundreds of organizations total)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-01", note: "~60 employees at time of raise; plans to more than triple headcount by year-end." }
+    ],
+    thesis_fit: "Low-moderate — strong growth, but the product assists lawyers within the existing in-house-counsel workflow rather than owning and executing it end to end; theses.md explicitly flags point solutions like this as prone to commoditization once a platform player (or a full-service competitor like Crosby, also sourced this week) adds the same feature.",
+    verdict: "revisit",
+    verdict_rationale: "Growth metrics are genuinely strong (500% ARR growth, blue-chip logos including Uber and Canva), but thesis-fit is weaker than category peers Harvey and Crosby — Ivo assists lawyers rather than replacing the work product, the exact pattern theses.md warns gets squeezed by broader platforms over time. Worth rechecking if it expands beyond contract review into fuller workflow ownership.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "catena-labs",
+    name: "Catena Labs",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Agentic payments / AI-native banking infrastructure",
+    stage: "Series A",
+    website: "https://catena.com",
+    socials: { twitter: "https://x.com/catena_labs", linkedin: "https://linkedin.com/company/catenalabs" },
+    founding_team: "Sean Neville (CEO) — co-founder and former co-CEO of Circle, co-created the USDC stablecoin — and Matt Venables (CTO), also a Circle alum. Boston-based; founded 2025.",
+    product_wedge: "Building what it describes as the first fully regulated AI-native financial institution — banking rails purpose-built for AI agents to hold funds, make payments, and transact autonomously. Has filed with the U.S. OCC for a national trust bank charter, making the regulatory path itself part of the moat rather than a retrofit onto legacy rails.",
+    funding_history: [
+      { date: "2025-05", event: "$18M seed", valuation: null, lead: "a16z crypto" },
+      { date: "2026-05-20", event: "$30M Series A", valuation: null, lead: "Acrew Capital, a16z crypto (co-led)", other_investors: "Breyer Capital, General Catalyst, QED Investors" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "regulatory milestone", value: "Filed application with the OCC for a national trust bank charter in New York (not yet approved as of this writing)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05", note: "No disclosed revenue, transaction volume, or customer count — company is pre-launch, building regulatory and banking infrastructure ahead of shipping a product." }
+    ],
+    thesis_fit: "High on paper — agentic payments / agent-first banking is the least-crowded fintech sub-thread theses.md flags as deserving disproportionate sourcing attention, and a real bank-charter filing is a genuine regulatory moat rather than a chat layer over existing rails. Founding team has rare direct experience building regulated financial infrastructure at scale (USDC/Circle).",
+    verdict: "watch",
+    verdict_rationale: "Best-pedigreed team and most structurally serious regulatory bet sourced this week in the agentic-payments sub-thread theses.md calls out as underweighted — but there is zero disclosed usage or revenue yet, and the bank charter is filed, not granted. Track the charter process and any post-launch traction closely rather than treating this as proven.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "saris",
+    name: "Saris",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Bank / credit-union back-office & lending workflow automation",
+    stage: "Series A",
+    website: "https://saris.ai",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Danial Jameel (CEO), Alice Dinu, and James Dang — repeat founders who previously built Oohlala Mobile together.",
+    product_wedge: "AI agents trained on a specific bank or credit union's existing systems and workflows that execute back-office lending tasks (consumer, mortgage, commercial) autonomously under human supervision, rather than a generic chatbot or copilot. Go-to-market leans on deep integrations with core banking/lending platforms (Fiserv, Encompass, MeridianLink).",
+    funding_history: [
+      { date: "2026-05-28", event: "$28.8M Series A", valuation: null, lead: "8VC", other_investors: "Audacious Ventures, Homebrew, Btech Consortium, Service Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "lending task automation", value: "up to 70% of consumer/mortgage/commercial lending back-office tasks automated (customer-reported)" },
+      { date: "2026-05", metric: "cost reduction", value: "up to 35% operational cost reduction at early bank/credit-union customers" },
+      { date: "2026-05", metric: "output growth", value: "more than doubled lending output without adding headcount at early customers" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05", note: "Funding earmarked for deeper integrations with Fiserv, Encompass, and MeridianLink — a distribution-via-core-platform strategy typical of bank back-office vendors." }
+    ],
+    thesis_fit: "Medium-high — touches a regulated lending workflow at real banks/credit unions with credible customer-reported efficiency numbers, though it reads closer to back-office workflow automation (like Rillet/Poetic, logged as vertical SaaS) than to a company that owns the underwriting/credit decision itself, which is the sharper fintech wedge in theses.md.",
+    verdict: "watch",
+    verdict_rationale: "Concrete, named efficiency metrics (70% task automation, 35% cost reduction, doubled output) at real regulated financial institutions are exactly the kind of proof point theses.md wants, and the 8VC-led round plus integration-partner strategy (Fiserv, Encompass, MeridianLink) suggest a credible distribution plan. Categorized as fintech given its direct role in lending workflow, but the boundary with vertical-SaaS back-office tooling is genuinely blurry — revisit how autonomous vs. assistive the actual lending decisions are as more detail emerges.",
+    last_updated: "2026-09-02"
   }
 ];
