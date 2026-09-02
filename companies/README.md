@@ -1,4 +1,4 @@
-# Company Tracker — 30 companies
+# Company Tracker — 35 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -34,6 +34,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Apate.AI](https://www.apate.ai) | AI-native fintech — fraud counter-intelligence | Seed | unconfirmed | n/a (2.5M+ conversations, 250K+ intel pieces; customer Commonwealth Bank of Australia) | Watch — freshest, best-evidenced signal this week |
 | [Arcade](https://www.arcade.dev) | Agent infrastructure — authorization/identity governance | Series A | unconfirmed | $72M total raised; runs in production across the Fortune 500 (no count disclosed) | Watch — differentiated auth-layer wedge, strategic backing (Morgan Stanley, Wipro) |
 | [Patronus AI](https://www.patronus.ai) | Agent infrastructure — observability/evaluation (agent simulation) | Series B | unconfirmed | $70M total raised; 15x+ revenue growth (trailing year) | Watch — fastest growth this batch, simulation-based eval wedge |
+| [Portkey](https://portkey.ai) | Agent infrastructure — LLM gateway/control plane | Acquired (was Series A) | unconfirmed | 500B+ tokens/day, 125M requests/day, 24,000+ orgs (Feb 2026) | Pass — acquired by Palo Alto Networks Apr 2026; logged for what it signals about consolidation |
+| [Tsuga](https://www.tsuga.com) | Agent infrastructure — observability/evaluation (bring-your-own-cloud) | Series A | unconfirmed | $45M total raised; customers incl. Black Forest Labs, Camunda | Watch — ex-Datadog founders, real BYOC differentiation, crowded sub-category |
+| [Corgi Insurance](https://www.corgi.com) | Vertical SaaS AI-native — insurance (full-stack AI-native carrier) | Series B1 | $4.0B (Jul 2026) | ~$40M premium/revenue since Jul 2025 carrier license | Revisit — novel wedge but takes on insurance risk directly; valuation ran 6x in ~6 months |
+| [Sixfold](https://www.sixfold.ai) | Vertical SaaS AI-native — insurance (underwriting automation) | Series B | unconfirmed | $51.5M total raised; carriers incl. Zurich, Guardian, New York Life ($265-270B GWP) | Watch — blue-chip carrier base, Guidewire strategic backing |
+| [Variance](https://www.variance.com) | AI-native fintech — fraud/risk/compliance investigation agents | Series A | unconfirmed | $26M total raised; ~300K automated enforcement actions/day-scale | Watch — cleanest fintech thesis-fit this week after Taktile |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -72,6 +77,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Apate.AI — `rec:01M1HMSBT9XR15HSBD013BC1GX`
 - Arcade — `rec:01M1HMSMXW6CWNYERWW4BVGKYW`
 - Patronus AI — `rec:01M1HMSY7YF1SDS61C5S53RRFJ`
+- Portkey — `rec:01M1HNARK3YN03C329J4RGD5GD`
+- Tsuga — `rec:01M1HNAZ74JAR2BRN6V626DG74`
+- Corgi Insurance — `rec:01M1HNB7SX6QFZ2Z478MN2WJDZ`
+- Sixfold — `rec:01M1HNBFC19H3FQ318DSG4RE0R`
+- Variance — `rec:01M1HNBPQSCS9XJPN98JHS9DJW`
 
 ## How to update a company over time
 

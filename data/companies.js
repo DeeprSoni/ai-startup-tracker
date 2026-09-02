@@ -791,5 +791,144 @@ window.COMPANIES = [
     verdict: "watch",
     verdict_rationale: "Fastest disclosed growth metric of this week's batch (15x+ revenue in a year) plus direct relationships with frontier labs differentiate this from the trace/log-based eval tools already tracked (Braintrust, Arize) — the sub-category is real and theses.md flags it as durable, though this is now the third eval-adjacent name in this tracker, worth watching for consolidation risk same as the Braintrust/Arize pair.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "portkey",
+    name: "Portkey",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "LLM gateway / control plane",
+    stage: "Acquired (was Series A)",
+    website: "https://portkey.ai",
+    socials: { twitter: "https://x.com/PortkeyAI", linkedin: "https://www.linkedin.com/company/portkey-ai" },
+    founding_team: "Rohit Agarwal and Ayush Garg — co-founders, former colleagues at Pepper Content. Founded January 2023.",
+    product_wedge: "Unified AI gateway and control plane — routing across 1,600+ LLMs, observability, guardrails, governance, and prompt management for production AI systems; developer-led, open-source-adjacent distribution.",
+    funding_history: [
+      { date: "2023-08", event: "$3M Seed", valuation: null, lead: "Lightspeed" },
+      { date: "2026-02", event: "$15M Series A", valuation: null, lead: "Elevation Capital", other_investors: "Lightspeed" },
+      { date: "2026-04-30", event: "Acquisition announced — terms undisclosed", valuation: null, lead: "Palo Alto Networks" }
+    ],
+    disclosed_traction: [
+      { date: "2026-02", metric: "platform scale", value: "500B+ LLM tokens routed/day, 125M requests/day, $500K+ in daily AI spend managed, 24,000+ organizations on platform" },
+      { date: "2026-02", metric: "named customers", value: "Postman, Snorkel AI" }
+    ],
+    qualitative_signal: [
+      { date: "2026-04-30", note: "Acquired by Palo Alto Networks to become the AI Gateway for Prisma AIRS, its AI security control plane — a live example of theses.md's predicted consolidation wave (infra players absorbed by platform/security vendors)." }
+    ],
+    thesis_fit: "High (at the time) — squarely the 'gateways/proxies' wedge theses.md names as one of the three real agent-infra problems, with real usage scale and developer-led distribution.",
+    verdict: "pass",
+    verdict_rationale: "Strong wedge and real usage at the point of its Series A, but the company was acquired by Palo Alto Networks in April 2026 and is no longer an independent investable target. Logged for what the acquisition itself signals — direct evidence of the consolidation theses.md flags as an 18-month risk for fragmented agent-infra sub-categories — not as an active pick.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "tsuga",
+    name: "Tsuga",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Observability / evaluation (bring-your-own-cloud)",
+    stage: "Series A",
+    website: "https://www.tsuga.com",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Gabriel-James Safar and Sébastien Deprez — co-founders, both ex-Datadog engineers whose prior startup was acquired by Datadog. Founded 2024, Paris. Company socials unconfirmed — not guessing rather than listing an unverified handle.",
+    product_wedge: "'Bring-your-own-cloud' AI-native observability — deploys inside the customer's own cloud account (AWS, in under 2 hours via infrastructure-as-code) so logs, APM, infra monitoring, and AI agent traces never leave the customer's perimeter under customer-managed keys, addressing the data-residency/compliance concerns that block SaaS-hosted observability for sensitive agent traces.",
+    funding_history: [
+      { date: "2025-12", event: "$10M Seed", valuation: null, lead: "General Catalyst", other_investors: "Singular" },
+      { date: "2026-06", event: "$35M Series A (total raised: $45M)", valuation: null, lead: "Singular", other_investors: "General Catalyst, DST Global Partners, Quantumlight, Picus Capital, Databricks Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "named customers", value: "Black Forest Labs, Camunda, Le Monde, Buk" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Founding team's prior company was acquired by Datadog — direct competitive-alumni signal in a sub-category (observability/eval) theses.md flags as already consolidating around Braintrust and Arize; BYOC deployment is the clearest technical differentiator from both." }
+    ],
+    thesis_fit: "Medium-high — solves a named, real problem (agent-trace observability) with a concrete architectural differentiator (BYOC/data residency), but the sub-category is already crowded in this tracker (Braintrust, Arize, Patronus AI all overlap partially) and named customers skew smaller than Braintrust's enterprise logo list.",
+    verdict: "watch",
+    verdict_rationale: "Credible ex-Datadog founding team, a fast follow-on Series A (six months after seed), and a real architectural differentiator (BYOC) rather than competing purely on UI polish — but this is now the fourth-plus observability/eval company in the tracker, so the bar for a first scored memo here is a disclosed customer count or revenue metric, not just a funding round.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "corgi-insurance",
+    name: "Corgi Insurance",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (full-stack AI-native carrier)",
+    stage: "Series B1",
+    website: "https://www.corgi.com",
+    socials: { twitter: "https://x.com/corgi_insurance", linkedin: "https://www.linkedin.com/company/usecorgi" },
+    founding_team: "Emily Yuan (CEO, ex-OpenAI product manager, Stanford dropout) and Nico Laqua — co-founders. Founded 2024, San Francisco; YC S24; ~250 employees.",
+    product_wedge: "First AI-native, full-stack insurance carrier for startups — underwrites and issues policies directly (not a broker) across D&O, cyber, commercial general liability, and AI liability, coordinating underwriting, policy design, servicing, and claims in one AI-driven system. Received full regulatory approval to operate as a carrier in July 2025.",
+    funding_history: [
+      { date: "2024", event: "$500K Seed", valuation: null, lead: "unconfirmed" },
+      { date: "2026-01", event: "$108M combined Seed + Series A", valuation: 630, lead: "unconfirmed (early backers include Y Combinator, Kindred Ventures, Contrary)" },
+      { date: "2026-05-06", event: "$160M Series B", valuation: 1300, lead: "TCV" },
+      { date: "2026-05-28", event: "$106M Series B1", valuation: 2600, lead: "TCV" },
+      { date: "2026-07", event: "Series B extension — amount and investors undisclosed", valuation: 4000, lead: "unconfirmed" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "premium / revenue", value: "~$40M since receiving full carrier license in July 2025 (reported by different outlets as both gross written premium and as ARR — precise basis not independently confirmed, flagged rather than picking one)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05 to 2026-07", note: "Valuation went $630M to $1.3B to $2.6B to $4.0B in roughly six months — one of the fastest markups in this tracker, faster even than Harvey/Sierra, which is as much a signal of hot-market froth as of fundamentals." }
+    ],
+    thesis_fit: "Medium — owning the full regulated workflow as a licensed carrier (not software layered on someone else's risk capital) is a real moat and matches the theses.md wedge, but 'full-stack carrier' means Corgi is taking on insurance risk itself, not just selling AI software — a fundamentally different (and riskier) business model than the theses.md examples (Harvey, Sierra, Abridge) that sell AI software into an existing regulated workflow.",
+    verdict: "revisit",
+    verdict_rationale: "Genuinely novel wedge (AI-native carrier, not just AI-native underwriting software) and the fastest revenue-per-dollar-raised story of the batch, but taking on insurance risk directly is a materially different risk profile than the software-and-data-moat companies theses.md is built around, and the roughly six-month 6x valuation run makes entry price a real concern — revisit once loss-ratio/reserve data becomes available, which for an insurance carrier is the metric that actually matters.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "sixfold",
+    name: "Sixfold",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (underwriting automation for P&C carriers)",
+    stage: "Series B",
+    website: "https://www.sixfold.ai",
+    socials: { twitter: "https://x.com/sixfoldai", linkedin: "https://www.linkedin.com/company/sixfold-ai" },
+    founding_team: "Alex Schmelkin, Jane Tran, and Brian Moseley — co-founders. Schmelkin and Tran previously co-founded no-code platform Unqork together; Moseley brings 25+ years of technical/product leadership. Founded 2023.",
+    product_wedge: "Autonomous AI underwriting agents that sit inside existing P&C and life & health insurers' workflows — processing submissions, extracting risk data, and generating underwriting recommendations against each insurer's own guidelines, with straight-through quote-and-bind capability launched June 2026 — sells AI software into the existing regulated workflow rather than taking on risk itself.",
+    funding_history: [
+      { date: "2024", event: "$15M Series A", valuation: null, lead: "Salesforce Ventures", other_investors: "Scale Venture Partners, Bessemer Venture Partners, Crystal Venture Partners" },
+      { date: "2026-01", event: "$30M Series B (total raised: $51.5M)", valuation: null, lead: "Brewer Lane", other_investors: "Guidewire (strategic), Bessemer Venture Partners, Salesforce Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-01", metric: "customers", value: "Insurers representing ~$265-270B in gross written premium, incl. Skyward Specialty, Zurich Insurance, Generali Global Corporate & Commercial, Guardian, Axis, New York Life" },
+      { date: "2026-01", metric: "usage", value: "1M+ submissions processed across 40+ lines of business" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Launched straight-through quote-and-bind underwriting agent — moving from assistive (augmenting an underwriter's review) to autonomous execution (agent completes the transaction), the exact frontier shift theses.md's 18-month view calls out." },
+      { date: "2026-01", note: "Strategic investment from Guidewire (the dominant P&C core-systems vendor) alongside the Series B — an incumbent hedging/partnering rather than building competing product in-house, the same pattern as Datadog/PagerDuty backing Arize in this tracker." }
+    ],
+    thesis_fit: "High — proprietary access to real underwriting workflow and outcome data across a large, blue-chip carrier base is a moat a horizontal platform can't easily replicate, and the June 2026 quote-and-bind launch is concrete evidence of a shift from copilot to autonomous execution.",
+    verdict: "watch",
+    verdict_rationale: "Best-evidenced insurance-vertical pick sourced this week: a blue-chip carrier customer base representing real premium volume, a credible repeat-founder team (Unqork pedigree), and a strategic backer (Guidewire) that is the incumbent most threatened by this exact wedge — the kind of validation theses.md flags as a strong positive signal.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "variance",
+    name: "Variance",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Fraud / risk / compliance investigation agents",
+    stage: "Series A",
+    website: "https://www.variance.com",
+    socials: { twitter: "https://x.com/trustvariance", linkedin: null },
+    founding_team: "Karine Mellata (CEO) and Michael Lin (CTO) — co-founders, both former Apple engineers. Founded 2022/2023, San Francisco; YC W23; ~12 employees as of March 2026. Company LinkedIn unconfirmed — not guessing rather than listing an unverified handle.",
+    product_wedge: "Purpose-built AI agents that autonomously execute fraud, risk, and compliance investigations — KYC, KYB, AML, transaction monitoring, customer due diligence — for financial institutions and platforms, handling L1-L3 review tiers end to end with cited evidence and audit trails, rather than just flagging alerts for a human to close out.",
+    funding_history: [
+      { date: "2023 (approx.)", event: "Seed / pre-seed", valuation: null, lead: "Y Combinator" },
+      { date: "2026-03-31", event: "$21.5M Series A (total raised: $26M)", valuation: null, lead: "Ten Eleven Ventures", other_investors: "645 Ventures, Okta Ventures, Urban Innovation Fund, Y Combinator" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "processing scale", value: "70M+ context signals processed/day; ~300,000 automated enforcement actions executed across customer ecosystems (company-disclosed)" },
+      { date: "2026-03", metric: "efficiency", value: "Agents collect ~90% of evidence per case; ~10x reduction in investigative cycle time (company-disclosed)" },
+      { date: "2026-03", metric: "named customers", value: "GoFundMe; additional Fortune 500 customers referenced but not individually named" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Came out of stealth alongside the Series A announcement (YC Founder Firesides interview) rather than building public presence pre-launch — limits independently verifiable history before the round." }
+    ],
+    thesis_fit: "High — AI sits directly at the regulated decision point (KYC/AML/fraud enforcement actions), not a chat layer over existing rails, and the ~300K automated-enforcement-actions figure is real usage evidence rather than a demo metric.",
+    verdict: "watch",
+    verdict_rationale: "Cleanest AI-native-fintech thesis fit sourced this week after Taktile — regulated decision point, disclosed automation-scale metrics, and a founding team YC backed for a second, larger round. Caveat: came out of stealth with the raise itself, so there's limited independent history to check the disclosed numbers against — revisit at the next disclosed metric.",
+    last_updated: "2026-09-02"
   }
 ];
