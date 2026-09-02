@@ -1067,5 +1067,133 @@ window.COMPANIES = [
     verdict: "watch",
     verdict_rationale: "Clearest 'boring systems software for a new runtime' pick this week — real usage at scale (1B+ calls), a competitive win against 40 rivals for a marquee logo (Amazon Ring), and the developer-led distribution model theses.md explicitly favors at this stage. Main open question is durability of the lead: the Ring bake-off implies at least 40 funded competitors in voice-agent infra, so this is a crowded field even if Vapi is currently winning it.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "model-ml",
+    name: "Model ML",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Financial services back-office (dealmaking workflow / document automation)",
+    stage: "Series A",
+    website: "https://modelml.com",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/model-ml" },
+    founding_team: "Chaz Englander (CEO) and Arnie Englander (CTO) — brothers, both two-time Y Combinator alumni; Chaz previously founded Fat Llama (acquired by Hygglo), Arnie founded Fancy (acquired by GoPuff). Founded 2023, London/New York.",
+    product_wedge: "Model-agnostic 'agentic operating system' — AI Modules that automate client-ready Word/PowerPoint/Excel outputs for investment banking, private equity, credit, consulting, and asset management — routing tasks to the best underlying model while enforcing enterprise governance, data privacy, and auditability; targets the document-production grind underpinning dealmaking rather than bolting a chat layer onto existing tools.",
+    funding_history: [
+      { date: "2025-05", event: "Seed round", valuation: null, lead: "LocalGlobe" },
+      { date: "2025-11", event: "$75M Series A", valuation: null, lead: "FT Partners", other_investors: "Y Combinator, QED Investors, 13Books, Latitude, LocalGlobe" },
+      { date: "2026-08-11", event: "Strategic investment (undisclosed amount) via HSBC Asset Management's flagship venture strategy", valuation: null, lead: "HSBC Asset Management" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07-09", metric: "ARR/usage growth", value: "ARR doubled and 47,000+ seats added across major clients (banks, consulting firms, asset managers); 3x increase in daily per-user activity over the trailing 12 weeks (company-disclosed, no absolute ARR figure given)" },
+      { date: "2026-08", metric: "customers", value: "Deloitte and PwC named as clients; total raised to date reported at $100M+ across seed, Series A, and the HSBC AM strategic investment" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08-11", note: "HSBC Asset Management took an equity stake via its flagship venture strategy — a strategic financial-institution investor validating the product from inside the target customer base, a similar pattern to Arize (Datadog/PagerDuty) and Casca (Canapi Ventures) already tracked." }
+    ],
+    thesis_fit: "Moderate-high — owns a real financial-services back-office workflow (document production for dealmaking/advisory) with named blue-chip clients and a credible repeat-founder team, matching the 'financial services back-office' vertical theses.md names; but the wedge (formatted document generation) is closer to workflow automation/document assembly than autonomous execution of the underlying financial decision itself, a modest gap against the 'software that does, not assists' scoring cue.",
+    verdict: "watch",
+    verdict_rationale: "Real, fast-growing usage (ARR doubled, 47K+ seats added) at named top-tier clients, a credible repeat-founder team, and a strategic HSBC AM investment validating the product from within a target customer base — best-evidenced vertical SaaS pick of this week's batch, though the wedge is closer to document-workflow automation than full autonomous decision execution.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "neno",
+    name: "Neno",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "SME accounting / tax / financial back-office (Europe)",
+    stage: "Seed",
+    website: "https://www.neno.co",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Nick Knuppe (founder); team includes former founders, fintech operators, and chartered accountants from Mollie, Adyen, Remote, Plaid, Deloitte, BDO, and EY. Founded 2026, Amsterdam. Company socials unconfirmed — not guessing rather than listing an unverified handle.",
+    product_wedge: "AI-native back-office workspace for European SMEs built around a real-time agentic general ledger — pulls data from business bank accounts, corporate cards, bill payments, and receivables to automate reconciliation and VAT preparation, folding accounting, tax, payroll, and business banking into one platform rather than bolting AI onto legacy accounting software.",
+    funding_history: [
+      { date: "2026-08-25", event: "€6.6M Seed", valuation: null, lead: "AlleyCorp", other_investors: "Motive Partners, Firstminute Capital; angels from Mollie, Coinbase, PayPal, Hugging Face" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "customers", value: "Almost 200 customers in the Netherlands since launching in Q1 2026 (company-disclosed; no ARR figure given)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08-25", note: "Launched only in Q1 2026 and already raising to expand across Europe off a single seed round — founding team's fintech-operator pedigree (Mollie, Adyen, Deloitte, EY alumni) is a strong domain-expertise signal for a compliance-heavy back-office product." }
+    ],
+    thesis_fit: "Moderate — fits the 'financial services back-office' vertical pattern already validated by Rillet (tracked), and VAT/tax compliance automation touches a genuine regulatory decision point; but the product is closer to bookkeeping/workflow automation for SMEs than the 'own an end-to-end regulated workflow' pattern in larger enterprises that theses.md rewards most highly, and the company is barely six months past launch.",
+    verdict: "revisit",
+    verdict_rationale: "Credible fintech-operator founding team and real early customer traction (~200 customers in under a year) for a genuine back-office pain point, but pre-seed-adjacent stage with no disclosed revenue and a still-unproven multi-country expansion thesis — track into the next funding round for evidence expansion beyond the Netherlands is working.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "arga-labs",
+    name: "Arga Labs",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Agent training / testing sandboxes (digital twins)",
+    stage: "Seed",
+    website: "https://www.argalabs.com",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/arga-labs" },
+    founding_team: "Phillip Li (ex-Amazon engineer) and Akira Tong (ex-Goldman Sachs and Stripe engineer) — co-founders; Y Combinator alum, San Francisco.",
+    product_wedge: "High-fidelity 'digital twin' sandbox environments that let enterprises train and test AI agents against realistic clones of the third-party services they depend on (e.g., Stripe, Slack) — full program clones with permission systems and webhooks intact, not stateless mock API endpoints — so agents can fail safely in a sandbox instead of in production.",
+    funding_history: [
+      { date: "2026-08-26", event: "$10M Seed", valuation: null, lead: "General Catalyst", other_investors: "Box Group, Emergence, Gradient, SV Angel; earlier backers Y Combinator, Comma Capital, Scribble Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "customers / usage", value: "No customer count, usage volume, or revenue disclosed at seed announcement" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08-26", note: "TechCrunch coverage frames the wedge as solving a concrete production-reliability gap — agents trained/tested against realistic full-fidelity clones of dependencies rather than thin API mocks — targeting mid-to-large engineering teams building coding agents or deploying autonomous workflows." }
+    ],
+    thesis_fit: "High — training/testing infrastructure for agents is a genuine, named production gap (agents failing against unrealistic mocks) that foundation model labs won't solve themselves, matching theses.md's 'systems software for a new runtime' framing; founding team has real production engineering pedigree (Amazon, Goldman Sachs, Stripe) rather than a pure research background.",
+    verdict: "watch",
+    verdict_rationale: "Clear, differentiated wedge not yet covered by any agent-infra company already tracked (observability, gateway, and durable-execution names are logged, but nothing addressing pre-production training/testing) plus a credible engineering-pedigree founding team and a strong lead investor — but zero disclosed customers or usage this early, so track for proof of production adoption at the next round.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "aisa",
+    name: "AIsa",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Agentic payments / machine-to-machine billing infrastructure",
+    stage: "Seed",
+    website: "https://aisa.one",
+    socials: { twitter: "https://x.com/AIsaOneHQ", linkedin: null },
+    founding_team: "Founded by a builder publicly referred to only as \"Jordan\" — track record includes building a payments company and co-founding UXUY, a multi-chain wallet serving 5M+ users. Founded 2025, San Francisco. Full founder name/title unconfirmed — flag for follow-up rather than guessing.",
+    product_wedge: "Transaction network purpose-built for AI agents to autonomously discover, access, and pay for models, APIs, real-time data, SaaS tools, and compute through a single programmable interface with usage-based billing — a machine-to-machine payments/billing layer for agent-to-infrastructure spend, distinct from the agent-to-merchant payment plays (Natural, Ralio, already tracked).",
+    funding_history: [
+      { date: "2026-07-02", event: "$6.5M Seed", valuation: null, lead: "Alibaba Group, Tribe Capital (co-led)", other_investors: "Draper Associates, Sumitomo Corporation, Saison Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "registered agents", value: "50,000+ agents registered without paid marketing; registered-agent growth of 150x between February and June 2026 (company-disclosed; no revenue or paying-customer count given)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07-02", note: "Strategic backing from Alibaba Group is a notable non-US distribution signal; company frames itself as building the machine-to-machine equivalent of a card network for agent commerce, a distinct sub-niche from the agent-to-merchant payments plays already tracked." }
+    ],
+    thesis_fit: "Moderate — agentic payments is the exact newest, least-crowded fintech sub-thread theses.md flags for extra attention, but AIsa's actual product (agents paying for models/APIs/compute) reads closer to an agent-infrastructure billing/metering layer than a fintech product sitting at a regulated decision point (underwriting/risk/execution/compliance) — real growth in registered agents, but zero disclosed revenue and a thin public record on the founding team.",
+    verdict: "revisit",
+    verdict_rationale: "Fast registered-agent growth and notable strategic backing (Alibaba) are real signals, but the company sits awkwardly between categories (more agent-infra billing than fintech decisioning), has no disclosed revenue, and the founding team's public track record is thin — track into the next round once revenue or paying-customer figures are disclosed and the category fit is clearer.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "respan",
+    name: "Respan",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Observability / evaluation / gateway (converged control plane)",
+    stage: "Seed",
+    website: "https://www.respan.ai",
+    socials: { twitter: "https://x.com/RespanAI", linkedin: null },
+    founding_team: "Raymond Huang, Andy Li, and Hendrix Liu — co-founders; Y Combinator W24 batch; company rebranded from Keywords AI to Respan in 2026.",
+    product_wedge: "Unified 'self-driving' control plane converging three previously separate agent-infra wedges — production observability/tracing, automated plus human-in-the-loop evaluation, and an adaptive AI gateway — into one product, aiming to automatically surface and help fix agent failures rather than just log them.",
+    funding_history: [
+      { date: "2026-03-18", event: "$5M Seed", valuation: null, lead: "Gradient", other_investors: "Y Combinator, Hat-Trick Capital, XIAOXIAO FUND, Antigravity Capital, Alpen Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "usage", value: "Trusted by 100+ AI startups and enterprise teams; processes 1B+ logs and 2T+ tokens/month; supports 6.5M+ end users (company-disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03-18", note: "Rebrand from Keywords AI to Respan coincided with repositioning from a pure LLM gateway/DevOps tool to a converged observability+eval+gateway 'self-driving' platform — a direct response to the sub-category consolidation theses.md flags (3 comparable eval tools already acquired in 2026)." }
+    ],
+    thesis_fit: "Moderate — solves named production problems (observability, eval, gateway) with real usage volume for a seed-stage company, but the sub-category is the most crowded and fastest-consolidating in agent infra (Braintrust, Arize, Patronus AI, Tsuga already tracked on eval; Portkey, Concentrate AI on gateway) and the $5M round is tiny relative to well-capitalized incumbents.",
+    verdict: "revisit",
+    verdict_rationale: "Genuine usage scale (1B+ logs/month, 6.5M+ end users) is impressive for a $5M seed, and the converged obs+eval+gateway wedge is a real differentiation attempt, but it's entering an already-crowded, consolidating sub-category against far better-capitalized names already tracked — worth checking back once it either raises a larger round or discloses enterprise logo wins that distinguish it from Braintrust/Arize/Portkey.",
+    last_updated: "2026-09-02"
   }
 ];

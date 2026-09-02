@@ -1,4 +1,4 @@
-# Company Tracker — 40 companies
+# Company Tracker — 45 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -44,6 +44,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Basis Theory](https://basistheory.com) | AI-native fintech — agentic commerce/payments & identity infra | Series B | unconfirmed | ~$50M total raised; named customers Pinterest, Melio, MoneyGram | Watch — established infra co. building agentic-payments standards |
 | [Optura](https://optura.ai) | Vertical SaaS AI-native — healthcare (AI initiative deployment/ROI) | Series A | unconfirmed | $25M+ total raised; named payers/providers incl. Independence Blue Cross | Revisit — real logos but self-reported metrics, closer to tooling than owned workflow |
 | [Vapi](https://vapi.ai) | Agent infrastructure — voice agent infrastructure/telephony runtime | Series B | $500M (May 2026) | $72M total raised; 1B+ calls handled, 10x enterprise ARR growth | Watch — real usage at scale, won Amazon Ring over 40 rivals |
+| [Model ML](https://modelml.com) | Vertical SaaS AI-native — financial services back-office (dealmaking workflow) | Series A | unconfirmed | ARR doubled + 47K seats added (Jul 2026); clients incl. Deloitte, PwC | Watch — best-evidenced vertical SaaS pick, HSBC AM strategic backing |
+| [Neno](https://www.neno.co) | Vertical SaaS AI-native — SME accounting/tax back-office (Europe) | Seed | unconfirmed | n/a (~200 customers in NL, no ARR disclosed) | Revisit — credible fintech-operator team, too early, unproven expansion |
+| [Arga Labs](https://www.argalabs.com) | Agent infrastructure — agent training/testing sandboxes (digital twins) | Seed | unconfirmed | n/a (no customers/usage disclosed at seed) | Watch — differentiated wedge not yet covered, strong engineering pedigree |
+| [AIsa](https://aisa.one) | AI-native fintech — agentic payments/machine-to-machine billing infra | Seed | unconfirmed | n/a (50K+ registered agents, no revenue disclosed) | Revisit — fast agent growth but sits between categories, thin founder record |
+| [Respan](https://www.respan.ai) | Agent infrastructure — observability/eval/gateway (converged control plane) | Seed | unconfirmed | n/a (1B+ logs/mo, 6.5M+ end users) | Revisit — real usage for a $5M seed, but crowded consolidating sub-category |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -92,6 +97,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Basis Theory — `rec:01M1HNSMY5KHTNFJJEG5QRDKSE`
 - Optura — `rec:01M1HNSYSMBDX2VPX5NJXC5KA3`
 - Vapi — `rec:01M1HNT9JAZW6FXVP0459V1S7Q`
+- Model ML — `rec:01M1HP96VGED9HTREGSS7HFNZW`
+- Neno — `rec:01M1HP9FHCRMVND0MHTQEHSZ30`
+- Arga Labs — `rec:01M1HP9RFYF69NEH8FH1WRANWC`
+- AIsa — `rec:01M1HPA1WKJ0EPSB8EZV3VB211`
+- Respan — `rec:01M1HPA9Q24GJK1KD84AYHHVFG`
 
 ## How to update a company over time
 
