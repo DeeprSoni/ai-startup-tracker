@@ -1195,5 +1195,137 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Genuine usage scale (1B+ logs/month, 6.5M+ end users) is impressive for a $5M seed, and the converged obs+eval+gateway wedge is a real differentiation attempt, but it's entering an already-crowded, consolidating sub-category against far better-capitalized names already tracked — worth checking back once it either raises a larger round or discloses enterprise logo wins that distinguish it from Braintrust/Arize/Portkey.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "poetic",
+    name: "Poetic",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Financial services & insurance back-office (regulated process automation)",
+    stage: "Series A",
+    website: "https://poetic.com",
+    socials: { twitter: "https://x.com/PoeticHQ", linkedin: "https://www.linkedin.com/company/poetic-systems-llc" },
+    founding_team: "Markie Wagner (founder/CEO) — Thiel Foundation fellow, ex-Waymo/Google machine-learning researcher, CS degrees from USC and Stanford; previously founded AI consultancy Delphi Labs. Company originally launched under the name Forge before rebranding to Poetic. San Francisco.",
+    product_wedge: "Deterministic-plus-AI hybrid automation for complex, multi-hour enterprise processes (fraud investigations, KYC, insurance underwriting, financial compliance) — a proprietary programming language runs fixed deterministic code when the business environment is unchanged and falls back to AI only when conditions shift, claiming 99%+ accuracy at roughly one-tenth the token cost of typical agent frameworks.",
+    funding_history: [
+      { date: "2026-06-10", event: "$50M Series A (emerged from stealth)", valuation: 500, lead: "Kleiner Perkins", other_investors: "Founders Fund, OpenAI, First Harmonic, Genius Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2025", metric: "run rate", value: "Reached an eight-figure run rate and became profitable in 2025 with a team of four, per Kleiner Perkins' investment memo (exact figure and month not disclosed)" },
+      { date: "2026-06", metric: "named customers", value: "AIG, SoFi, Chime, and an unnamed top-tier bank; Chime deployment handling 500,000+ disputes, SoFi fraud auto-decisioning at 99% quality, 100% KYC process adherence cited for the unnamed bank (all company-disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06-10", note: "OpenAI took a strategic stake alongside Kleiner Perkins and Founders Fund — a foundation-model lab investing in a company whose core pitch is using far fewer tokens than typical agent frameworks, an unusual alignment worth watching." }
+    ],
+    thesis_fit: "High — sits directly inside regulated financial/insurance back-office processes (fraud, KYC, underwriting, compliance) with named blue-chip customers and disclosed profitability at a tiny headcount, matching theses.md's 'software that does, not assists' and proprietary-outcome-data scoring cues; the deterministic/AI hybrid architecture is also a genuine technical differentiator rather than a thin LLM wrapper.",
+    verdict: "watch",
+    verdict_rationale: "Rare combination for this stage: real named enterprise customers in regulated finance/insurance (AIG, SoFi, Chime), disclosed profitability at just four people pre-raise, and a technically differentiated architecture credible enough that OpenAI itself took a stake. Main open question is durability of the token-efficiency moat as foundation models get cheaper.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "owner",
+    name: "Owner",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Local business / restaurant operations (AI-native SMB software)",
+    stage: "Series D",
+    website: "https://www.owner.com",
+    socials: { twitter: "https://x.com/owner", linkedin: "https://www.linkedin.com/company/owner-com" },
+    founding_team: "Adam Guild (CEO) and Dean Bloembergen (CTO) — co-founders; Guild started the company in 2018 as Placepull before rebranding to Owner in 2021 (Forbes 30 Under 30, 2021). Palo Alto, California.",
+    product_wedge: "AI-native, all-in-one operating platform for independent restaurants — website/app creation, commission-free online ordering, CRM, loyalty, and AI-driven marketing automation — replacing a fragmented stack of legacy point solutions with AI agents that run marketing and guest engagement autonomously rather than just assisting an owner.",
+    funding_history: [
+      { date: "2025-05", event: "$120M Series C", valuation: 1000, lead: "Meritech Capital, Headline (co-led)" },
+      { date: "2026-08-28", event: "$240M Series D", valuation: 2300, lead: "Goldman Sachs Alternatives", other_investors: "Meritech, Redpoint, Benchmark (Jack Altman)" }
+    ],
+    disclosed_traction: [
+      { date: "2025", metric: "revenue (third-party estimate)", value: "~$81M ARR per a Getlatka estimate — not a company-confirmed figure; company's own previously disclosed revenue history was $3M (2021) → $6M (2022) → $16M (2023) → $20M (2024)" },
+      { date: "2026-08", metric: "footprint", value: "Company states its AI now powers more U.S. restaurant locations than Domino's or Taco Bell (company-disclosed claim; no absolute location count given)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08-28", note: "Valuation more than doubled (from $1B to $2.3B) in about 15 months, and the company is explicitly expanding its positioning from restaurants toward an 'AI-native platform for every local business.'" }
+    ],
+    thesis_fit: "Moderate-high — owns a full workflow (marketing, ordering, guest engagement) for a genuinely underserved SMB vertical and is pushing toward broader 'every local business' ambitions, but the wedge is closer to marketing/ops automation than a regulated high-stakes decision point, and precise ARR is not company-confirmed (only a third-party estimate).",
+    verdict: "watch",
+    verdict_rationale: "Real scale and a rare valuation double-up in ~15 months are hard to ignore, but this is already a $2.3B company — track as a bellwether for AI-native SMB vertical software the way Harvey/Sierra are tracked for their categories, not a ground-floor pick.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "pace",
+    name: "Pace",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance back-office operations (agentic process outsourcing)",
+    stage: "Series B",
+    website: "https://withpace.com",
+    socials: { twitter: "https://x.com/pacecom", linkedin: "https://www.linkedin.com/company/pace-com" },
+    founding_team: "Jamie Cuffe (CEO/co-founder) — grew up around Lloyd's of London through his father's career before returning to insurance after time in tech; team of insurers, technologists, and AI researchers. Founded 2024, New York City; ~28 people as of the Series B.",
+    product_wedge: "'Agentic process outsourcer' for insurance carriers, brokers, and MGAs — AI agents navigate carriers' own internal applications, reason across documents, and place phone calls to execute submission intake, policy servicing, claims handling, and data entry end-to-end, positioned as an AI replacement for traditional insurance BPO rather than a copilot layered on existing systems.",
+    funding_history: [
+      { date: "2026-01-28", event: "$10M Series A", valuation: null, lead: "Sequoia Capital" },
+      { date: "2026-05-27", event: "$46M Series B", valuation: 375, lead: "Thrive Capital, Sequoia Capital (co-led)", other_investors: "Emergence Capital, Pruven Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "workflows completed", value: "250,000+ insurance workflows completed autonomously since launch (company-disclosed)" },
+      { date: "2026-05", metric: "named customers", value: "Prudential Financial, WTW, The Mutual Group, Newfront, Ryze Claim Solutions" },
+      { date: "2026-05", metric: "efficiency", value: "Cut claim cycle times ~30% at Ryze Claim Solutions (company-disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05-28", note: "CEO Jamie Cuffe told The Insurer that AI agents are 'unlocking products and markets carriers couldn't previously serve' — framing the pitch as market expansion rather than pure cost-cutting, though this is founder framing rather than independently verified." }
+    ],
+    thesis_fit: "High — squarely in the insurance-back-office 'open window' theses.md flags for extra sourcing attention, with blue-chip named customers (Prudential, WTW) and a quantified efficiency result (30% faster claims cycles) rather than a demo metric; a distinct sub-niche (back-office BPO replacement) from the underwriting-risk-selection companies already tracked (Sixfold, InRisk Labs, Corgi Insurance).",
+    verdict: "watch",
+    verdict_rationale: "Best-evidenced insurance pick sourced this week — named Fortune-500-adjacent customers, a real quantified efficiency number, and two funding rounds in under six months signaling strong investor conviction (Sequoia doubling down alongside Thrive). Worth flagging that this is now the fifth insurance-adjacent company tracked, so any future memo should differentiate carefully by sub-niche (back-office ops, not underwriting).",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "aiuc",
+    name: "AIUC",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "AI-agent risk underwriting / liability insurance-as-a-service",
+    stage: "Seed",
+    website: "https://aiuc.com",
+    socials: { twitter: "https://x.com/aiunderwriting", linkedin: null },
+    founding_team: "Rune Kvist (CEO/co-founder) — first product/go-to-market hire at Anthropic, sits on the board of the Center for AI Safety; Rajiv Dattani (co-founder) — former McKinsey insurance partner; Brandon Wang (co-founder) — former Thiel Fellow. San Francisco; founded 2025.",
+    product_wedge: "Underwrites the regulated decision point of AI-agent deployment risk itself: a proprietary audit standard (AIUC-1) scores an enterprise's AI-agent security/reliability posture, and liability-insurance pricing is tied directly to the audit outcome — safer, better-audited AI deployments get better terms — functioning as an insurance/certification layer for the AI-agent economy rather than an AI product built for an existing industry.",
+    funding_history: [
+      { date: "2025-07-24", event: "$15M Seed (described by the company as the largest seed round in insurance-industry history)", valuation: null, lead: "NFDG (Nat Friedman)", other_investors: "Emergence Capital, Terrain; angels incl. Ben Mann (Anthropic co-founder)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05-15", metric: "underwriting capacity", value: "Secured Beazley as its first insurance-paper (risk capacity) partner for an AI-agent liability product" },
+      { date: "2026", metric: "named customer", value: "ElevenLabs became the first company to secure AI-agent liability insurance under the AIUC-1 standard (joint company/ElevenLabs announcement; no premium or coverage amount disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05-15", note: "Landing Beazley — a top-tier Lloyd's-market specialty insurer — as risk-capacity partner is a meaningful regulatory/industry-credibility signal for a category (AI-agent liability) that barely existed a year earlier." }
+    ],
+    thesis_fit: "Moderate — genuinely sits at a regulated decision point (underwriting AI-agent liability risk) with real compliance sophistication as the moat, matching theses.md's fintech scoring cues on paper; but it is a novel meta-category (insurance for AI risk, not AI used to run an existing regulated fintech workflow) that sits awkwardly across theses.md's three categories rather than cleanly inside any one of them, and scale (premium volume, policy count) is not yet disclosed.",
+    verdict: "revisit",
+    verdict_rationale: "Credible team (ex-Anthropic, ex-McKinsey insurance) and a real regulatory-market signal (Beazley capacity, ElevenLabs as first bound policy), but still seed-stage with no disclosed premium volume, and the business model — insuring AI risk rather than using AI to underwrite a traditional risk — is enough of a category-fit stretch to track rather than call a clean 'watch' yet.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "multiplier-ai",
+    name: "Multiplier",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Capital markets / investment operations (agent harness for asset managers)",
+    stage: "Seed",
+    website: "https://www.multiplier.ai",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Ian McInnis (CEO) — former investor at Bridgewater Associates; Ryan Winkler (COO) — previously at StepStone Group; Ben Finch (CTO/President) — former founding researcher at Sentient Labs. Co-founders met running a student-run hedge fund at Princeton. Company socials unconfirmed — not guessing rather than listing an unverified handle.",
+    product_wedge: "Deploys a common 'agent harness' substrate inside each customer's own systems (rather than a standalone hosted SaaS app) and builds firm-specific AI agents on top of it, incorporating a fund's proprietary research frameworks, internal information, and investment processes — spanning the investment workflow from idea generation through post-trade review for fundamental equity hedge funds and asset managers.",
+    funding_history: [
+      { date: "2026-08-26", event: "$6M Seed", valuation: null, lead: "Lux Capital", other_investors: "Y Combinator, GoAhead Ventures, Rebel Fund, General Advance, Unpopular Ventures, Amino Capital; angels incl. Bridgewater co-CIOs Greg Jensen and Karen Karniol-Tambour, Fortress Investment Group Chairman Pete Briger, DeepMind CSO Jasjeet Sekhon" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "customers", value: "No customer count or AUM figure disclosed at seed announcement; Mercator Partners named as a customer" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08-26", note: "Investor list is unusually stacked with sitting operators/executives from Bridgewater, Fortress, DeepMind, and Polygon rather than pure financial LPs — a credibility signal for the deploy-inside-the-client's-own-systems technical approach, though it remains a $6M seed with no disclosed revenue." }
+    ],
+    thesis_fit: "Moderate — sits inside a real regulated-adjacent decision workflow (investment research and execution for asset managers) with a differentiated deploy-inside-your-stack technical approach rather than a hosted chat wrapper, but at seed stage with zero disclosed customers or AUM it's unproven, and 'agent harness for hedge funds' is closer to LinqAlpha's assistive-research wedge (already tracked, scored revisit) than a full regulated-decision-point product like Taktile.",
+    verdict: "revisit",
+    verdict_rationale: "Strong founder/investor pedigree and a genuinely different technical approach (in-house deployment vs. hosted SaaS), but a $6M seed with no disclosed traction and a positioning that overlaps with LinqAlpha (already scored revisit for a similar reason) — track into the next round rather than call watch on pedigree alone.",
+    last_updated: "2026-09-02"
   }
 ];

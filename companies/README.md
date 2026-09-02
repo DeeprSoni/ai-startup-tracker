@@ -1,4 +1,4 @@
-# Company Tracker — 45 companies
+# Company Tracker — 50 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -49,6 +49,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Arga Labs](https://www.argalabs.com) | Agent infrastructure — agent training/testing sandboxes (digital twins) | Seed | unconfirmed | n/a (no customers/usage disclosed at seed) | Watch — differentiated wedge not yet covered, strong engineering pedigree |
 | [AIsa](https://aisa.one) | AI-native fintech — agentic payments/machine-to-machine billing infra | Seed | unconfirmed | n/a (50K+ registered agents, no revenue disclosed) | Revisit — fast agent growth but sits between categories, thin founder record |
 | [Respan](https://www.respan.ai) | Agent infrastructure — observability/eval/gateway (converged control plane) | Seed | unconfirmed | n/a (1B+ logs/mo, 6.5M+ end users) | Revisit — real usage for a $5M seed, but crowded consolidating sub-category |
+| [Poetic](https://poetic.com) | Vertical SaaS AI-native — financial/insurance back-office automation | Series A | $500M (Jun 2026) | Eight-figure run rate, profitable in 2025 (4 people); named customers AIG, SoFi, Chime | Watch — named regulated-enterprise customers, OpenAI-backed, technically differentiated |
+| [Owner](https://www.owner.com) | Vertical SaaS AI-native — local business/restaurant operations | Series D | $2.3B (Aug 2026) | ~$81M ARR (2025, third-party estimate) | Watch — valuation doubled in ~15mo, already a bellwether-scale comp |
+| [Pace](https://withpace.com) | Vertical SaaS AI-native — insurance back-office operations | Series B | $375M (May 2026) | 250K+ workflows completed; customers incl. Prudential, WTW | Watch — best-evidenced insurance pick this week, distinct sub-niche from underwriting peers |
+| [AIUC](https://aiuc.com) | AI-native fintech — AI-agent risk underwriting/liability insurance | Seed | unconfirmed | $15M total raised; Beazley risk-capacity partner, ElevenLabs first bound policy | Revisit — credible team and real signal, but novel meta-category and no disclosed premium volume |
+| [Multiplier](https://www.multiplier.ai) | AI-native fintech — investment operations agent harness for asset managers | Seed | unconfirmed | n/a (no customers/AUM disclosed; Mercator Partners named) | Revisit — strong pedigree, too early, overlaps LinqAlpha's assistive-research wedge |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -102,6 +107,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Arga Labs — `rec:01M1HP9RFYF69NEH8FH1WRANWC`
 - AIsa — `rec:01M1HPA1WKJ0EPSB8EZV3VB211`
 - Respan — `rec:01M1HPA9Q24GJK1KD84AYHHVFG`
+- Poetic — `rec:01M1HPRC1535F5Z93D4X9R32J9`
+- Owner — `rec:01M1HPRMXVVHSHXP4PAMJM0J8B`
+- Pace — `rec:01M1HPRYW27BVFWPHH50Z1DMMJ`
+- AIUC — `rec:01M1HPS8ECEH4XT1T8TR6279DD`
+- Multiplier — `rec:01M1HPSJ8SJ1QTF165M76Y7Z0P`
 
 ## How to update a company over time
 
