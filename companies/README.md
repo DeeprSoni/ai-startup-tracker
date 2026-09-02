@@ -1,4 +1,4 @@
-# Company Tracker — 70 companies
+# Company Tracker — 75 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -74,6 +74,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Ivo](https://www.ivo.ai) | Vertical SaaS AI-native — legal (contract review/intelligence tool) | Series B | unconfirmed | $55M total Series B; ARR +500%, customers +134%, F500 adoption +250% (Jan 2026); named customers Uber, Shopify, Canva | Revisit — strong growth but an assistive point solution, weaker thesis-fit than full-workflow peers Harvey/Crosby |
 | [Catena Labs](https://catena.com) | AI-native fintech — agentic payments/AI-native banking infrastructure | Series A | unconfirmed | $48M total raised ($18M seed + $30M Series A, May 2026); filed for OCC national trust bank charter, pre-revenue | Watch — best-pedigreed team (Circle/USDC co-founder) and clearest regulatory moat in the least-crowded fintech sub-thread |
 | [Saris](https://saris.ai) | AI-native fintech — bank/credit-union lending back-office automation | Series A | unconfirmed | $28.8M Series A (May 2026); customers report 70% lending-task automation, 35% cost reduction, 2x+ output | Watch — concrete regulated-institution efficiency proof points, though boundary with vertical-SaaS back-office tooling is blurry |
+| [Structured AI](https://getstructured.ai) | Vertical SaaS AI-native — construction/AEC (QA/QC document intelligence) | Seed | unconfirmed | n/a ($5M total raised; 400+ issues detected in one case-study drawing set, no ARR disclosed) | Revisit — right "open window" vertical and a real 4-year design partner, but pre-revenue-disclosure at seed |
+| [WitnessAI](https://witness.ai) | Agent infrastructure — security/governance (guardrails) | Series B | unconfirmed | 500%+ ARR growth (trailing 12mo, Jan 2026); Fortune-scale customers across finance, utilities, autos, airlines | Watch — real production problem and strong ARR growth, but now the 3rd guardrails company logged (after Zenity, Onyx Security) |
+| [Hadrius](https://hadrius.com) | AI-native fintech — compliance/regulatory decisioning | Series A | unconfirmed | $27M total raised (Jul 2026); 500+ financial-institution customers, 95% false-positive reduction, 70% manual-work reduction | Watch — clearest fintech thesis-fit this week, dated efficiency metrics at a real regulated-decision point |
+| [Runable](https://runable.com) | Agent infrastructure — horizontal agent platform (SMB software + growth ops) | Series A | $65M (Aug 2026) | $2M ARR in 3 weeks, 1.5M users (Aug 2026, company-reported) | Pass — generic horizontal "do everything" agent builder, same overhyped pattern as 8090/Wonderful |
+| [Alan](https://alan.com) | Vertical SaaS AI-native — healthcare/health insurance (full-stack AI-native carrier) | Growth (Series G) | $6.3B (Jun 2026) | €800M+ ARR, +53% YoY (Q1 2026); 1.1M+ members | Pass — important scale/valuation comp, but reads as an incumbent insurer with an AI feature layer, not an AI-native architecture edge |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -152,6 +157,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Ivo — `rec:01M1HRSQ9SW0Y066XXRVTH8XQ9`
 - Catena Labs — `rec:01M1HRSZHET38DGDGJSV2R9T15`
 - Saris — `rec:01M1HRT81VACWRS6AKEG7ZP6K5`
+- Structured AI — `rec:01M1HSC66VX83PYT9F70DMV13C`
+- WitnessAI — `rec:01M1HSCDW8RSJVW2RK4Z4N5Z5N`
+- Hadrius — `rec:01M1HSCPECSQYB5SPPXRM5JN69`
+- Runable — `rec:01M1HSCXGHR0A7SE06EVW1Q701`
+- Alan — `rec:01M1HSD6CRBCJ09SCZYW7GDRQV`
 
 ## How to update a company over time
 

@@ -1866,5 +1866,138 @@ window.COMPANIES = [
     verdict: "watch",
     verdict_rationale: "Concrete, named efficiency metrics (70% task automation, 35% cost reduction, doubled output) at real regulated financial institutions are exactly the kind of proof point theses.md wants, and the 8VC-led round plus integration-partner strategy (Fiserv, Encompass, MeridianLink) suggest a credible distribution plan. Categorized as fintech given its direct role in lending workflow, but the boundary with vertical-SaaS back-office tooling is genuinely blurry — revisit how autonomous vs. assistive the actual lending decisions are as more detail emerges.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "structured-ai",
+    name: "Structured AI",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction / AEC — QA/QC document intelligence",
+    stage: "Seed",
+    website: "https://getstructured.ai",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/company/getstructured-ai" },
+    founding_team: "Raymond Zhao (CEO) — left Goldman Sachs to found the company, Oxford Maths & Stats background; Rahul Thayil (CTO) — previously built Orion, an AI threat-intelligence platform. YC F25 batch.",
+    product_wedge: "Proprietary computer-vision/OCR agents that read building codes, standards, and drawings to run QA/QC checks on MEP (mechanical/electrical/plumbing) coordination documents inside the tools engineers already use (Revit, Word, Excel, SharePoint) — targeting construction, a vertical theses.md flags as an 'open window' relative to crowded legal/healthcare.",
+    funding_history: [
+      { date: "2025 (approx.)", event: "Pre-seed", valuation: null, lead: "unconfirmed", other_investors: "~$1M raised" },
+      { date: "2026-06-11", event: "$4.2M Seed", valuation: null, lead: "FCVC", other_investors: "Y Combinator, 20VC, Cherry Ventures, Zero Prime Ventures, Transpose Platform, Sequoia Scout Fund" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "case-study result", value: "400+ MEP coordination issues detected in a single 1,000-page drawing set before reaching the jobsite (Syska Hennessy Group case study)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "4-year co-development partnership with Syska Hennessy Group (MEP engineering firm) gave the startup direct access to real engineering workflows pre-launch — a credibility template for slow-to-adopt verticals." }
+    ],
+    thesis_fit: "Medium-high — proprietary computer-vision access to a specific document workflow (MEP QA/QC) in an underexplored, non-crowded vertical (construction), with a real multi-year design partner; but total funding is still only $5M and no ARR or customer count beyond the one named partner is disclosed.",
+    verdict: "revisit",
+    verdict_rationale: "Same pattern as Build and Brickanta logged earlier: right vertical (construction, an 'open window' per thesis), credible technical wedge and an unusually deep (4-year) design partnership, but still pre-revenue-disclosure at a $4.2M seed with a single named customer — too early to score watch until a paying-customer count or ARR shows up.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "witnessai",
+    name: "WitnessAI",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Security / governance (guardrails)",
+    stage: "Series B",
+    website: "https://witness.ai",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/company/witnessai" },
+    founding_team: "Rick Caccia (CEO, co-founder) — ex-Palo Alto Networks, Google, ArcSight, Symantec; co-founded with Gil Spencer and Roger Thornton in 2023.",
+    product_wedge: "Single control plane ('Agentic Control') that intercepts traffic between users/agents and LLMs to discover, monitor, govern, and restrict agent behavior at runtime — blocking prompt injection, data leakage, and policy violations across an enterprise's AI estate, not just a single model or app.",
+    funding_history: [
+      { date: "2024 (approx.)", event: "Seed/launch funding", valuation: null, lead: "unconfirmed", other_investors: "$27.5M raised at launch" },
+      { date: "2026-01-13", event: "$58M raised (Series B)", valuation: null, lead: "Sound Ventures", other_investors: "Fin Capital, Qualcomm Ventures, Samsung Ventures, Forgepoint Capital Partners" }
+    ],
+    disclosed_traction: [
+      { date: "2026-01", metric: "ARR growth", value: "500%+ ARR growth in the trailing 12 months" },
+      { date: "2026-01", metric: "headcount growth", value: "5x headcount growth in the trailing 12 months" }
+    ],
+    qualitative_signal: [
+      { date: "2026-01", note: "Customers described as among the largest publicly-held enterprises across financial services, utilities, automakers, airlines, retailers, and telcos (names not disclosed)." }
+    ],
+    thesis_fit: "High — solves a named, concrete production failure mode (ungoverned agent/LLM traffic) with runtime enforcement, not just dashboards; strong disclosed ARR growth and enterprise-scale customer profile.",
+    verdict: "watch",
+    verdict_rationale: "500%+ ARR growth and a credible enterprise customer base back up a real production problem, but this is now the third agent-guardrails company logged (after Zenity and Onyx Security) — worth tracking as a comp set for how this specific sub-category consolidates rather than assuming all three survive independently.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "hadrius",
+    name: "Hadrius",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Compliance / regulatory decisioning (financial services)",
+    stage: "Series A",
+    website: "https://hadrius.com",
+    socials: { twitter: "https://x.com/hadriuscomply", linkedin: "https://www.linkedin.com/company/hadrius" },
+    founding_team: "Thomas Stewart (CEO, co-founder), Allen Calderwood (CTO, co-founder), Som Mohapatra (COO, co-founder) — YC W23 batch.",
+    product_wedge: "AI-native compliance system of record for broker-dealers and RIAs — consolidates marketing review, communications/trade surveillance, and code-of-ethics monitoring into one AI-driven workflow that flags and clears violations directly, rather than a dashboard that assists a human reviewer.",
+    funding_history: [
+      { date: "2023 (approx.)", event: "Seed (YC W23)", valuation: null, lead: "unconfirmed" },
+      { date: "2026-07-16", event: "$27M raised (seed + Series A combined, per company); Series A tranche reported at $22M", valuation: null, lead: "CRV", other_investors: "Y Combinator, Pathlight Ventures, founders of Altruist, Jump AI, FINNY" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "customers", value: "500+ financial institutions and investment firms run compliance programs on Hadrius" },
+      { date: "2026-07", metric: "false-positive reduction", value: "95% reduction in compliance false positives (customer-reported)" },
+      { date: "2026-07", metric: "manual work reduction", value: "70% reduction in manual compliance work; 20+ hours/week saved" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07", note: "Positioning shift from point compliance tool to 'AI-native system of record' for the full compliance lifecycle — a platform ambition beyond the original marketing-review wedge." }
+    ],
+    thesis_fit: "High — AI sits directly at a regulated decision point (compliance surveillance and clearance) at real broker-dealers/RIAs, not a chat layer; disclosed customer count (500+) and efficiency metrics are dated and concrete.",
+    verdict: "watch",
+    verdict_rationale: "Clearest fintech thesis-fit sourced this week alongside Saris — real regulated-decision-point automation, a large disclosed customer base for its stage, and dated, specific efficiency claims (95% false-positive reduction, 70% manual-work reduction) rather than vague marketing language.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "runable",
+    name: "Runable",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Horizontal agent platform (SMB software + growth operations)",
+    stage: "Series A",
+    website: "https://runable.com",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Umesh Kumar (CEO) and Saksham Sarda (co-founder) — started in 2025 as a browser-automation/web-scraping infra company before pivoting to the current product; Bengaluru-based, ~15-person team.",
+    product_wedge: "Single AI agent that both builds software (websites, apps, internal tools, decks) for small businesses and runs growth operations on top of it — ad campaigns across Meta/Google/LinkedIn/TikTok, SEO/AEO, social content, cold outreach — aimed at two-person SMB teams (agencies, consultancies, service businesses).",
+    funding_history: [
+      { date: "2026-08-26", event: "$21M Series A", valuation: 65, lead: "Susquehanna Venture Capital, Nexus Venture Partners (co-led)", other_investors: "Together Fund, Array VC" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "ARR", value: "$2M ARR within 3 weeks of launch (company-reported)" },
+      { date: "2026-08", metric: "users", value: "1.5M registered users, mostly 2-person SMB teams across the US, UK, Japan, and Brazil" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08", note: "Explicitly competing against Anthropic, OpenAI, Cursor, Lovable, and Replit in an increasingly crowded generic AI-builder space." }
+    ],
+    thesis_fit: "Low — this is exactly the 'generic agent builder, no opinion on a specific failure mode' pattern theses.md flags as overhyped: horizontal, not solving one named production problem, competing on breadth and UI polish against much better-capitalized labs and coding platforms.",
+    verdict: "pass",
+    verdict_rationale: "Real early revenue and user numbers, but the product is a horizontal 'do everything for my small business' agent rather than infrastructure solving a specific durable-execution/eval/gateway problem — the same overhyped pattern already passed on with 8090 and Wonderful, and it's entering a field with far deeper-pocketed competitors (Anthropic, OpenAI, Lovable, Replit).",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "alan",
+    name: "Alan",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Healthcare / health insurance (full-stack AI-native carrier)",
+    stage: "Growth (Series G)",
+    website: "https://alan.com",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/company/alan-france" },
+    founding_team: "Jean-Charles Samuelian-Werve (CEO, co-founder) — previously co-founded Expliseat (aircraft seating) and was an early co-founder involved with Mistral AI; company founded 2016. LinkedIn for Samuelian-Werve unconfirmed (multiple mismatched profiles found in search).",
+    product_wedge: "Full-stack European health insurer ('prevention insurance') combining health coverage, care navigation, and an AI-powered health assistant in one platform, positioned to keep members healthy rather than only pay claims after the fact — takes on insurance risk directly rather than selling software to incumbent insurers.",
+    funding_history: [
+      { date: "2026-06-25", event: "€480M raised (~$550M), Series G", valuation: 6300, lead: "Prosus", other_investors: "Teachers' Venture Growth, Index Ventures, Dara Holdings" }
+    ],
+    disclosed_traction: [
+      { date: "2026-Q1", metric: "ARR", value: "€800M+ ARR, +53% YoY" },
+      { date: "2026-Q1", metric: "members", value: "1.1M+ members across France, Spain, Belgium, Canada; 37,000+ business customers; profitable in France" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Framing shift from 'health insurer' to 'prevention insurance' / AI health assistant platform as the core growth narrative for the new raise." }
+    ],
+    thesis_fit: "Low-medium — the AI health assistant and prevention-navigation layer is a real product surface, but Alan is fundamentally a licensed insurance carrier bearing risk directly (like Corgi Insurance, logged earlier as a weaker fintech-thesis fit for the same reason) rather than an AI-native software vendor with a technical moat; disclosed materials emphasize the insurance/prevention business model far more than any specific AI-native architecture advantage over incumbents.",
+    verdict: "pass",
+    verdict_rationale: "Alan is an important comp to track as Europe's health-insurance-AI bellwether (€6.3B valuation, €800M+ ARR, profitable), but at this scale and with 'AI-native' reading more like a feature layer on a decade-old insurance business than the from-inception architecture edge theses.md is looking for, it doesn't fit the tracker's ground-floor/thesis-fit mandate — logging it mainly as a scale/valuation reference point, not a pick.",
+    last_updated: "2026-09-02"
   }
 ];
