@@ -1,4 +1,4 @@
-# Company Tracker — 25 companies
+# Company Tracker — 30 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -29,6 +29,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Nava](https://navalabs.ai) | Agent infrastructure — guardrails/escrow for autonomous financial agents | Seed | unconfirmed | n/a (pre-revenue; peer-reviewed verification framework, NDSS 2026) | Revisit — real tech differentiation, but crypto-native wedge sits between categories |
 | [8090](https://www.8090.ai) | Agent infrastructure — horizontal agent-orchestrated software development | Series A | unconfirmed | n/a (named case studies: Medicare claims code, BISSELL parts approval) | Pass — generic "build software with agents" platform, weak thesis fit despite large round |
 | [Manifest OS](https://manifestos.com) | Vertical SaaS AI-native — legal (AI-native law firm model) | Series A | $750M (Apr 2026) | n/a (no client/case volume disclosed) | Revisit — differentiated own-the-firm model, but crowded vertical and no disclosed traction |
+| [InRisk Labs](https://inrisklabs.com) | Vertical SaaS AI-native — insurance (parametric/reinsurance) | Series A | unconfirmed | n/a (no ARR/policy count disclosed; EarthRe is first licensed reinsurer at GIFT City) | Watch — real regulatory moat, credible lead investor (Bessemer) |
+| [Rezolv](https://www.rezolv.com) | AI-native fintech — lending/debt-collection | Series A | unconfirmed | $16M total raised; 22+ banks/NBFCs, 12M+ loan accounts | Watch — repeat founders, real regulated-lender production usage |
+| [Apate.AI](https://www.apate.ai) | AI-native fintech — fraud counter-intelligence | Seed | unconfirmed | n/a (2.5M+ conversations, 250K+ intel pieces; customer Commonwealth Bank of Australia) | Watch — freshest, best-evidenced signal this week |
+| [Arcade](https://www.arcade.dev) | Agent infrastructure — authorization/identity governance | Series A | unconfirmed | $72M total raised; runs in production across the Fortune 500 (no count disclosed) | Watch — differentiated auth-layer wedge, strategic backing (Morgan Stanley, Wipro) |
+| [Patronus AI](https://www.patronus.ai) | Agent infrastructure — observability/evaluation (agent simulation) | Series B | unconfirmed | $70M total raised; 15x+ revenue growth (trailing year) | Watch — fastest growth this batch, simulation-based eval wedge |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -62,6 +67,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Nava — `rec:01M1HM8DCPWQF75XVDMEEHYBQY`
 - 8090 — `rec:01M1HM8RA9G5DBNKJXSJ48T1FA`
 - Manifest OS — `rec:01M1HM90KGSH6JE8NFCCFFNCR5`
+- InRisk Labs — `rec:01M1HMRS5EYEA6R5DCT42R4406`
+- Rezolv — `rec:01M1HMS2THQ4ZQSDZKQST2ZNXC`
+- Apate.AI — `rec:01M1HMSBT9XR15HSBD013BC1GX`
+- Arcade — `rec:01M1HMSMXW6CWNYERWW4BVGKYW`
+- Patronus AI — `rec:01M1HMSY7YF1SDS61C5S53RRFJ`
 
 ## How to update a company over time
 

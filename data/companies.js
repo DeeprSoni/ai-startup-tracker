@@ -657,5 +657,139 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "The business-model differentiation (operating AI-native law firms rather than selling to incumbents) is the kind of real structural wedge theses.md rewards, and the investor syndicate (Menlo, Kleiner, First Round) is credible — but crowded-vertical risk plus zero disclosed client/revenue traction and added regulatory complexity make this a name to revisit once Manifest Law reports real case volume, not a watch yet.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "inrisk-labs",
+    name: "InRisk Labs",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (parametric climate insurance / reinsurance underwriting)",
+    stage: "Series A",
+    website: "https://inrisklabs.com",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Aavrit Singhal, Siddesh Ramasubramanian (CEO), Shivakhumar R S, and Malay Kumar Poddar (CEO of subsidiary EarthRe) — co-founders; founded 2024, Ahmedabad, India. Company socials unconfirmed — not guessing rather than listing an unverified handle.",
+    product_wedge: "AI-led parametric climate insurance and reinsurance platform — builds underwriting, actuarial, and catastrophe-modeling AI to design and price parametric products, then runs the backend (data, monitoring, claims triggering) for insurers and intermediaries; subsidiary EarthRe Insurance IFSC is the first incorporated reinsurer licensed at India's GIFT City IFSC.",
+    funding_history: [
+      { date: "2026-08-05", event: "$27M Series A", valuation: null, lead: "Bessemer Venture Partners, Northpoint Capital (co-led)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "regulatory milestone", value: "Subsidiary EarthRe Insurance IFSC Limited became the first incorporated reinsurer licensed by India's IFSCA at GIFT City — no ARR or policy-count figure disclosed" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08", note: "Funds earmarked to expand into natural catastrophe/climate risk plus marine cargo and motor insurance, and to meet regulatory capital requirements for scaling EarthRe — a genuine regulated-carrier build-out, not just a software layer." }
+    ],
+    thesis_fit: "High — insurance is one of the vertical SaaS 'open window' categories theses.md flags, and the wedge (proprietary underwriting/actuarial/cat-modeling AI feeding a licensed reinsurer, not a copilot sold to existing insurers) fits the 'own the workflow, own the data' pattern the thesis rewards; regulatory moat (first licensed reinsurer at GIFT City) is a real, hard-to-replicate barrier.",
+    verdict: "watch",
+    verdict_rationale: "Real regulatory moat (first licensed reinsurer at GIFT City) plus a credible top-tier lead investor (Bessemer) distinguish this from a typical insurtech SaaS pitch — climate/parametric insurance is a genuinely underserved, technically hard niche; no disclosed ARR or policy volume yet is the one gap to watch closing at the next round.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "rezolv",
+    name: "Rezolv",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Lending / debt-collection infrastructure",
+    stage: "Series A",
+    website: "https://www.rezolv.com",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Karan Mehta and Sonali Jindal — co-founders; both previously founded Indian digital-lending platform Kissht together. Founded 2024, Mumbai, India. Company socials unconfirmed — not guessing rather than listing an unverified handle (only a personal founder LinkedIn profile was found).",
+    product_wedge: "AI-native lending suite for banks and NBFCs spanning sales, risk, underwriting, and collections — AI voice agents call borrowers in 11 Indian languages, digital channels follow up, field-collection teams are auto-allocated, and supervisors see every interaction on one dashboard; positioned as embedded AI infrastructure for regulated lenders rather than a chat layer on top of existing loan-management software.",
+    funding_history: [
+      { date: "2025-01 (approx.)", event: "$3.5M Seed", valuation: null, lead: "3one4 Capital" },
+      { date: "2026-08-18", event: "$12.5M Series A", valuation: null, lead: "Norwest", other_investors: "Vertex Ventures Southeast Asia and India, 3one4 Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "total raised", value: "$16M across all rounds" },
+      { date: "2026-08", metric: "customers", value: "22+ banks/NBFCs incl. AU Small Finance Bank, ICICI Bank, Poonawalla Fincorp, Bajaj Auto Credit, Five-Star Business Finance" },
+      { date: "2026-08", metric: "scale", value: "6.5M minutes of borrower conversations per month; pan-India collections across 12M+ loan accounts; company-disclosed 35% improvement in bounce/resolution rates" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08", note: "Repeat-founder pattern (both built Kissht together before Rezolv) selling directly into name-brand regulated lenders (ICICI Bank) — a credible distribution signal for a regulated-decision-point product." }
+    ],
+    thesis_fit: "High — AI sits directly inside the regulated lending workflow (risk, underwriting, collections) at real banks/NBFCs, the exact wedge theses.md defines as winning; disclosed usage (12M+ loan accounts, 22+ institutional customers) is real production scale, not a pilot.",
+    verdict: "watch",
+    verdict_rationale: "Credible repeat founders, real named bank customers, and disclosed production-scale usage (12M+ loan accounts) at Series A make this one of the stronger fintech thesis-fits sourced this year — collections/underwriting automation for regulated lenders is a genuine regulated-decision-point wedge, not a thin chat layer.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "apate-ai",
+    name: "Apate.AI",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Fraud counter-intelligence / scam disruption",
+    stage: "Seed",
+    website: "https://www.apate.ai",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Prof. Dali Kaafar (CEO) and Peter Eckermann (Co-founder, Chief Product Officer) — co-founders; Sydney, Australia-based, reincorporated as a Delaware corporation effective 2026-08-25 ahead of US expansion. Company socials unconfirmed — not guessing rather than listing an unverified handle.",
+    product_wedge: "Autonomous fraud counter-intelligence platform — deploys AI voice and text personas (~200,000 to date) that impersonate potential victims to infiltrate live scam operations, engaging fraudsters in conversations up to two hours long to extract impersonation methods, phishing links, and mule-account intelligence, which is fed back into customers' fraud-disruption processes in near real time rather than after losses occur.",
+    funding_history: [
+      { date: "2026-09-01", event: "$8.15M Seed (oversubscribed)", valuation: null, lead: "Lobby Capital", other_investors: "OIF Ventures, Investible, Concept Ventures, Baobab Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2025 (six-week campaign, ending late 2025)", metric: "deployment with Australian telco TPG", value: "600,000 scam calls engaged in six weeks — equivalent to 500+ days of scammer time consumed and an estimated $13M in prevented losses (company-disclosed)" },
+      { date: "2026-09", metric: "cumulative scale", value: "2.5M+ autonomous conversations with threat actors; 250,000+ pieces of intelligence generated; live with institutional clients including Commonwealth Bank of Australia" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08/09", note: "Reincorporated in Delaware and opening a London office next quarter, with a co-founder relocating to lead North American expansion — real signal of moving from an Australia-first pilot company toward global bank/telco distribution." }
+    ],
+    thesis_fit: "High — AI sits at a regulated, high-stakes decision point (active fraud disruption) inside a real bank (Commonwealth Bank of Australia) and a major telco, with disclosed, dated, quantified production usage rather than a demo; distinct wedge (active deception/counter-intelligence) from the passive AML/KYC monitoring pattern of Bretton AI, already tracked.",
+    verdict: "watch",
+    verdict_rationale: "Rare combination for a seed-stage fintech-adjacent company: real named regulated-institution customers (CBA), a large disclosed usage number (2.5M+ conversations) from actual production deployments, and a genuinely differentiated wedge (offensive counter-intelligence vs. passive monitoring) — the freshest, best-evidenced signal sourced this week.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "arcade",
+    name: "Arcade",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Authorization / identity & action governance",
+    stage: "Series A",
+    website: "https://www.arcade.dev",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Alex Salazar (CEO, ex-Okta VP, co-founder of Stormpath) and Sam Partee (CTO, ex-Principal AI Engineer at Redis) — co-founders; founded February 2024, San Francisco. Company socials unconfirmed — not guessing rather than listing an unverified handle.",
+    product_wedge: "'Secure action layer' for production AI agents — authorization infrastructure that ensures an agent only gets the access its user has, only for the specific action being taken, plus hundreds of pre-built authenticated tools (Gmail, Slack, GitHub, Salesforce, etc.) and a full governance audit trail; authored the MCP authorization spec and runs agent actions in production across the Fortune 500.",
+    funding_history: [
+      { date: "2025-03", event: "$12M Seed", valuation: null, lead: "Laude Ventures", other_investors: "Flybridge Ventures, Hanabi Capital, Neotribe, Andy Rachleff" },
+      { date: "2026-06-15", event: "$60M Series A", valuation: null, lead: "SYN Ventures", other_investors: "Morgan Stanley (strategic), Wipro (strategic)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "total raised", value: "$72M across all rounds; company states it runs agent actions in production across the Fortune 500 — no customer count or revenue figure disclosed" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Authored the MCP authorization spec, positioning the company as setting a technical standard rather than just shipping a product — combined with strategic capital from Morgan Stanley and Wipro (both enterprise distribution/credibility signals), this looks like the identity/auth-layer counterpart to Zenity's intent-inspection guardrails, already tracked." }
+    ],
+    thesis_fit: "High — authorization/identity for agent actions is a concrete, named production failure mode theses.md rewards (agents need permissioned, auditable access to act, not just chat), attacking a different point in the guardrails stack than Zenity (real-time intent inspection) or Nava (escrow/verification) — genuine 'systems software for a new runtime' framing with a founding team that built infra standards before (Okta, Redis).",
+    verdict: "watch",
+    verdict_rationale: "Strong technical credibility (MCP auth spec authorship, ex-Okta/Redis founders) and a fast, large Series A with strategic enterprise backers (Morgan Stanley, Wipro) — differentiated enough from Zenity and Nava to track as a separate agent-infra guardrails sub-niche (authorization specifically) rather than a redundant pick; no disclosed revenue or customer count is the gap to watch.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "patronus-ai",
+    name: "Patronus AI",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Observability / evaluation (agent simulation & stress-testing)",
+    stage: "Series B",
+    website: "https://www.patronus.ai",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Anand Kannappan (CEO) and Rebecca Qian (CTO) — co-founders; met studying computer science together at the University of Chicago, later worked on responsible AI at Meta (Qian led responsible NLP research at Meta AI; Kannappan built explainable-ML frameworks at Meta Reality Labs). Founded September 2023, San Francisco. Company socials unconfirmed — not guessing rather than listing an unverified handle.",
+    product_wedge: "AI evaluation and agent-simulation platform — moved from LLM-output scoring into 'Digital World Models,' simulated environments used to stress-test AI agents before production deployment, catching failure modes that static evals miss; works directly with a majority of frontier AI labs and hyperscalers, not just downstream enterprise app builders.",
+    funding_history: [
+      { date: "2023-09", event: "Launched out of stealth", valuation: null, lead: "unconfirmed" },
+      { date: "2024 (approx.)", event: "$17M Series A", valuation: null, lead: "unconfirmed" },
+      { date: "2026-06-25", event: "$50M Series B", valuation: null, lead: "Greenfield Partners", other_investors: "Notable Capital, Lightspeed Venture Partners, Datadog, Samsung, Factorial Capital, Gokul Rajaram" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "total raised", value: "$70M across all rounds" },
+      { date: "2026-06", metric: "revenue growth", value: "15x+ revenue growth over the trailing year (company-disclosed)" },
+      { date: "2026-06", metric: "customers", value: "Works with the majority of leading frontier AI labs and hyperscalers (no specific names or ARR disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Strategic investment from Datadog again appears in this tracker's agent-infra observability names (also backed Arize) — a repeated signal that incumbent observability players are hedging via strategic checks rather than building competing agent-eval product in-house." }
+    ],
+    thesis_fit: "High — evaluation is one of the two sub-categories theses.md names as most likely to matter in three years; the simulation/'digital world' angle is a distinct technical wedge from trace-and-score tools like Braintrust and Arize, already tracked, and selling directly to frontier labs is a strong technical-credibility signal.",
+    verdict: "watch",
+    verdict_rationale: "Fastest disclosed growth metric of this week's batch (15x+ revenue in a year) plus direct relationships with frontier labs differentiate this from the trace/log-based eval tools already tracked (Braintrust, Arize) — the sub-category is real and theses.md flags it as durable, though this is now the third eval-adjacent name in this tracker, worth watching for consolidation risk same as the Braintrust/Arize pair.",
+    last_updated: "2026-09-02"
   }
 ];
