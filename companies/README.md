@@ -1,4 +1,4 @@
-# Company Tracker — 50 companies
+# Company Tracker — 55 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -54,6 +54,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Pace](https://withpace.com) | Vertical SaaS AI-native — insurance back-office operations | Series B | $375M (May 2026) | 250K+ workflows completed; customers incl. Prudential, WTW | Watch — best-evidenced insurance pick this week, distinct sub-niche from underwriting peers |
 | [AIUC](https://aiuc.com) | AI-native fintech — AI-agent risk underwriting/liability insurance | Seed | unconfirmed | $15M total raised; Beazley risk-capacity partner, ElevenLabs first bound policy | Revisit — credible team and real signal, but novel meta-category and no disclosed premium volume |
 | [Multiplier](https://www.multiplier.ai) | AI-native fintech — investment operations agent harness for asset managers | Seed | unconfirmed | n/a (no customers/AUM disclosed; Mercator Partners named) | Revisit — strong pedigree, too early, overlaps LinqAlpha's assistive-research wedge |
+| [Temporal](https://temporal.io) | Agent infrastructure — durable execution/orchestration | Series D | $5B (Feb 2026) | 380%+ YoY revenue growth; 20M+ installs/mo | Watch — category-defining durable-execution incumbent, bellwether not ground-floor |
+| [Wonderful](https://www.wonderful.ai) | Agent infrastructure — horizontal enterprise agent deployment platform | Series B | $2B (Mar 2026) | n/a (30+ countries, 350→900 headcount) | Pass — generic platform, breadth/consulting-led growth not a technical wedge |
+| [Axle](https://www.axle.insure) | Vertical SaaS AI-native — insurance (AI-native clearinghouse) | Series A | unconfirmed | $100B+ coverage cleared/yr; Fortune 500 customers (Rocket Mortgage, Avis) | Watch — best-evidenced pick this week, real scale in an underexplored insurance niche |
+| [Assort Health](https://www.assorthealth.com) | Vertical SaaS AI-native — healthcare (patient-access voice agents) | Series C | $1.2B (Jun 2026) | n/a (190M-interaction proprietary dataset; 1,000+ provider sites) | Watch — unicorn scale and real data moat, but crowded/richly-valued vertical |
+| [Nekuda](https://nekuda.ai) | AI-native fintech — agentic payments (identity/mandates) | Seed | unconfirmed | n/a (no transaction volume/customers disclosed) | Revisit — strong Visa/Amex strategic signal, too early, crowded sub-thread |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -112,6 +117,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Pace — `rec:01M1HPRYW27BVFWPHH50Z1DMMJ`
 - AIUC — `rec:01M1HPS8ECEH4XT1T8TR6279DD`
 - Multiplier — `rec:01M1HPSJ8SJ1QTF165M76Y7Z0P`
+- Temporal — `rec:01M1HQ71TAQA43CX5ZSAPN597H`
+- Wonderful — `rec:01M1HQ79FKWZX3TPSCWAVA37BX`
+- Axle — `rec:01M1HQ7JNA2SKCF1DBZ74GB2J6`
+- Assort Health — `rec:01M1HQ7TA3G77F5VZHQJBERQHX`
+- Nekuda — `rec:01M1HQ8252T321V2GRP9453ZX0`
 
 ## How to update a company over time
 

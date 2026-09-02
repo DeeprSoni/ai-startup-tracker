@@ -1327,5 +1327,137 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Strong founder/investor pedigree and a genuinely different technical approach (in-house deployment vs. hosted SaaS), but a $6M seed with no disclosed traction and a positioning that overlaps with LinqAlpha (already scored revisit for a similar reason) — track into the next round rather than call watch on pedigree alone.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "temporal",
+    name: "Temporal",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Durable execution / orchestration",
+    stage: "Series D",
+    website: "https://temporal.io",
+    socials: { twitter: "https://x.com/temporalio", linkedin: "https://www.linkedin.com/company/temporal-technologies" },
+    founding_team: "Maxim Fateev (CEO) and Samar Abbas (CTO), co-founders — both spent ~20 years in distributed systems at AWS, Microsoft and Uber; Fateev led development of what became Amazon SQS, and the pair co-created Amazon Simple Workflow Service before founding Temporal in 2019 as an open-source durable-execution engine.",
+    product_wedge: "Open-source durable execution system that keeps long-running, stateful workflows (and now agent runs) fault-tolerant across retries, failures and human-in-the-loop pauses — the exact 'durable state across long-running agent workflows' wedge theses.md names as the highest-conviction agent-infra sub-category; production users include Datadog, Netflix, Indeed, Snap, Remitly and Yum! Brands.",
+    funding_history: [
+      { date: "2026-02-17", event: "$300M Series D", valuation: 5000, lead: "a16z", other_investors: "Lightspeed Venture Partners, Sapphire Ventures, Sequoia Capital, Index Ventures, Tiger Global, GIC, Madrona, Amplify Partners" }
+    ],
+    disclosed_traction: [
+      { date: "2026-02", metric: "revenue growth", value: "380%+ YoY revenue growth" },
+      { date: "2026-02", metric: "usage", value: "350% YoY increase in weekly active usage; installs exceed 20M/month; 9.1 trillion lifetime action executions on Temporal Cloud" }
+    ],
+    qualitative_signal: [
+      { date: "2026-02", note: "Unveiled 'serverless durable execution' at its Replay 2026 conference, explicitly reframing the product around agentic AI reliability rather than generic microservices orchestration." }
+    ],
+    thesis_fit: "High — durable execution is the sub-category theses.md names as most likely to matter in 3 years, and Temporal is the category-defining, decade-hardened incumbent now explicitly repositioning around agent workloads.",
+    verdict: "watch",
+    verdict_rationale: "The clearest real-world validation of the durable-execution wedge — 380%+ YoY revenue growth and 20M+ monthly installs prove the problem is real and Temporal already owns it — but at a $5B valuation with elite distribution already built, it's a bellwether to track (like Harvey/Sierra) rather than a ground-floor pick.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "wonderful",
+    name: "Wonderful",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Horizontal enterprise agent deployment platform",
+    stage: "Series B",
+    website: "https://www.wonderful.ai",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/company/wonderful-ai" },
+    founding_team: "Bar Winkler (CEO) — co-founded Approve.com (acquired by Tipalti), financial-automation background; Roey Lalazar (CTO) — co-founded Kaps, AI language-localization background. Founded Amsterdam, emerged from stealth mid-2025.",
+    product_wedge: "Combines a multi-model AI platform with locally embedded, forward-deployed teams to help large enterprises stand up production AI agents across customer, employee and back-office workflows in 30+ countries — a breadth/localization-first go-to-market rather than a named technical wedge.",
+    funding_history: [
+      { date: "2025-Q3", event: "$34M Seed (emerged from stealth)", valuation: null, lead: "Index Ventures" },
+      { date: "2025-11", event: "$100M Series A", valuation: null, lead: "Index Ventures" },
+      { date: "2026-03-12", event: "$150M Series B", valuation: 2000, lead: "Insight Partners", other_investors: "Index Ventures, IVP, Bessemer Venture Partners, Vine Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "footprint", value: "Live in 30+ countries; scaling headcount from 350 to ~900 by year-end 2026" },
+      { date: "2026-03", metric: "total raised", value: "$286M across Seed/Series A/B in under a year from stealth" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Announced a partnership with McKinsey & Company and QuantumBlack pairing Wonderful's platform with McKinsey's transformation consulting and forward-deployed engineers — a services-led distribution motion, not developer-led adoption." }
+    ],
+    thesis_fit: "Low — a horizontal 'multi-model AI platform + local deployment teams' story with no named production failure mode solved; growth narrative is headcount/geography expansion and a McKinsey consulting partnership, not a durable-state, evaluation, or cost-control wedge.",
+    verdict: "pass",
+    verdict_rationale: "Real capital and fast scaling, but this matches theses.md's explicit 'what's overhyped' pattern almost exactly — a broad enterprise AI-agent platform competing on deployment breadth and consulting-style delivery rather than solving one gnarly production problem; logged mainly as a marker of how much capital a well-marketed horizontal platform can still raise in this market.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "axle",
+    name: "Axle",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (AI-native clearinghouse / verification infra)",
+    stage: "Series A",
+    website: "https://www.axle.insure",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Cameron Duncan (CEO), Armaan Sikand (COO) and Nihar Parikh (CTO) — Emory University friends who encountered fragmented insurance-verification systems while working on automotive/mortgage products at Deloitte Digital and Cox Automotive (Duncan was later Head of Product at Clutch, acquired by Cox Automotive). Team includes a former founding Plaid growth lead and former heads of risk/insurance at DoorDash and Sixt.",
+    product_wedge: "AI-native clearinghouse that programmatically connects insurance carriers to the businesses that need to verify or act on coverage (auto dealers, rental companies, mortgage and auto lenders, employers) — replacing manual, fragmented insurance-verification workflows with automated clearing, described as making insurance 'programmable.'",
+    funding_history: [
+      { date: "2026-08-13", event: "$17.5M Series A", valuation: null, lead: "Base10 Partners", other_investors: "Y Combinator, Gradient, Stage 2 Capital; angels incl. Cover Genius founders and early Plaid team members" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "annual coverage cleared", value: "$100B+ cleared annually across 4,000+ customers incl. Fortune 500 logos Rocket Mortgage, Avis, Experian and Sonic Automotive" },
+      { date: "2026-08", metric: "growth", value: "Tripled automated workflows in the trailing 6 months; workflows sped up 20x vs. manual process, recovering 'hundreds of millions' in losses for customers (exact figure not disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08", note: "Plans to expand from its initial 5 insurance markets to 50+ segments (home, motor, renters, commercial, specialty)." }
+    ],
+    thesis_fit: "High — an AI-native clearinghouse sitting inside a fragmented, data-locked insurance-verification workflow that a horizontal platform can't easily replicate; real evidence of autonomous execution (automated clearing, loss recovery, 20x workflow speedup) at meaningful scale with blue-chip Fortune 500 logos.",
+    verdict: "watch",
+    verdict_rationale: "Best-evidenced pick this batch — $100B+ in coverage cleared annually and a Fortune 500 customer roster is real, dated, verifiable traction at Series A, in an insurance-infrastructure niche theses.md specifically flags as an 'open window' relative to already-crowded legal and healthcare.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "assort-health",
+    name: "Assort Health",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Healthcare (patient-access / call-center voice agents)",
+    stage: "Series C",
+    website: "https://www.assorthealth.com",
+    socials: { twitter: "https://x.com/assort_health", linkedin: "https://www.linkedin.com/company/assorthealth" },
+    founding_team: "Jonathan Wang and Jeffery Liu, co-founders; company founded 2023, based in San Francisco.",
+    product_wedge: "Specialty-specific voice AI agents that automate the patient-access call center — scheduling, triage, prescription refills, billing/payment collection — for practices spanning orthopedics, cardiology and immunology, built on a proprietary clinical-interaction dataset rather than a generic voice-agent shell.",
+    funding_history: [
+      { date: "2025-09-30", event: "$76M Series B", valuation: null, lead: "Lightspeed Venture Partners", other_investors: "Felicis, First Round Capital, Chemistry, A*, Liquid2, Quiet Capital" },
+      { date: "2026-06-24", event: "$120M Series C", valuation: 1200, lead: "Menlo Ventures", other_investors: "Lightspeed, Felicis, First Round Capital, Chemistry, Tau Ventures, Quiet Capital; angel Joe Montana" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "proprietary dataset", value: "190M patient interactions, 62,000 care protocols, 1.6M decision pathways" },
+      { date: "2026-06", metric: "deployment scale", value: "Assort Activate (outbound agent) deployed across 1,000+ provider sites" }
+    ],
+    qualitative_signal: [
+      { date: "2026", note: "Named to CB Insights' 2026 AI 100 list of most innovative AI startups." }
+    ],
+    thesis_fit: "High — a proprietary specialty-specific clinical-interaction dataset (190M interactions) is a real data moat, and the agents take autonomous action (booking, triage, outbound calls) rather than just assisting a human — on-thesis for 'software that does, not software that assists.'",
+    verdict: "watch",
+    verdict_rationale: "Reached unicorn status in under 3 years with real deployment scale (1,000+ provider sites) and a genuine proprietary-data moat, but healthcare is explicitly flagged in theses.md as an already-crowded, richly-valued vertical — track as a comp for the patient-access/call-center niche rather than an underexplored find.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "nekuda",
+    name: "Nekuda",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Agentic payments (agent identity + payment credentials/mandates)",
+    stage: "Seed",
+    website: "https://nekuda.ai",
+    socials: { twitter: null, linkedin: "https://www.linkedin.com/in/ayal-karmi-%F0%9F%94%B5-13403829/" },
+    founding_team: "Ayal Karmi, CEO & co-founder — background in statistics and cross-border payments at the Central Bank of Israel; previously co-founded an agricultural computer-vision startup and later worked at Solidus Labs (crypto market-surveillance/compliance).",
+    product_wedge: "Payments SDK — Secure Agent Wallet plus 'Agentic Mandates' — that lets AI agents hold payment credentials and execute autonomous online transactions on a user's or business's behalf with an auditable authorization trail; a launch partner for Visa Intelligent Commerce.",
+    funding_history: [
+      { date: "2025-05-14", event: "$5M Seed", valuation: null, lead: "Madrona", other_investors: "Amex Ventures, Visa Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-09", metric: "usage", value: "No transaction volume, revenue, or customer count publicly disclosed as of this update" }
+    ],
+    qualitative_signal: [
+      { date: "2025-05", note: "Launch partner for Visa Intelligent Commerce — strategic backing from both Visa Ventures and Amex Ventures is a stronger regulated-network validation signal than a typical seed round." }
+    ],
+    thesis_fit: "Moderate — sits at a real regulated decision point (payment authorization/execution) with credible strategic backing from Visa Ventures and Amex Ventures, on the least-crowded fintech sub-thread theses.md calls out for extra attention; but pre-disclosed-revenue, and the sub-thread already has several comps logged (Natural, Ralio, AIsa, Basis Theory).",
+    verdict: "revisit",
+    verdict_rationale: "Genuinely good strategic signal — Visa and Amex corporate VCs backing an agentic-payments infra startup is a stronger tell than a typical seed round — but there's no disclosed transaction volume or customer count to underwrite a 'watch,' and the tracker already carries four other agentic-payments plays; revisit once usage numbers surface.",
+    last_updated: "2026-09-02"
   }
 ];
