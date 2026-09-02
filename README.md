@@ -4,7 +4,7 @@
 
 This isn't a scraped spreadsheet. It's a repeatable pipeline: written investment theses that define what "good" looks like *before* any company is scored, a reusable sourcing system to find candidates on a weekly cadence, structured per-company profiles with dated changelogs (not one-time snapshots), and a dashboard to browse and compare them — all built solo, from data model to UI to deployment.
 
-**[→ Live dashboard](https://deeprsoni.github.io/ai-startup-tracker/)** &nbsp;·&nbsp; **[Category theses](theses.md)** &nbsp;·&nbsp; **[Sourcing methodology](sourcing-list.md)**
+**[→ Live dashboard](https://startups.deepsoni.com/)** &nbsp;·&nbsp; **[Category theses](theses.md)** &nbsp;·&nbsp; **[Sourcing methodology](sourcing-list.md)**
 
 ---
 
