@@ -1598,5 +1598,138 @@ window.COMPANIES = [
     verdict: "pass",
     verdict_rationale: "Credible team (ex-AWS) and a real technical benchmark, but the positioning is squarely the generic horizontal agent-builder pattern the thesis explicitly flags as low-fit and due for consolidation — no disclosed customers or ARR yet to argue otherwise, so this is a pass rather than a ground-floor pick.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "onyx-security",
+    name: "Onyx Security",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Security / governance (guardrails)",
+    stage: "Series B",
+    website: "https://www.onyx.security",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/onyx-security" },
+    founding_team: "Maxim Bar Kogan (CEO, ex-IDF Unit 8200 cyber intelligence, ex-VP Product & Engineering at Mixtiles) and Gil Elbaz (Chief AI Officer, ex-AI architect at NVIDIA) — co-founders; founded 2024, Israel.",
+    product_wedge: "Secure AI control plane that discovers every AI agent across SaaS, cloud, endpoints and internal infrastructure, monitors each step of an agent's reasoning in real time, and lets security teams approve, modify, or block agent actions before they execute — not just post-incident log review; integrated directly with Anthropic (Jun 2026) to help secure enterprise Claude/agent adoption.",
+    funding_history: [
+      { date: "2026-03-11", event: "$40M launch funding ($5M Seed + $35M Series A)", valuation: null, lead: "Cyberstarts (Seed), Conviction (Series A)" },
+      { date: "2026-07-29", event: "$113M Series B", valuation: 640, lead: "Bessemer Venture Partners", other_investors: "Cyberstarts, TCV, Conviction, FirstMark, Vintage Investment Partners, QuantumLight, G Squared" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "revenue growth", value: "4x revenue growth in the 4 months since stealth launch (company-disclosed)" },
+      { date: "2026-07", metric: "scale", value: "1.1M+ AI agents secured and 66M+ AI agent sessions inspected in real time across enterprise customers (company-disclosed)" },
+      { date: "2026-07", metric: "customers", value: "Dozens of Fortune 500 companies across banking, technology, insurance, and energy (named count not disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Anthropic announced a direct integration with Onyx to help secure enterprise Claude/agent adoption — a credibility signal from a foundation-model lab, similar in spirit to the strategic-backing pattern already seen with Arize (Datadog/PagerDuty) and Casca (Canapi)." }
+    ],
+    thesis_fit: "High — sits squarely in the gateways/guardrails sub-category theses.md names as one of the three real agent-infra gaps; real operational scale metrics (1.1M+ agents secured, 66M+ sessions inspected) and a foundation-model-lab integration are concrete production evidence, not a demo.",
+    verdict: "watch",
+    verdict_rationale: "Fastest revenue growth signal of any infra company logged to date (4x in 4 months) backed by a top-tier lead (Bessemer) and validated by an Anthropic integration — but this is now the second security/governance guardrail company tracked after Zenity, so the two are direct competitors in a sub-category that could consolidate the way observability/eval already has (Langfuse/Helicone/Galileo acquired in 2026); worth comparing head-to-head at the next disclosed round.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "interloom",
+    name: "Interloom",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Memory / knowledge layer for AI agents",
+    stage: "Seed",
+    website: "https://interloom.com",
+    socials: { twitter: "https://x.com/interloom", linkedin: null },
+    founding_team: "Fabian Jakobi (Founder/CEO) — repeat founder, previously founded Boxplot (sold to Hyperscience in 2021); founded 2024, Munich/Berlin, Germany.",
+    product_wedge: "Captures an enterprise's tacit operational knowledge — support emails, service tickets, call transcripts, work orders — into a continuously updated 'context graph' that becomes permanent, reusable memory for AI agents, addressing the fact that an estimated 70% of operational decisions are never written down.",
+    funding_history: [
+      { date: "2026-03-23", event: "$16.5M Seed (€14.2M)", valuation: null, lead: "DN Capital", other_investors: "Bek Ventures, Air Street Capital (existing investor)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "customers", value: "Named enterprise customers Zurich Insurance and Fiege (logistics), processing millions of operational cases (company-disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026", note: "Independent market analysis flags agent-memory systems as a thin standalone category — ~3.4% of agent-infra deals but only ~0.6% of category capital as of mid-2026 — because memory is increasingly treated as a feature labs ship natively rather than a durable independent business; worth weighing against Interloom's real named-customer traction." }
+    ],
+    thesis_fit: "Moderate-high — memory/context is one of the fragmented sub-categories theses.md names as part of the durable-execution/production-reliability gap, and named enterprise customers processing real volume is genuine evidence rather than a demo; but the memory sub-category specifically is flagged by market data as financially thin standalone, a real headwind theses.md's 18-month consolidation view would predict.",
+    verdict: "revisit",
+    verdict_rationale: "Real named customers (Zurich Insurance, Fiege) processing production volume at seed stage is a genuinely good sign, and the founder has a proven prior exit — but the memory-layer sub-category is the weakest-funded slice of agent infrastructure and the most exposed to foundation labs shipping native memory, so this is a name to check back on once a Series A proves the standalone business rather than score as a confident watch today.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "spektr",
+    name: "Spektr",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Compliance / KYC-KYB decisioning",
+    stage: "Series A",
+    website: "https://www.spektr.com",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/getspektr" },
+    founding_team: "Mikkel Skarnager, Jan-Erik Wagner, Jeremy Joly, and Ciprian Florescu — co-founders; Skarnager and Florescu previously founded digital-onboarding startup HelloFlow (2020), sold to Trulioo for $50M+ within two years. Founded 2023, Copenhagen, Denmark.",
+    product_wedge: "Configurable AI agents that automate manual KYC/KYB compliance review for banks and fintechs — researching companies, verifying business activity, interpreting source documents, and generating structured risk rationales — replacing hours of analyst work with minutes of automated investigation, positioned as a replacement for manual compliance workflow rather than a copilot layered on top of it.",
+    funding_history: [
+      { date: "2026-04-16", event: "$20M Series A", valuation: null, lead: "New Enterprise Associates (NEA)", other_investors: "Northzone, Seedcamp, PSV Tech (existing investors)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-04", metric: "total raised", value: "$26M across all rounds" },
+      { date: "2026-04", metric: "customers", value: "Live named customers: Pleo, Santander Leasing, Mercuryo, Phantom, Monta" }
+    ],
+    qualitative_signal: [
+      { date: "2026-04", note: "Repeat-founder pattern with a real prior fintech exit (HelloFlow → Trulioo) — the same credible-repeat-founder signal already noted favorably for Concentrate AI and Rezolv in this tracker." }
+    ],
+    thesis_fit: "Very high — AI agents sit directly at a regulated compliance decision point (KYC/KYB review and risk rationale generation) inside real banks and fintechs, the exact wedge theses.md defines as winning; founding team combines real fintech/regulatory operating experience with a proven prior exit, matching the thesis's highest-fit scoring cue directly.",
+    verdict: "watch",
+    verdict_rationale: "Cleanest fintech thesis-fit sourced this cycle alongside Taktile/Casca: named bank and fintech customers, a regulated decision point as the actual product (not a chat layer), and repeat founders with a real prior exit in adjacent compliance tooling — a strong follow-up candidate for a first scored memo in this category.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "nomic",
+    name: "Nomic",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction / AEC (code compliance & document intelligence)",
+    stage: "Series A (+ 2026 strategic investment)",
+    website: "https://www.nomic.ai",
+    socials: { twitter: "https://x.com/nomic_ai", linkedin: null },
+    founding_team: "Brandon Duderstadt and Andriy Mulyar — co-founders, founded 2021 in New York; originally built open-source AI tooling (GPT4All, Nomic Atlas/Embed) before repositioning the company entirely around AEC-vertical AI starting in 2024.",
+    product_wedge: "Domain-specific AI platform for architecture, engineering, and construction firms that grounds agents in a firm's own drawings, specs, and 380+ building codes/standards to automate code-compliance checking, QA/QC review, RFI management, and submittal review — claims up to 80% faster code-compliance checks and up to 12x faster submittal/spec review.",
+    funding_history: [
+      { date: "2023-07-13", event: "$17M Series A", valuation: 100, lead: "Coatue", other_investors: "Contrary Capital, Betaworks Ventures, SV Angel, Story Ventures, Factorial Capital" },
+      { date: "2026-07-29", event: "Strategic investment (amount undisclosed) from Arcadis, entering a long-term commercial partnership", valuation: null, lead: "Arcadis" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "pilot scale", value: "6-month pilot across ~150 Arcadis engineers, multiple disciplines/sectors/countries, testing Nomic's agents on drawing review, code compliance, submittal review, RFI research, and BIM coordination, ahead of Arcadis's strategic investment" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07", note: "A real strategic-pivot story: the company built its technical foundation in open-source embeddings/local LLMs (GPT4All has 33,000+ GitHub stars) before repositioning entirely around AEC-vertical AI; Arcadis — a top global AEC engineering firm — chose to invest strategically after a real multi-discipline pilot rather than simply license the product, a stronger validation signal than a VC-only round." }
+    ],
+    thesis_fit: "High — construction/AEC is an explicit 'open window' vertical theses.md calls out for extra sourcing attention, and the wedge (grounding agents in a firm's own project documents plus codified industry standards) fits the proprietary-data/workflow-ownership pattern the thesis rewards; the Arcadis strategic investment following a real pilot is closer to 'autonomous execution proof' than a typical seed-stage logo mention.",
+    verdict: "watch",
+    verdict_rationale: "The Arcadis investment is meaningfully different from a typical venture round — it followed a real 6-month, 150-engineer pilot and came from an actual AEC operator, not just a VC — which is rare, credible production validation; the open question is that the company's only disclosed priced round (Series A) predates the AEC pivot by about three years, so a fresh disclosed raise at current scale would sharpen this considerably.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "earlytrade",
+    name: "Earlytrade",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction (subcontractor payments / working-capital marketplace layering in agentic AI)",
+    stage: "Growth (multiple rounds since 2019)",
+    website: "https://earlytrade.com",
+    socials: { twitter: "https://x.com/earlytrade", linkedin: "https://linkedin.com/company/earlytrade" },
+    founding_team: "Guy Saxelby (CEO, previously scaled digital challenger bank Monese and The Exchange Lab, acquired by WPP) and Piers Symons (COO, ex-ASX data-analytics strategy lead) — co-founders; founded 2018, Australia, expanding into the US since 2024.",
+    product_wedge: "Two-sided working-capital marketplace connecting general contractors and subcontractors for early/dynamic payment of invoices — now layering agentic AI on top of that existing marketplace to automate payment-timing and supply-chain-financing decisions, rather than being built AI-native from inception.",
+    funding_history: [
+      { date: "2019", event: "~$6M early funding round", valuation: null, lead: "unconfirmed" },
+      { date: "2022", event: "~$8.9M Series A", valuation: null, lead: "unconfirmed" },
+      { date: "2026-06-09", event: "~$10M growth round (round name unconfirmed) to fund US expansion and build agentic AI into the marketplace", valuation: null, lead: "S3 Ventures, Brick & Mortar Ventures (co-led)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "total raised", value: "~$25M across all rounds since 2019" },
+      { date: "2026-06", metric: "scale", value: "211,000+ subcontractors in network; $3B+ in early payments facilitated globally; 7x revenue growth since entering the US market in 2024 (company-disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Investor commentary (S3 Ventures) framed the appeal as Earlytrade already having a live two-sided marketplace for agents to act inside — but the agentic-AI capability itself is newly announced and not yet shipped or measured; today's real, verified traction is the pre-AI payments marketplace, not an AI-native product." }
+    ],
+    thesis_fit: "Low-moderate — construction is an explicit 'open window' vertical and the underlying marketplace scale is real and well-verified, but the AI layer is a recent addition to an 8-year-old, non-AI-native payments business rather than a ground-up AI-native wedge — closer to the 'feature-level AI bolt-on to existing software' pattern theses.md flags as overhyped for vertical SaaS than to a company that owns its workflow via AI from day one.",
+    verdict: "revisit",
+    verdict_rationale: "The most verifiably large-scale traction sourced this week (211K+ subcontractors, $3B+ facilitated, 7x US revenue growth) — but it's traction from the pre-AI marketplace business, and the agentic-AI angle that makes this relevant to the thesis is unshipped and unmeasured; revisit once Earlytrade discloses actual agent usage or outcomes rather than scoring the announcement itself as thesis fit.",
+    last_updated: "2026-09-02"
   }
 ];

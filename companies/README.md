@@ -1,4 +1,4 @@
-# Company Tracker — 60 companies
+# Company Tracker — 65 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -64,6 +64,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Sardine](https://www.sardine.ai) | AI-native fintech — fraud/compliance/credit-underwriting | Series C | $660M (May 2026) | $170M total raised; 250+ enterprise customers, 70+ countries | Watch — fresh National Bank of Canada production deployment validates the thesis |
 | [RockRose Risk](https://www.rockroserisk.com) | Vertical SaaS AI-native — insurance (wildfire risk/brokerage) | Series A | unconfirmed | n/a (21% avg policy-price reduction; CA/CO/NV live) | Revisit — real data moat but human-in-loop decisions, drifting toward services roll-up |
 | [Xpander](https://xpander.ai) | Agent infrastructure — enterprise agent governance/agent-builder | Seed | unconfirmed | n/a (no ARR/customers disclosed; self-reported 90.9% GAIA score) | Pass — generic horizontal agent-builder pattern, weak thesis fit despite fresh seed |
+| [Onyx Security](https://www.onyx.security) | Agent infrastructure — security/governance (guardrails) | Series B | $640M (Jul 2026) | 4x revenue growth (4mo); 1.1M+ agents secured, 66M+ sessions inspected | Watch — fastest infra revenue growth this batch, Anthropic-integrated, but now a direct Zenity competitor |
+| [Interloom](https://interloom.com) | Agent infrastructure — memory/knowledge layer | Seed | unconfirmed | $16.5M total raised; named customers Zurich Insurance, Fiege | Revisit — real named-customer traction, but memory is the thinnest-funded agent-infra sub-category |
+| [Spektr](https://www.spektr.com) | AI-native fintech — compliance/KYC-KYB decisioning | Series A | unconfirmed | $26M total raised; customers incl. Pleo, Santander Leasing, Mercuryo | Watch — cleanest fintech thesis-fit this cycle, repeat founders with a real prior exit |
+| [Nomic](https://www.nomic.ai) | Vertical SaaS AI-native — construction/AEC (code compliance & document intelligence) | Series A + 2026 strategic investment | $100M (Jul 2023, pre-pivot) | n/a (Arcadis strategic investment after 150-engineer pilot, amount undisclosed) | Watch — rare real-operator (Arcadis) validation after a genuine pilot, not just a VC round |
+| [Earlytrade](https://earlytrade.com) | Vertical SaaS AI-native — construction (subcontractor payments marketplace + new agentic AI layer) | Growth (multiple rounds since 2019) | unconfirmed | ~$25M total raised; 211K+ subcontractors, $3B+ facilitated, 7x US revenue growth | Revisit — largest verified traction this batch, but it's pre-AI marketplace traction; AI layer is unshipped |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -132,6 +137,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Sardine — `rec:01M1HQPCB7DVMMF51CEJ3JKE4D`
 - RockRose Risk — `rec:01M1HQPNX8PMEXZCYGG7BW84RQ`
 - Xpander — `rec:01M1HQPXKH0RDYDEKDKPSP1DJF`
+- Onyx Security — `rec:01M1HR9N1HBE81NHJTAAP7NZ6Q`
+- Interloom — `rec:01M1HR9X20JAZD4TT2TZPPDHQ2`
+- Spektr — `rec:01M1HRA5P9XJSJJ35YT9DJ6YVC`
+- Nomic — `rec:01M1HRAFJKC94P33F8H52KC5SF`
+- Earlytrade — `rec:01M1HRASPZTPW7V3XR9EHB8DW6`
 
 ## How to update a company over time
 
