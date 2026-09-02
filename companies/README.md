@@ -1,4 +1,4 @@
-# Company Tracker — 10 companies
+# Company Tracker — 15 companies
 
 Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
 
@@ -14,6 +14,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Shepherd](https://www.withshepherd.com) | Vertical SaaS AI-native — construction/infrastructure insurance | Series B | unconfirmed | 7x+ revenue growth (24mo); $400B+ insured | Watch — best-balanced pick of the batch, underhyped "open window" vertical |
 | [Build](https://build.inc) | Vertical SaaS AI-native — construction/real-estate development | Seed | unconfirmed | n/a (100+ projects deployed, no ARR disclosed) | Revisit — right vertical, too early, no disclosed revenue |
 | [LinqAlpha](https://linqalpha.com) | AI-native fintech — capital markets research | Series A | unconfirmed | n/a (70+ FI customers, no ARR disclosed) | Revisit — strong traction but assistive research, not a regulated-decision-point product |
+| [Zenity](https://zenity.io) | Agent infrastructure — security/governance | Series C | unconfirmed | $185M total raised | Watch — guardrails wedge, strong strategic backing (SoftBank, Intel Capital) |
+| [Sail Research](https://www.sailresearch.com) | Agent infrastructure — durable execution/long-horizon inference | Seed + Series A | $450M (Jun 2026) | n/a (pre-revenue; 90.72% BrowseComp-Plus benchmark) | Watch — elite team, top-tier syndicate, no disclosed customers yet |
+| [HappyRobot](https://www.happyrobot.ai) | Vertical SaaS AI-native — logistics/freight voice agents | Series C | $1.2B (Aug 2026) | n/a (150+ enterprise customers incl. DHL, Uber) | Watch — unicorn in 20 months, best comp for operational voice agents |
+| [FurtherAI](https://www.furtherai.com) | Vertical SaaS AI-native — insurance underwriting/claims | Series A | unconfirmed | n/a (named carriers: Accelerant, MSI, Leavitt Group) | Watch — real efficiency metrics, fast a16z-led Series A |
+| [Casca](https://www.cascading.ai) | AI-native fintech — loan origination/underwriting | Series A | unconfirmed | $33M total raised; banks incl. Live Oak, Huntington Nat'l | Watch — closest fit to core fintech thesis after Taktile |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -32,6 +37,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Shepherd — `rec:01M1HJW9RBTKASDPPZ59PRG5NQ`
 - Build — `rec:01M1HJWHE1RJD6NCAEYF039KW5`
 - LinqAlpha — `rec:01M1HJWSTP1TCYE2FNBGD0R70F`
+- Zenity — `rec:01M1HK78C98VQZRVY0N7HT5VSJ`
+- Sail Research — `rec:01M1HK7GT37YP4KS16ABS3HDX9`
+- HappyRobot — `rec:01M1HK7S4PHV64242GERJMBP5B`
+- FurtherAI — `rec:01M1HK82C6FMJY26Y6WSKH5N7F`
+- Casca — `rec:01M1HK8A5WZKZCSN755G5VXRN2`
 
 ## How to update a company over time
 

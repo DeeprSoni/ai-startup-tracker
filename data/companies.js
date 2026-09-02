@@ -267,5 +267,136 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Good traction and pedigree, but doesn't cleanly fit either category as scored: assistive capital-markets analytics, not a regulated-decision-point product nor an autonomous-execution workflow owner — track it, but it's the weakest thesis match of this week's batch despite the strongest customer proof points.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "zenity",
+    name: "Zenity",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Security / governance (guardrails)",
+    stage: "Series C",
+    website: "https://zenity.io",
+    socials: { twitter: "https://x.com/zenitysec", linkedin: "https://linkedin.com/company/zenitysec" },
+    founding_team: "Ben Kliger (CEO) and Michael Bargury (CTO) — co-founders, both ex-Microsoft (Bargury was a senior architect in Microsoft's Cloud Security CTO office); founded 2020, Tel Aviv.",
+    product_wedge: "Security/governance layer that inspects the intent behind an AI agent's action before it executes (not just prompt inspection or post-incident log analysis) — lets security teams approve, modify, or block agent actions dynamically across Copilot, ChatGPT Enterprise, Gemini, Claude, and Cursor.",
+    funding_history: [
+      { date: "2026-08-03", event: "$125M Series C", valuation: null, lead: "Norwest", other_investors: "SoftBank Vision Fund 2, Qumra Capital, Hitachi Ventures, LG Technology Ventures, Vertex Ventures, DTCP, Intel Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "total raised", value: "$185M across all rounds" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08", note: "Framed explicitly around securing 'the era of 1 billion AI agents' — positioning is that enterprises are moving agents from pilot to production and need a runtime guardrail layer, not just a compliance checkbox." }
+    ],
+    thesis_fit: "High — sits squarely in the gateways/guardrails sub-category theses.md names as one of the three real agent-infra gaps; strategic capital from SoftBank and Intel Capital signals the production-security problem is being taken seriously by incumbents, not just startups.",
+    verdict: "watch",
+    verdict_rationale: "Real enterprise urgency (agents moving from pilots to production) backed by a strong strategic syndicate and $185M total raised — the security/governance angle is a distinct wedge from the observability/eval names already tracked (Braintrust, Arize), worth following as a separate infra sub-category.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "sail-research",
+    name: "Sail Research",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Durable execution / long-horizon inference infrastructure",
+    stage: "Seed + Series A (combined round)",
+    website: "https://www.sailresearch.com",
+    socials: { twitter: "https://x.com/sailresearchco", linkedin: "https://linkedin.com/company/sailresearch" },
+    founding_team: "Neil Movva (CEO, ex-NVIDIA, Apple, Together AI) and Samir Menon (CTO, ex-Apple systems engineering) — co-founders.",
+    product_wedge: "Infrastructure purpose-built for long-horizon agents that run for hours or days rather than single prompts: an inference stack optimized for throughput/cost on open models, plus 'Sailboxes' — sandbox environments built to run for days or weeks that only charge for time an agent is actively working, not idle time.",
+    funding_history: [
+      { date: "2026-06", event: "$80M combined Seed + Series A", valuation: 450, lead: "Sequoia (Seed), Kleiner Perkins (Series A)", other_investors: "Redpoint Ventures, Theory Ventures, Vine Ventures, CRV, A*, Abstract Ventures; angels John Hennessy (Alphabet chair), Lip-Bu Tan (Intel CEO), Tri Dao (Together AI Chief Scientist)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "benchmark", value: "90.72% accuracy on BrowseComp-Plus at up to 10x lower cost than leading alternatives (company-disclosed benchmark, not independently verified)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Explicit thesis that existing inference infra was built for short prompt-based interactions, not agents spending billions of tokens on a single long-running task — same durable-execution gap theses.md flags as the most likely agent-infra sub-category to matter in 3 years." }
+    ],
+    thesis_fit: "Very high — textbook 'systems software for a new runtime' framing theses.md calls the winning wedge, attacking durable execution/cost-control at the inference layer rather than the orchestration layer (different angle from Kestra, already tracked).",
+    verdict: "watch",
+    verdict_rationale: "Elite technical founding team and top-tier syndicate (Sequoia + Kleiner Perkins co-leading, notable technical angels) with a real benchmark claim, but pre-revenue/no disclosed customers yet — a name to track for proof of commercial traction at the next round rather than a proven pick today.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "happyrobot",
+    name: "HappyRobot",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Logistics / freight (voice agents)",
+    stage: "Series C",
+    website: "https://www.happyrobot.ai",
+    socials: { twitter: "https://x.com/happyrobot_ai", linkedin: "https://linkedin.com/company/happyrobot" },
+    founding_team: "Pablo Palafox (CEO), Javi Palafox, and Luis Paarup — co-founders; founded 2023 (YC S23), San Francisco.",
+    product_wedge: "Voice-first AI agents that autonomously run freight-brokerage operations end to end — check calls, load updates, appointment scheduling, payment inquiries, and rate negotiation — live in production at 8 of the 10 largest US freight brokers, now expanding the same wedge into insurance, energy, telecom, and airlines.",
+    funding_history: [
+      { date: "2024-12", event: "$15.6M Series A", valuation: null, lead: "a16z", other_investors: "Y Combinator, Ryder Ventures" },
+      { date: "2025-09", event: "$44M Series B", valuation: null, lead: "Base10", other_investors: "a16z, Y Combinator, Tokio Marine, WaVe-X, World Innovation Lab" },
+      { date: "2026-08", event: "$150M Series C", valuation: 1200, lead: "Prysm Capital, Eurazeo (co-led)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "customers", value: "150+ enterprise customers incl. DHL, Uber, Kuehne+Nagel, Repsol; live at 8 of the 10 largest US freight brokers" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08", note: "$1.2B valuation reached ~20 months after Series A — unicorn status achieved faster than most of the batch already tracked; company framing is explicit about expanding beyond logistics into adjacent operational verticals." }
+    ],
+    thesis_fit: "High — genuine autonomous execution (agents negotiating rates and running dispatch calls, not assisting a human), owns a full operational workflow with real enterprise logos; logistics/freight isn't one of the vertical names theses.md calls out explicitly, but the call-heavy, document-heavy, high-volume operational profile matches the same pattern as the named 'open window' verticals.",
+    verdict: "watch",
+    verdict_rationale: "Strongest growth-velocity proof point sourced this week (unicorn in 20 months, real Fortune-500-scale logos) with genuine autonomous execution — but already priced at $1.2B, so best used as a comp/bellwether for earlier-stage operational-voice-agent startups rather than a ground-floor pick, same caveat as Harvey/Sierra.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "further-ai",
+    name: "FurtherAI",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (underwriting / claims / compliance)",
+    stage: "Series A",
+    website: "https://www.furtherai.com",
+    socials: { twitter: "https://x.com/furtheraicom", linkedin: "https://linkedin.com/company/further-ai" },
+    founding_team: "Aman Gour (CEO, ex-TurboHire co-founder, ex-Microsoft, IIT Bombay) and Sashank Gondala (CTO) — co-founders; founded 2023, San Francisco.",
+    product_wedge: "AI workspace for insurance carriers/MGAs that automates submissions processing, underwriting audits, claims handling, and policy comparison across the workflow — not a single point tool — processing billions of dollars in premiums annually for named carrier customers.",
+    funding_history: [
+      { date: "2025-04", event: "$5M Seed", valuation: null, lead: "unconfirmed" },
+      { date: "2025-10", event: "$25M Series A", valuation: null, lead: "a16z", other_investors: "Nexus Venture Partners, Y Combinator, Pioneer AI Fund, South Park Commons, ConvergeVC, Xceedance" }
+    ],
+    disclosed_traction: [
+      { date: "2025-10", metric: "customers", value: "Accelerant, MSI, Leavitt Group named; processes billions of dollars in premiums annually across its customer base" },
+      { date: "2025-10", metric: "efficiency", value: "Teams report roughly double productivity, a 15% improvement in submission-to-quote ratio, and proposals generated ~10x faster (company-disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2025-10", note: "Called one of the largest Series A rounds in insurance AI to date, closing just 6 months after seed — fast investor conviction from a16z on a $7T target market." }
+    ],
+    thesis_fit: "High — insurance is one of the vertical categories theses.md flags as having an 'open window'; product spans the full underwriting-to-claims workflow with named carrier customers and disclosed efficiency metrics, not a single-task copilot bolt-on.",
+    verdict: "watch",
+    verdict_rationale: "Real, dated efficiency metrics tied to named insurance-carrier customers plus a fast, large Series A from a16z — good balance of stage and evidence; insurance underwriting/claims automation is getting more crowded (Shepherd, already tracked, is adjacent on the MGU side), so worth distinguishing from Shepherd by carrier-workflow breadth rather than a single insurance line.",
+    last_updated: "2026-09-02"
+  },
+  {
+    id: "casca",
+    name: "Casca",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Lending / loan origination underwriting",
+    stage: "Series A",
+    website: "https://www.cascading.ai",
+    socials: { twitter: "https://x.com/cascadingai", linkedin: "https://linkedin.com/company/cascading-ai" },
+    founding_team: "Lukas Haffer (CEO) and Isaiah Williams — co-founders, Stanford-trained banking-IT/AI researchers; founded 2023 (YC S23), San Francisco.",
+    product_wedge: "AI-native loan origination system used directly by FDIC-insured banks and fintech lenders to process business loan applications — an AI loan assistant communicates with applicants via email/SMS, reactivating churned leads and cutting manual underwriting-support effort, positioned as a replacement for legacy loan-origination software rather than a copilot layered on top of it.",
+    funding_history: [
+      { date: "2025-08", event: "$29M Series A", valuation: null, lead: "Canapi Ventures", other_investors: "Peterson Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2025-08", metric: "total raised", value: "$33M across all rounds" },
+      { date: "2025-08", metric: "customers", value: "FDIC-insured banks/fintechs incl. Bankwell Bank, Live Oak Bank, Huntington National Bank, Celtic Bank" },
+      { date: "2025-08", metric: "efficiency", value: "Company-disclosed: 90% less manual effort and 300% higher conversion on business loan applications; reactivates up to 50% of churned leads" }
+    ],
+    qualitative_signal: [
+      { date: "2025-08", note: "Lead investor Canapi Ventures is backed by 70+ financial institutions — a meaningful distribution/credibility signal for selling directly into regulated banks, similar in spirit to the strategic backing pattern seen with Arize (Datadog/PagerDuty)." }
+    ],
+    thesis_fit: "Very high — AI sits directly at a regulated decision point (business loan underwriting/origination) inside real FDIC-insured banks, the exact wedge theses.md defines as winning; founding team leans engineering/research rather than deep ex-banking-operator experience, a modest gap against the 'real fintech/regulatory operating experience' scoring cue.",
+    verdict: "watch",
+    verdict_rationale: "Closest fit in this week's batch to the core fintech thesis after Taktile — real bank customers at a regulated decision point, bank-affiliated lead investor — the founding team's engineering-over-banking background is the one soft spot worth watching into the next round.",
+    last_updated: "2026-09-02"
   }
 ];
