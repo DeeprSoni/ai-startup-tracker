@@ -1,6 +1,6 @@
-# Company Tracker — 80 companies
+# Company Tracker — 84 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-02.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-07.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -84,6 +84,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Baseten](https://baseten.co) | Agent infrastructure — inference / cost-latency infrastructure | Series F | $13B (Jun 2026) | ~$600M ARR run-rate, 20x YoY; 1B+ inference calls/day | Watch — real usage at massive scale, but a late-stage bellwether not a ground-floor pick |
 | [Arca](https://arcawealth.ai) | AI-native fintech — wealth management/advisory | Series A | unconfirmed | $64M total raised; $1B+ AUM | Revisit — real scale, but trade press disputes how much growth is AI-driven vs. acquired RIA rollups |
 | [Grace Investment Machine](https://graceim.ai) | AI-native fintech — agentic trading / proprietary asset management | Series A | unconfirmed | $30M+ total raised (3 rounds in year 1); no AUM/track record disclosed | Pass — proprietary trading shop, not the fintech infra/software category the thesis scores |
+
+| [AIR](https://www.air.security) | Agent infrastructure — security/governance (agent supply-chain vetting) | Seed | unconfirmed | n/a (20+ customers; found 17,800+ unsafe public agent add-ons) | Watch — freshest, most differentiated entrant in the agent-security cluster |
+| [Rebar](https://www.withrebar.ai) | Vertical SaaS AI-native — construction (HVAC/electrical/plumbing estimating) | Series A | unconfirmed | n/a (40 clients, 7 also investors; ARR doubled in 6wk) | Watch — best-evidenced pick this week, real domain-operator founder |
+| [Kita](https://www.kita.ai) | AI-native fintech — credit underwriting (emerging-markets/informal-income) | Seed | unconfirmed | $130M+ loan volume processed (5mo, Aug 2026) | Watch — cleanest regulated-decision-point fit, Tala-founder strategic angel |
+| [Naïve](https://usenaive.ai) | Agent infrastructure — horizontal autonomous-company platform | Series A | unconfirmed | 30K+ developer customers; ARR 10x to low-8-figures (6mo) | Pass — same overhyped horizontal-builder pattern as 8090/Wonderful/Runable, plus unresolved open-source-fork allegation |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -172,6 +177,10 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Baseten — `rec:01M1HSZMS5DF1WH1H4KV8NVX25`
 - Arca — `rec:01M1HSZWQ83KMA9VVT6RBC0R4V`
 - Grace Investment Machine — `rec:01M1HT06FCZT7S2MFMT0RPJZVN`
+- AIR — `rec:01M1WZG3A83K53ZQY6PN2VMRMN`
+- Rebar — `rec:01M1WZGB5C84Q0A1GQTQCGWXP8`
+- Kita — `rec:01M1WZGN4QKWCESFMQ10BBKYM9`
+- Naïve — `rec:01M1WZGXTX7Z4TGCSVB8K374SH`
 
 ## How to update a company over time
 

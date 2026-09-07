@@ -2131,5 +2131,110 @@ window.COMPANIES = [
     verdict: "pass",
     verdict_rationale: "Fast repeat fundraising (3 rounds in its first year) and a research-credible co-founder (ex-DeepMind/Meta AI, Oxford PhD) are real signals, but this is structurally a proprietary trading shop rather than the fintech software/infrastructure category theses.md is scoring, and zero disclosed AUM, returns, or regulatory registration makes the 'live execution' claims unverifiable — logged for visibility into the agentic-trading space, not as a pick.",
     last_updated: "2026-09-02"
+  },
+  {
+    id: "air-security",
+    name: "AIR",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Security / governance (agent software-supply-chain vetting)",
+    stage: "Seed",
+    website: "https://www.air.security",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Yair Saban (CEO) and Niv Hoffman (CTO), both veterans of Israel's Unit 8200 intelligence corps; founded February 2026. Ryan Knisley, former CISO of Disney and Costco, joined as Chief Strategy Officer.",
+    product_wedge: "Discovers AI agents running inside a company, continuously vets the skills/tools/MCP servers those agents pull in against a whitelist, and blocks agent interactions with sources that fail security review — closer to software-supply-chain scanning (SCA/SBOM) applied to agent skills than to general runtime guardrails/DLP.",
+    funding_history: [
+      { date: "2026-06", event: "Seed 1: $10M", valuation: null, lead: "Sequoia Capital" },
+      { date: "2026-09-01", event: "Seed 2: $40M (total seed: $50M, publicly announced)", valuation: null, lead: "Greenoaks Capital", other_investors: "Swish, Netz, and angels incl. Cognition president Zach Frankel, Wiz co-founder Yinon Costica, Eon co-founder Ofir Ehrlich, Anne Neuberger, Clay co-founder Varun Anand" }
+    ],
+    disclosed_traction: [
+      { date: "2026-09", metric: "customers", value: "20+ customers, ~25% large enterprise, strongest demand in financial services and pharma" },
+      { date: "2026-09", metric: "research finding", value: "Found 17,800+ public AI agent add-ons relying on untrusted external instruction sources; company reports filtering ~27% of discovered skills/add-ons as unsafe" }
+    ],
+    qualitative_signal: [
+      { date: "2026-09-01", note: "Emerged from stealth with $50M seed and a named enterprise-security hire (ex-Disney/Costco CISO) — six months old at announcement." }
+    ],
+    thesis_fit: "High — solves a specific, named production failure mode (unvetted third-party agent skills/MCP servers as a supply-chain attack surface) distinct from the broader runtime-governance framing of Zenity/Onyx Security/WitnessAI already logged; elite security-founder background and real early enterprise usage support that the problem is concrete, not hypothetical.",
+    verdict: "watch",
+    verdict_rationale: "Freshest and most technically differentiated entrant in the growing agent-security cluster — a distinct supply-chain-vetting wedge rather than a fourth generic guardrails product — backed by top-tier investors and a credible security pedigree; worth tracking alongside Zenity/Onyx/WitnessAI as the sub-category's newest and narrowest-scoped player.",
+    last_updated: "2026-09-07"
+  },
+  {
+    id: "rebar",
+    name: "Rebar",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction (HVAC/electrical/plumbing estimating & quoting)",
+    stage: "Series A",
+    website: "https://www.withrebar.ai",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Evan Brown (CEO/co-founder) — 5+ years as an HVAC estimator and sales engineer at Johnson Barrow/DMG Corp before founding; Andrew Schwartz (co-founder). Founded October 2024, New York.",
+    product_wedge: "Proprietary computer-vision models read construction blueprints and spec books, automatically identify/categorize/count HVAC (and electrical/plumbing) equipment, and generate a bill of materials plus a quote 60-70% faster than manual estimating — owns the bid/quote step of the commercial HVAC-supplier workflow.",
+    funding_history: [
+      { date: "2026-03", event: "$14M Series A", valuation: null, lead: "Prudence", other_investors: "Zero Infinity Partners, Founder Collective, Villain Capital, Optimist Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "customers", value: "40 clients (7 of whom are also investors)" },
+      { date: "2026-03", metric: "ARR growth", value: "Doubled annual recurring revenue in the first six weeks of 2026" },
+      { date: "2026-03", metric: "win-rate signal", value: "Early customer conversations suggest proposal win rates could rise ~2-3x vs. a historical 5-10% baseline (company-reported, not yet independently verified)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Founder is a 5-year HVAC-estimator domain operator building the exact founder profile theses.md flags as the strongest indicator for this vertical." }
+    ],
+    thesis_fit: "High — construction is one of theses.md's named 'open window' verticals; Rebar owns a concrete, data-rich workflow step (blueprint-to-quote) with proprietary computer-vision extraction as the moat, a domain-operator founding team, and fast disclosed ARR growth plus a customer base that includes its own investors.",
+    verdict: "watch",
+    verdict_rationale: "Best-evidenced pick sourced this week — real doubled ARR, a genuine domain-expert founder, and paying customers who also chose to invest — in a vertical theses.md specifically calls out as underexplored relative to legal/healthcare/customer support.",
+    last_updated: "2026-09-07"
+  },
+  {
+    id: "kita",
+    name: "Kita",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Credit underwriting (emerging-markets / informal-income borrowers)",
+    stage: "Seed",
+    website: "https://www.kita.ai",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/kitaai" },
+    founding_team: "Carmel Limcaoco (Manila-born repeat founder, ex-Apple product) and Rhea Malhotra (co-founder) — met before Stanford; founded 2025, San Francisco. First AI startup built specifically for the Philippines accepted into Y Combinator (Winter 2026 batch).",
+    product_wedge: "AI-native underwriting stack that turns messy, informal borrower documentation (photos, scans, screenshots of payslips, e-wallet records, invoices) into decision-ready credit-risk files for lenders — targeting underbanked borrowers with real but informal income that traditional bureau-based credit models miss, with human oversight retained for final credit decisions.",
+    funding_history: [
+      { date: "2026-08-19", event: "$4.5M Seed", valuation: null, lead: "BoxGroup", other_investors: "Y Combinator, Golden Gate Ventures, BEENEXT, Kaya Founders, U.S. News Digital Ventures, Apex Star Capital (Xiaomi co-founder Lin Bin's family office); strategic angels Shivani Siroya (founder, Tala) and Lisa Gokongwei-Cheng" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "loan volume processed", value: "$130M+ across lenders in the Philippines, Indonesia, Mexico, and the US in the five months before the seed round" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08-19", note: "Personal angel investment from Shivani Siroya, founder of Tala (a decade-long incumbent in emerging-market alternative credit scoring) — a credible domain-expert validation signal." }
+    ],
+    thesis_fit: "High — AI sits directly at the regulated underwriting decision, targets a data problem (informal-income documentation) that incumbent bureau-based models structurally can't solve, and has real dated loan-volume traction plus a strategic angel who is a category veteran; a distinct emerging-market/informal-income niche from Taktile's and Casca's more traditional bank-underwriting focus.",
+    verdict: "watch",
+    verdict_rationale: "Cleanest regulated-decision-point fintech fit sourced this week — concrete, dated loan-volume traction ($130M in 5 months) and a rare credible strategic angel (Tala's founder) back up the underwriting-at-the-decision-point thesis; still seed-stage and pre-scale, but the earliest-stage 'watch' in the batch with real numbers behind it.",
+    last_updated: "2026-09-07"
+  },
+  {
+    id: "naive",
+    name: "Naïve",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Horizontal agent platform (autonomous-company infrastructure)",
+    stage: "Series A",
+    website: "https://usenaive.ai",
+    socials: { twitter: "https://x.com/usenaive", linkedin: "https://linkedin.com/company/usenaive" },
+    founding_team: "Sean Dorje (CEO) and Dennis Zax — both 20-year-old UC Berkeley dropouts who have worked together since age 14.",
+    product_wedge: "Packages payments, email, phone numbers, cloud infrastructure, storage, and LLC incorporation behind a single API so AI agents (invoked from tools like Cursor, Claude Code, or Codex) can autonomously set up and operate a business, each with its own bank account, credentials, and compute.",
+    funding_history: [
+      { date: "2026-08", event: "$28.5M Series A (total raised: ~$32M)", valuation: null, lead: "Nexus Venture Partners", other_investors: "Y Combinator, Liquid 2 Ventures, Zetta Venture Partners, angels Gokul Rajaram, JD Sherman (ex-HubSpot COO), Tim Zheng (Apollo.io co-founder)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "customers", value: "30,000+ developer customers within months of launch" },
+      { date: "2026-08", metric: "ARR growth", value: "Scaled annual run-rate revenue 10x to the low-double-digit millions over six months (company-reported)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-09", note: "An independent investigation (not-so-naive.vercel.app) alleges Naive's product is an unattributed fork of Paperclip, a 41K-GitHub-star open-source agent-orchestration project under an MIT license — citing 71+ leftover 'paperclip' strings/paths in Naive's production JS bundle and no attribution anywhere on Naive's site, ToS, or YC listing. Not yet independently confirmed by major press; treated here as an allegation, not an established fact." }
+    ],
+    thesis_fit: "Low — this is the horizontal 'build-your-own-agent'/'agent builder with no opinion on a specific failure mode' pattern theses.md explicitly names as overhyped, the same pattern already flagged for 8090, Wonderful, and Runable; real revenue growth doesn't change that it's breadth-first infra rather than a solved, named production problem.",
+    verdict: "pass",
+    verdict_rationale: "Genuine ARR growth and customer count don't offset a weak thesis fit that matches a pattern already passed on three times this year, and an unresolved (if unverified-by-major-press) allegation that the core product is an unattributed fork of an open-source project is a real integrity red flag on top of that — logged for visibility, not as a pick.",
+    last_updated: "2026-09-07"
   }
 ];
