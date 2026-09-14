@@ -1,6 +1,6 @@
-# Company Tracker — 84 companies
+# Company Tracker — 88 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-07.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-14.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -89,6 +89,10 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Rebar](https://www.withrebar.ai) | Vertical SaaS AI-native — construction (HVAC/electrical/plumbing estimating) | Series A | unconfirmed | n/a (40 clients, 7 also investors; ARR doubled in 6wk) | Watch — best-evidenced pick this week, real domain-operator founder |
 | [Kita](https://www.kita.ai) | AI-native fintech — credit underwriting (emerging-markets/informal-income) | Seed | unconfirmed | $130M+ loan volume processed (5mo, Aug 2026) | Watch — cleanest regulated-decision-point fit, Tala-founder strategic angel |
 | [Naïve](https://usenaive.ai) | Agent infrastructure — horizontal autonomous-company platform | Series A | unconfirmed | 30K+ developer customers; ARR 10x to low-8-figures (6mo) | Pass — same overhyped horizontal-builder pattern as 8090/Wonderful/Runable, plus unresolved open-source-fork allegation |
+| [Gimlet Labs](https://gimletlabs.ai) | Agent infrastructure — inference infrastructure / cost-latency control | Series B | $3B (Sep 2026) | n/a (top-3 frontier lab + top-3 hyperscaler as customers; "billions" in contracted revenue, company-reported) | Watch — differentiated multi-silicon wedge, but valuation stepped up 3-4x in 6mo, now a late-stage-adjacent Baseten comp |
+| [Norm Ai](https://norm.ai) | Vertical SaaS AI-native — legal / regulatory compliance | Series C | $1.2B (Jul 2026) | n/a ($267M+ total raised; compliance agent for Microsoft 365 Copilot launched May 2026) | Watch — differentiated compliance-officer wedge, but now the 4th legal-adjacent company logged |
+| [Adonis](https://adonis.io) | Vertical SaaS AI-native — healthcare (revenue cycle management) | Series C | unconfirmed | 4x revenue growth (2025); >130% NRR; customers incl. Mount Sinai, AdventHealth | Watch — best-evidenced pick this week, distinct RCM sub-niche from clinical/patient-access healthcare peers |
+| [Flagright](https://flagright.com) | AI-native fintech — AML / financial-crime compliance | Series A | unconfirmed | $12.5M Series A (Jun 2026); 100+ FIs across 30+ countries, up to 93% fewer false positives (customer-reported) | Revisit — real traction but 6th AML/compliance fintech logged, no disclosed differentiation from better-funded peers |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -181,6 +185,10 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Rebar — `rec:01M1WZGB5C84Q0A1GQTQCGWXP8`
 - Kita — `rec:01M1WZGN4QKWCESFMQ10BBKYM9`
 - Naïve — `rec:01M1WZGXTX7Z4TGCSVB8K374SH`
+- Gimlet Labs — `rec:01M2EZT8K29H4F4A0Q2TDG9HWD`
+- Norm Ai — `rec:01M2EZTFSNHPYK0B6RYTPZP7T8`
+- Adonis — `rec:01M2EZTQMR35NYJ58G89MFY45Y`
+- Flagright — `rec:01M2EZTYYDGP4CHMR9JHXP118P`
 
 ## How to update a company over time
 

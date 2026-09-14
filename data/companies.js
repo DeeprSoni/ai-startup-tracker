@@ -2236,5 +2236,116 @@ window.COMPANIES = [
     verdict: "pass",
     verdict_rationale: "Genuine ARR growth and customer count don't offset a weak thesis fit that matches a pattern already passed on three times this year, and an unresolved (if unverified-by-major-press) allegation that the core product is an unattributed fork of an open-source project is a real integrity red flag on top of that — logged for visibility, not as a pick.",
     last_updated: "2026-09-07"
+  },
+  {
+    id: "gimlet-labs",
+    name: "Gimlet Labs",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Inference infrastructure / cost-latency control",
+    stage: "Series B",
+    website: "https://gimletlabs.ai",
+    socials: { twitter: "https://x.com/gimletlabs", linkedin: "https://linkedin.com/company/gimletlabs" },
+    founding_team: "Zain Asgar (co-founder/CEO) — PhD Stanford EE (GPU energy modeling), ex-Google AI (work became Google Lens), founded Pixie Labs (Kubernetes-native observability, acquired by New Relic in 2020); co-founders Michelle Nguyen, Omid Azizi, Natalie Serrino, James Bartlett. Spun out of a Stanford research project; founded 2023, San Francisco.",
+    product_wedge: "Multi-silicon inference software that disaggregates AI models so each phase of inference runs on the most appropriate chip (NVIDIA, AMD, Intel, Arm, Cerebras, d-Matrix), cutting latency and cost for agentic workloads — offered as a managed cloud (Gimlet Cloud) or self-hosted in customer environments.",
+    funding_history: [
+      { date: "2026-03", event: "$80M Series A", valuation: null, lead: "unconfirmed" },
+      { date: "2026-09-04", event: "$300M Series B", valuation: 3000, lead: "a16z", other_investors: "Arm, M12 (Microsoft), Sapphire Ventures, Menlo Ventures, Factory" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "customer growth", value: "Tripled customer base; added one of the top-3 frontier labs and one of the top-3 hyperscalers as customers (company-reported)" },
+      { date: "2026-09", metric: "contracted revenue", value: "\"Billions of dollars\" in contracted revenue for Gimlet Cloud (company-reported, unaudited); scaling to hundreds of megawatts of managed heterogeneous infrastructure" }
+    ],
+    qualitative_signal: [
+      { date: "2026-09-04", note: "$300M Series B at a $3B valuation just six months after an $80M Series A — one of the fastest valuation step-ups in the agent-infra category this year." }
+    ],
+    thesis_fit: "High — solves a concrete, named production problem (inference cost/latency across heterogeneous silicon for agentic workloads) rather than a generic wrapper; founding team has deep systems pedigree (Pixie Labs exit, Google AI).",
+    verdict: "watch",
+    verdict_rationale: "Genuinely differentiated technical wedge (multi-silicon disaggregated inference) with credible hyperscaler/frontier-lab traction and an elite systems team, but the valuation has already stepped up 3-4x in six months to $3B — enters the tracker as a late-stage-adjacent comp to Baseten (also inference infra, already logged) rather than a ground-floor pick.",
+    last_updated: "2026-09-14"
+  },
+  {
+    id: "norm-ai",
+    name: "Norm Ai",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Legal / regulatory compliance",
+    stage: "Series C",
+    website: "https://norm.ai",
+    socials: { twitter: "https://x.com/normativeai", linkedin: "https://linkedin.com/company/normative-ai" },
+    founding_team: "John Nay (founder/CEO) — AI-and-law researcher with Stanford affiliation, ex-adjunct professor at NYU teaching generative AI to law students; previously CEO of Brooklyn Artificial Intelligence (AI-powered investment software, acquired by Nuveen). Founded Norm Ai in 2022/2023, New York City.",
+    product_wedge: "'Agentic law' platform — Regulatory AI Agents that interpret regulatory rules, monitor compliance in real time, and govern how other AI systems operate, sold to Chief Compliance Officers; also runs Norm Law, an AI-native law firm where the company's own agents (supervised by human attorneys) deliver outcome-priced legal services instead of billing hourly. Flagship compliance agent for Microsoft 365 Copilot launched May 2026.",
+    funding_history: [
+      { date: "2024", event: "$11.1M raised (stealth-exit round)", valuation: null, lead: "unconfirmed" },
+      { date: "2026-07-07", event: "$120M Series C", valuation: 1200, lead: "Khosla Ventures", other_investors: "Blackstone, Bain Capital Ventures, Coatue, Vanguard, New York Life, TIAA, Fenwick LLP" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "total raised", value: "$267M+ since founding (under 3 years)" },
+      { date: "2026-05", metric: "product launch", value: "Compliance agent built for Microsoft 365 Copilot" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07-07", note: "Hit unicorn valuation ($1.2B) in under 3 years; investor list includes major regulated-industry LPs (New York Life, TIAA, Blackstone) — a signal of institutional buy-in from the exact regulated customer base it targets." }
+    ],
+    thesis_fit: "High — AI sits directly at a regulated decision point (compliance monitoring/governance), with autonomous execution (agents draft and file, supervised rather than merely assistive) and a proprietary-data moat forming via Norm Law's own case outcomes.",
+    verdict: "watch",
+    verdict_rationale: "Real differentiation from the broader legal-AI pack — compliance officers, not just legal ops, are the buyer — plus blue-chip regulated-industry backers, but this is now the 4th legal-adjacent company in the tracker (after Harvey, Crosby, Ivo); track as the compliance-specific sub-niche pick, not a second bet on generic legal AI.",
+    last_updated: "2026-09-14"
+  },
+  {
+    id: "adonis",
+    name: "Adonis",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Healthcare — revenue cycle management",
+    stage: "Series C",
+    website: "https://adonis.io",
+    socials: { twitter: "https://x.com/adonisrcm", linkedin: "https://linkedin.com/company/adonis-technologies" },
+    founding_team: "Akash Magoon (co-founder/CEO) and Aman Magoon (co-founder/CPO) — brothers; both previously co-founded Nayya (AI platform for insurance personalization), and Akash also worked at Enigma and Cedar. Founded Adonis in 2022 after their prior company gave them insight into how health insurers evaluate claims.",
+    product_wedge: "AI-powered orchestration platform combining intelligence tools and AI agents to proactively identify revenue-cycle problems, recommend actions, and autonomously move healthcare claims toward resolution — not just flag denials after the fact.",
+    funding_history: [
+      { date: "2022-10", event: "$5.6M Seed", valuation: null, lead: "unconfirmed" },
+      { date: "2023-05", event: "$17.3M Series A", valuation: null, lead: "General Catalyst" },
+      { date: "2024-06", event: "$31M Series B", valuation: null, lead: "Point72 Private Investments", other_investors: "Kin Ventures, General Catalyst, Bling Capital, Max Ventures" },
+      { date: "2026-03", event: "$40M Series C (total raised: $95M+)", valuation: null, lead: "Quadrille Capital", other_investors: "General Catalyst, Bling Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "revenue growth", value: "More than 4x revenue growth in 2025" },
+      { date: "2026-03", metric: "net revenue retention", value: ">130%" },
+      { date: "2026-03", metric: "customers", value: "Mount Sinai Health System, Baptist Health South Florida, AdventHealth, ApolloMD" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Fourth priced round in under 4 years (seed through Series C), each led by a different investor — steady up-round cadence rather than one outsized speculative raise." }
+    ],
+    thesis_fit: "High — proprietary claims/payer data and workflow access a horizontal platform can't easily replicate, evidence of autonomous execution (agents move claims to resolution, not just assistive flagging), and fast, disclosed revenue growth with named blue-chip health-system customers.",
+    verdict: "watch",
+    verdict_rationale: "Best-evidenced pick this batch on dated, named-customer traction (4x revenue growth, >130% NRR, Mount Sinai/AdventHealth), and RCM/denial-management is a distinct sub-niche from the clinical/patient-access vertical-SaaS healthcare picks already logged (Bunkerhill Health, Assort Health) — real workflow ownership, not a copilot bolt-on.",
+    last_updated: "2026-09-14"
+  },
+  {
+    id: "flagright",
+    name: "Flagright",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "AML / financial-crime compliance",
+    stage: "Series A",
+    website: "https://flagright.com",
+    socials: { twitter: "https://x.com/FlagrightHQ", linkedin: "https://linkedin.com/company/flagright" },
+    founding_team: "Baran Ozkan (co-founder/CEO) and a co-founder referred to publicly only as \"Madhu\" (surname unconfirmed) — Y Combinator-backed.",
+    product_wedge: "'AI operating system for financial crime compliance' — unifies transaction monitoring, watchlist screening, dynamic risk scoring, case management, AI forensics, and audit-ready governance workflows into one explainable-AI platform with sub-second APIs.",
+    funding_history: [
+      { date: "2026-06-17", event: "$12.5M Series A", valuation: null, lead: "Infinity Ventures", other_investors: "Sella, Frontline, Y Combinator" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "customers", value: "100+ financial institutions across 30+ countries" },
+      { date: "2026-06", metric: "false-positive reduction", value: "Up to 93% fewer false positives (customer-reported)" },
+      { date: "2026-06", metric: "compliance cost reduction", value: "Up to 80% lower compliance costs (customer-reported)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Lead investor Infinity Ventures' partners previously led strategic investments/acquisitions at PayPal (Plaid, Venmo, Braintree deals) — relevant domain-specific backing, though a small fund relative to Flagright's larger-name peers' investors." }
+    ],
+    thesis_fit: "Moderate — AI sits at a regulated decision point (transaction monitoring/screening/case management), not a thin chat layer, but the sub-niche (AML/KYC/fraud compliance) is now the single most crowded corner of the fintech list, and no disclosed differentiation separates it technically from better-funded peers already logged.",
+    verdict: "revisit",
+    verdict_rationale: "Real, dated traction (100+ FIs, disclosed false-positive and cost reductions) and a credible payments-focused lead investor, but this is the 6th AML/fraud/compliance-adjacent fintech company logged (after Hadrius, Spektr, Variance, Sardine, Bretton AI) at a comparatively small $12.5M Series A with no disclosed wedge distinguishing it from those peers — revisit if a future round shows a differentiated angle or materially faster growth, rather than treating it as a fresh thesis-fit bet today.",
+    last_updated: "2026-09-14"
   }
 ];
