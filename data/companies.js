@@ -2347,5 +2347,137 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Real, dated traction (100+ FIs, disclosed false-positive and cost reductions) and a credible payments-focused lead investor, but this is the 6th AML/fraud/compliance-adjacent fintech company logged (after Hadrius, Spektr, Variance, Sardine, Bretton AI) at a comparatively small $12.5M Series A with no disclosed wedge distinguishing it from those peers — revisit if a future round shows a differentiated angle or materially faster growth, rather than treating it as a fresh thesis-fit bet today.",
     last_updated: "2026-09-14"
+  },
+  {
+    id: "coval",
+    name: "Coval",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Observability / evaluation (voice & chat agent simulation testing)",
+    stage: "Series A",
+    website: "https://coval.ai",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Brooke Hopkins (Founder/CEO) — built evaluation infrastructure at Waymo (Alphabet's self-driving unit), running millions of simulated miles per code change before founding Coval. Company launched via YC S24 (2024). Socials unconfirmed — search results returned two differing X handles for the company; not guessing which is current.",
+    product_wedge: "Applies autonomous-vehicle-grade simulation and stress-testing methodology (modeled on Waymo's self-driving test process) to voice and chat AI agents — running tens of millions of simulated tests across accents, interruptions, and background noise to catch production failure modes before and after launch.",
+    funding_history: [
+      { date: "2024", event: "YC S24 + early funding", valuation: null, lead: "Y Combinator" },
+      { date: "2026-06-24", event: "$28M Series A", valuation: null, lead: "Norwest", other_investors: "Base10 Partners, Twilio Ventures, Y Combinator" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "traction", value: "No ARR or customer count disclosed; company states its platform runs 'tens of millions of simulated tests' per engagement (methodology claim, not a revenue figure)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Covered as part of the broader $7B+ Q1 2026 voice-AI funding wave; founder's direct AV-safety-testing pedigree (Waymo) is a distinctive, operator-credible signal for a production-reliability wedge." }
+    ],
+    thesis_fit: "High — solves a specific, named production failure mode (voice/chat agents breaking on real-world edge cases: accents, interruptions, noise) with a founder who has directly relevant large-scale simulation/safety-testing experience, exactly the profile theses.md calls out as high-fit for agent infrastructure.",
+    verdict: "watch",
+    verdict_rationale: "Distinctive wedge (AV-grade simulation testing applied to voice/chat agents) with a rare, directly-relevant founder background and a credible Series A syndicate — total funding and disclosed usage are still thin, but the production-reliability angle is exactly the kind of 'boring systems software' theses.md flags as durable.",
+    last_updated: "2026-09-21"
+  },
+  {
+    id: "geordie-ai",
+    name: "Geordie AI",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Security / governance (agent permissions, posture, compliance)",
+    stage: "Series A",
+    website: "https://geordie.ai",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/geordie-ai" },
+    founding_team: "Henry Comfort (CEO), Benji Weber (CTO, ex-Senior Director of Engineering at Snyk), and Hanah-Marie Darley (Chief AI and Product Officer, ex-Director of Security and AI Strategy at Darktrace) — co-founders; founded April 2025, London.",
+    product_wedge: "Discovers and continuously inventories AI agents' activity, tool access, permissions, and system reach across cloud, code, and endpoint — giving enterprises governance and compliance visibility into agent behavior before and during production, a distinct wedge from intent-inspection-at-execution players like Zenity (already tracked).",
+    funding_history: [
+      { date: "2025", event: "$6.5M Seed", valuation: null, lead: "Ten Eleven Ventures, General Catalyst (co-led)" },
+      { date: "2026-05-28", event: "$30M Series A", valuation: 180, lead: "Balderton Capital", other_investors: "Crosspoint Capital, General Catalyst, Ten Eleven Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "ARR growth", value: "1,300% ARR growth in the first five months of 2026 (percentage only — no absolute ARR figure disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Won the RSAC 2026 Innovation Sandbox contest, a closely watched, competitive cybersecurity industry recognition." },
+      { date: "2026-05", note: "Reported as the largest Series A for a European cybersecurity startup to date." }
+    ],
+    thesis_fit: "High — sits in the gateways/guardrails sub-category theses.md names as one of the three real agent-infra gaps, with operator-credible founders (ex-Snyk, ex-Darktrace) and a named, concrete problem (ungoverned agent permissions/access sprawl).",
+    verdict: "watch",
+    verdict_rationale: "RSAC Innovation Sandbox win plus a large, fast-growing (1,300% ARR growth, though no absolute figure) Series A from a credible security-focused syndicate — a distinct governance/permissions wedge from Zenity's intent-inspection approach, worth tracking as a second name in the agent-security sub-category.",
+    last_updated: "2026-09-21"
+  },
+  {
+    id: "accend",
+    name: "Accend",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Commercial credit underwriting infrastructure",
+    stage: "Seed",
+    website: "https://withaccend.com",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/withaccend" },
+    founding_team: "Pranjal Daga (CEO) — ex-Product lead for AI/Risk at Brex, earlier built Cisco Innovation Labs from 1 to 35 people; Yutong Pei — ex-Engineering Manager on Brex's Fraud Risk team, prior fraud/security engineering at IoTeX, Uber, Amazon; Joseph Tianshi Zhou — ex-CFO of a mobile-gaming startup that scaled to $50M ARR. Co-founders; company went through YC (S23).",
+    product_wedge: "AI agents that convert financial documents into structured financial models and credit insights directly inside existing bank/fintech credit-underwriting workflows for commercial and CRE lenders — embeds at the underwriting decision point itself, differentiated by founders' direct fraud/risk/underwriting operating experience at Brex.",
+    funding_history: [
+      { date: "2023", event: "YC S23 + early funding", valuation: null, lead: "Y Combinator" },
+      { date: "2026", event: "$3.2M Seed", valuation: null, lead: "Y Combinator, Adverb Ventures, General Catalyst, 645 Ventures (co-participants)", other_investors: "angels from Brex, Stripe, Carta" }
+    ],
+    disclosed_traction: [
+      { date: "2026", metric: "efficiency", value: "Customers report an 80% reduction in application/credit-document processing time (company-disclosed; no ARR figure given)" },
+      { date: "2026", metric: "customers", value: "Named customers/logos referenced: Corpay, Brex, Rippling, Rho, Column, Settle" }
+    ],
+    qualitative_signal: [
+      { date: "2025", note: "Demoed at FinovateSpring 2025. Crunchbase lists $10M total raised across 3 rounds; only the $3.2M seed round terms are independently confirmed in press — remaining breakdown unconfirmed." }
+    ],
+    thesis_fit: "High — AI sits directly at a regulated decision point (commercial/CRE credit underwriting) inside real bank/fintech workflows, the exact wedge theses.md defines as winning; founding team has real fintech risk/underwriting operating experience (Brex), matching the thesis's highest-fit scoring cue.",
+    verdict: "watch",
+    verdict_rationale: "Founding team's direct Brex risk/fraud operating background and named enterprise customers (Corpay, Rippling, Rho) are the strongest fit signals; funding is still small/early (seed-stage, no disclosed ARR) so this is a name to track into the next round rather than a proven pick yet.",
+    last_updated: "2026-09-21"
+  },
+  {
+    id: "fyld",
+    name: "Fyld",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction / infrastructure field operations",
+    stage: "Series B",
+    website: "https://fyld.ai",
+    socials: { twitter: "https://x.com/fyld_ai", linkedin: "https://uk.linkedin.com/company/fyldai" },
+    founding_team: "Shelley Copsey (CEO) — prior leadership roles at CSIRO and PwC, co-founded PwC's Innovation and Disruption team, ~2 decades across infrastructure/operations/data; Anish Patel (COO); Karl Simons (Chief Futurist) — co-founders; company founded 2020.",
+    product_wedge: "Turns short frontline-worker videos from construction and utility job sites into structured, actionable safety/quality/delivery-risk data using AI — a proprietary video-based data-capture layer for field crews, differentiated from generic project-management or estimating tools (e.g. XBuild, already tracked).",
+    funding_history: [
+      { date: "2023-Q4", event: "£12M round", valuation: null, lead: "Ontario Teachers' Pension Plan" },
+      { date: "2026-02-17", event: "$41M Series B (£32M)", valuation: null, lead: "Energy Impact Partners", other_investors: "Partech (Growth Impact Fund)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-02", metric: "revenue growth", value: "82% year-over-year growth" },
+      { date: "2026-02", metric: "scale", value: "50+ customers and 35,000+ users; named US customers incl. Kiewit Corporation, Quanta Services, Emery Sapp & Sons, Sulzer; >40% of total revenue expected from the US by end of 2026 (company-disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-02", note: "Featured in Construction Dive's contech funding roundup ('6 contech firms raise $126M') — construction/infrastructure field ops is a distinct sub-niche from the pre-build/estimating names already tracked (Build, Brickanta, XBuild)." }
+    ],
+    thesis_fit: "High — construction/infrastructure is an explicit 'open window' vertical in theses.md; owns a proprietary video-based data layer across the field-operations workflow (not a copilot bolt-on), with real disclosed revenue growth and named enterprise logos.",
+    verdict: "watch",
+    verdict_rationale: "Real disclosed growth (82% YoY) and named blue-chip infrastructure customers (Kiewit, Quanta Services) at Series B, with a founding team carrying genuine infrastructure/operations pedigree — best-evidenced construction pick in the tracker alongside XBuild, but attacks a different part of the workflow (frontline field ops vs. pre-build estimating).",
+    last_updated: "2026-09-21"
+  },
+  {
+    id: "liberate",
+    name: "Liberate",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (voice-first claims / servicing back-office)",
+    stage: "Series B",
+    website: "https://liberate.ai",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/liberate-inc" },
+    founding_team: "Amrish Singh (CEO) — ~4 years at Metromile (car insurance, now part of Lemonade) across back-office operations and technology; Ryan Eldridge (VP Engineering) — also ex-Metromile; Jason St. Pierre (CPO) — previously at Twitter, Google, and Verily (Alphabet). Co-founders.",
+    product_wedge: "Reasoning AI agents (not scripted IVR bots) that execute real insurance back-office work end-to-end across voice, email, SMS, and digital channels — claims filing, servicing, sales — differentiated by depth of task completion and founders' direct insurance-carrier operating experience.",
+    funding_history: [
+      { date: "2025-10-15", event: "$50M Series B", valuation: 300, lead: "Battery Ventures", other_investors: "Canapi Ventures, Redpoint Ventures, Eclipse, Commerce Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2025-10", metric: "qualitative claim", value: "Company states its voice AI agent cut hurricane-claim response time from 30 hours to 30 seconds (qualitative claim, not an aggregate ARR or customer-count figure disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2025-10", note: "Battery Ventures GP Marcus Ryu — co-founder and former CEO of Guidewire Software, the dominant P&C insurance core-systems vendor — joined the board, a credible strategic signal from deep insurance-industry expertise." }
+    ],
+    thesis_fit: "Moderate-high — genuine autonomous execution (agents completing full claims/servicing tasks, not assisting a human) in a regulated vertical with an operator-credible founding team, but insurance is now one of the more crowded verticals in this tracker (Shepherd, FurtherAI, Sixfold, Corgi Insurance, InRisk Labs already logged) and no absolute ARR or customer-count figure has been disclosed.",
+    verdict: "revisit",
+    verdict_rationale: "Real funding ($50M Series B, $300M valuation) and a strategically important board addition (ex-Guidewire CEO) are genuine positives, but the round is now nearly a year old with no fresh disclosed traction since, and insurance back-office automation is the most crowded single sub-vertical already in this tracker — worth revisiting once it discloses a harder usage/ARR metric rather than adding as a 6th insurance 'watch' on funding alone.",
+    last_updated: "2026-09-21"
   }
 ];
