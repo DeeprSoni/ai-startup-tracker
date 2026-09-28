@@ -1,6 +1,6 @@
-# Company Tracker — 93 companies
+# Company Tracker — 98 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-21.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-28.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -98,6 +98,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Accend](https://withaccend.com) | AI-native fintech — commercial credit underwriting infrastructure | Seed | unconfirmed | n/a ($3.2M Seed; 80% faster processing, no ARR disclosed); customers incl. Corpay, Rippling, Rho | Watch — ex-Brex risk/underwriting founding team, regulated-decision-point fit |
 | [Fyld](https://fyld.ai) | Vertical SaaS AI-native — construction/infrastructure field operations | Series B | unconfirmed | 82% YoY revenue growth (Feb 2026); 50+ customers incl. Kiewit, Quanta Services | Watch — best-evidenced construction pick alongside XBuild, distinct frontline-field-ops wedge |
 | [Liberate](https://liberate.ai) | Vertical SaaS AI-native — insurance (voice-first claims/servicing) | Series B | $300M (Oct 2025) | n/a (no ARR/customer count disclosed; qualitative claims-speed claim only) | Revisit — real funding and ex-Guidewire-CEO board seat, but stale round and 6th insurance company logged |
+| [Straiker](https://straiker.ai) | Agent infrastructure — security/governance (agentic-workforce runtime protection) | Series A | unconfirmed | n/a (run-rate revenue grew 15x+ in <1yr, no absolute figure); frontier labs + F500 customers | Watch — repeat security-infra founders, named failure modes (agent RCE, data exfiltration), crowded guardrails sub-category |
+| [Hush Security](https://hush.security) | Agent infrastructure — security/governance (non-human/agent identity & access) | Series A | unconfirmed | $41M total raised; named customer/reseller Kyndryl, "multiple Fortune 500" (no ARR disclosed) | Watch — Akamai strategic investor, ex-Meta Networks (Proofpoint exit) founders, thin traction disclosure |
+| [Footprint](https://onefootprint.com) | AI-native fintech — financial-crime compliance/AML/KYC-KYB | Series B | unconfirmed | n/a (named customers Bilt, Nuvei, MoonPay, regulated banks; 30x faster watchlist review, no ARR disclosed) | Watch — QED-led across 3 rounds, real regulated-bank deployment, but 5th AML/compliance company logged |
+| [Gridsight](https://gridsight.ai) | Vertical SaaS AI-native — energy/utilities (electric grid capacity modeling) | Series B | unconfirmed | ~$33.5M total raised; customers incl. Xcel Energy, United Illuminating | Watch — genuinely uncrowded "open window" vertical, Insight Partners-led, still unproven in the US market |
+| [Vestris](https://vestris.ai) | Vertical SaaS AI-native — real estate (title/escrow processing) | Seed (YC S26) | unconfirmed | n/a (one shadow-mode pilot customer, no revenue/deal-volume disclosed) | Revisit — right data-rich niche and embedded founders, too early, human-approval-gated not autonomous |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -199,6 +204,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Accend — `rec:01M310NRQ5FCEKC9SRPWV6F4DZ`
 - Fyld — `rec:01M310NZSYMPZ3WWGK3AXM563X`
 - Liberate — `rec:01M310P6YA52NFWT0BYCDNZE9Y`
+- Straiker — `rec:01M3K1FR0M18QFCBP9S9CDDKBQ`
+- Hush Security — `rec:01M3K1G15NVMS37Z8VDS91XB2M`
+- Footprint — `rec:01M3K1GBKTF2PRQDJ2XZ422JGP`
+- Gridsight — `rec:01M3K1GP9DS2F2C92REBW6G32T`
+- Vestris — `rec:01M3K1GYMVBV67WAW0QNYEY2BZ`
 
 ## How to update a company over time
 

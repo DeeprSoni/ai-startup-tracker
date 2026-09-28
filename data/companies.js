@@ -2479,5 +2479,136 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Real funding ($50M Series B, $300M valuation) and a strategically important board addition (ex-Guidewire CEO) are genuine positives, but the round is now nearly a year old with no fresh disclosed traction since, and insurance back-office automation is the most crowded single sub-vertical already in this tracker — worth revisiting once it discloses a harder usage/ARR metric rather than adding as a 6th insurance 'watch' on funding alone.",
     last_updated: "2026-09-21"
+  },
+  {
+    id: "straiker",
+    name: "Straiker",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Security/governance (agentic-workforce runtime protection)",
+    stage: "Series A",
+    website: "https://straiker.ai",
+    socials: { twitter: "https://x.com/straikerai", linkedin: "https://linkedin.com/company/straiker" },
+    founding_team: "Ankur Shah (CEO) — ex-SVP/GM of Prisma Cloud at Palo Alto Networks (grew it into a leading CNAPP), prior roles at RedLock, CipherCloud, Symantec; Sreenath Kurupati (CTO) — VP of AI/Data Science/Security Research at Akamai, founder/CEO of Cyberfend (fraud detection, acquired by Akamai), 15+ years at Intel before that. Company founded 2024.",
+    product_wedge: "Agentic-AI security platform spanning agent discovery, pre-deployment adversarial/red-team testing, and runtime protection (an 'Agentic Kill Switch') targeting named failure modes — the raise announcement cites 36% of successful attacks on coding agents resulting in remote code execution and 91% of attacks on productivity agents leading to silent data exfiltration.",
+    funding_history: [
+      { date: "2026-06-29", event: "$64M Series A", valuation: null, lead: "Marathon Management Partners, Citi Ventures, Illuminate Financial, Workday Ventures", other_investors: "Bain Capital Ventures, Lightspeed (follow-on); total raised $85M" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "revenue growth", value: "Run-rate revenue grew more than 15x in under a year since 2025 launch (no absolute dollar figure disclosed); used by 'frontier AI labs and Fortune 500 enterprises' (no customer count disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "NVIDIA Inception member, OpenAI 'Select Partner,' OWASP GenAI Security contributor, SOC2/ISO 27001 certified, selected for TechCrunch Startup Battlefield 200 (2026)." }
+    ],
+    thesis_fit: "High — solves a specific, named production failure mode (agent RCE and silent data exfiltration) via pre-deploy testing plus runtime kill-switch, with repeat security-infra operators (Prisma Cloud, Cyberfend) rather than first-time 'AI wrapper' founders, and traction framed as disclosed revenue growth rather than vanity metrics.",
+    verdict: "watch",
+    verdict_rationale: "Credible operator pedigree, a specific named failure mode, and a strong investor syndicate (Workday Ventures, Citi Ventures, plus NVIDIA/OpenAI partner status) make this a legitimate agent-security pick; the caveat is that '15x run-rate growth' cites no base number so could be inflating off a tiny base, and the guardrails/security sub-category is now crowded and richly funded (Zenity, WitnessAI, Onyx Security, AIR already logged) — watch for differentiation rather than treat as a lock.",
+    last_updated: "2026-09-28"
+  },
+  {
+    id: "hush-security",
+    name: "Hush Security",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Security/governance (non-human/agent identity & access)",
+    stage: "Series A",
+    website: "https://hush.security",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/hush-security" },
+    founding_team: "Micha Rave (CEO), Shmulik Ladkani (CTO), Alon Horowitz (VP R&D), Chen Nisnkorn (Chief Customer Officer) — the team previously founded Meta Networks, a network-security company acquired by Proofpoint in 2019. Company founded 2024.",
+    product_wedge: "Governs non-human/machine identities and AI agents by eliminating standing credentials — agents get scoped, just-in-time access instead of persistent secrets, with every action logged and revocable; targets a named failure mode the company states affects 96% of organizations running agents on governance models not built for them (credential/standing-access sprawl).",
+    funding_history: [
+      { date: "2025", event: "$11M seed", valuation: null, lead: "Battery Ventures, YL Ventures" },
+      { date: "2026-07-28", event: "$30M Series A", valuation: null, lead: "Battery Ventures, YL Ventures", other_investors: "Akamai Technologies (strategic investor); total raised $41M" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "customers", value: "Named customer Kyndryl (world's largest IT infrastructure services provider) deploying internally and reselling to its enterprise clients; company cites 'multiple Fortune 500 customers' without a specific count; no ARR/revenue figure disclosed" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07", note: "Akamai joined as a strategic (not just financial) investor, notable given Akamai's identity/edge-security footprint; company cites Gartner projecting Fortune 500 firms will run 150,000+ AI agents by 2028 (vs. <15 a year prior) as market rationale." }
+    ],
+    thesis_fit: "High — precisely targets the gateways/governance gap named in the thesis via a specific credential/access failure mode, not a generic agent framework, with a founding team that has already built and sold security infrastructure to an exit (Meta Networks → Proofpoint).",
+    verdict: "watch",
+    verdict_rationale: "The Akamai strategic investment and Kyndryl reseller relationship are real, checkable signals rather than launch-day fluff, and the founding team has a proven security-infra exit — but disclosed traction is thin (no ARR, no customer count beyond one named reseller and an unquantified 'multiple Fortune 500'), so this reads as promising-but-early rather than proven; revisit once a revenue or customer-count figure is public.",
+    last_updated: "2026-09-28"
+  },
+  {
+    id: "footprint",
+    name: "Footprint",
+    category: "ai-native-fintech",
+    category_label: "AI-Native Fintech",
+    subcategory: "Financial-crime compliance / AML / KYC-KYB decisioning",
+    stage: "Series B",
+    website: "https://onefootprint.com",
+    socials: { twitter: null, linkedin: null },
+    founding_team: "Eli Wachs (CEO) — Stanford (Economics & History), prior stint on the Technology team at General Atlantic across security/privacy/identity, Forbes 30 Under 30 (2025); Alex Grinman (CTO) — MIT (CS/cryptography), co-founded krypt.co (acquired by Akamai), then ~3 years as Principal Product Architect at Akamai. Co-founders; company founded April 2022.",
+    product_wedge: "'Percy,' an agentic AI operating system that executes financial-crime compliance workflows end-to-end (KYC, KYB, enhanced due diligence, sanctions screening, transaction-monitoring investigations) directly inside the regulated decision, on top of governed infrastructure the company calls 'Trust Fabric' — not a chat layer bolted onto a dashboard.",
+    funding_history: [
+      { date: "2022-08", event: "~$6M Seed", valuation: null, lead: "Index Ventures, BoxGroup" },
+      { date: "2024-05", event: "$13M Series A", valuation: null, lead: "QED Investors" },
+      { date: "2026-09", event: "$25M Series B", valuation: null, lead: "QED Investors", other_investors: "MUFG, Commerce Ventures, LightBank, Alumni Ventures, plus existing investors Index Ventures, Lerer Hippeau, BoxGroup, Operator Partners, Animal Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-09", metric: "customers", value: "Named customers Bilt, Nuvei, MoonPay, plus unnamed FDIC/OCC-regulated banks; no ARR/revenue figure disclosed" },
+      { date: "2026-09", metric: "efficiency", value: "Watchlist-hit review time cut from ~30 minutes to under 1 minute; enhanced due diligence cut from ~3 hours to under 15 minutes with 35% more evidence gathered per case (company-reported)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-09", note: "Plans (per raise announcement) to double engineering/sales headcount and open a San Francisco office; QED Investors led all three rounds (seed through Series B), a credible repeat fintech-focused-lead signal." }
+    ],
+    thesis_fit: "High — AI sits directly inside a regulated compliance decision (case investigation/disposition), not a UI layer; disclosed deployment at regulated banks and named payments/crypto customers with quantified cycle-time reductions evidences the 'faster and more accurate than incumbents' wedge; slight ding that founders lack direct ex-bank/regulator operating pedigree.",
+    verdict: "watch",
+    verdict_rationale: "A well-evidenced Series B with a repeat fintech-focused lead investor (QED across three rounds), genuine regulated-bank customer deployment, and quantified efficiency claims rather than vanity metrics — but it is adjacent to AML/compliance names already heavily tracked here (Sardine, Flagright, Hadrius, Accend), so differentiation versus those peers is worth confirming before higher conviction rather than treating this as uncrowded white space.",
+    last_updated: "2026-09-28"
+  },
+  {
+    id: "gridsight",
+    name: "Gridsight",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Energy/utilities (electric grid capacity modeling)",
+    stage: "Series B",
+    website: "https://gridsight.ai",
+    socials: { twitter: null, linkedin: "https://linkedin.com/company/gridsight" },
+    founding_team: "Founded June 2020 in Sydney, Australia by Brendan Banfield, Hugh Chan, and Kurt Walkom (Banfield and Walkom are childhood friends); backed early by UNSW Founders, a university spinout program.",
+    product_wedge: "An AI-driven 'electrical digital twin' for utility distribution networks — combines physics, electrical-engineering models, and utility network data into a continuously updated model that tells utilities how much additional load/generation a given part of the grid can carry, letting them connect data centers, EVs, and solar/DERs without waiting years for new infrastructure builds.",
+    funding_history: [
+      { date: "unconfirmed", event: "Series A, $7.5M", valuation: null, lead: "Airtree, Energy Transition Ventures, Aera VC" },
+      { date: "2026-09-01", event: "$26M Series B", valuation: null, lead: "Insight Partners", other_investors: "Galvanize (new), Airtree, Energy Transition Ventures, Aera VC; total raised ~$33.5M" }
+    ],
+    disclosed_traction: [
+      { date: "2026-09", metric: "customers", value: "Named U.S. utility customers Xcel Energy and United Illuminating (Avangrid subsidiary); also customers in New Zealand and the UK; no ARR disclosed" },
+      { date: "2026-09", metric: "impact", value: "Endeavour Energy (Australia) used the platform to double household solar export capacity limits from 5kW to 10kW, cited as unlocking $100M+ in customer value and 600MW of added solar capacity (company/press claim, not independently audited)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-09", note: "Round explicitly timed to fund U.S. expansion as utilities face what press coverage calls their most complex capacity challenge in decades from data-center, EV, and DER load growth; Insight Partners leading is a step up from the earlier all-Australian VC syndicate." }
+    ],
+    thesis_fit: "High — narrow, deep domain wedge (grid capacity modeling) sold to a regulated, technically demanding buyer, with genuine physics/engineering-model IP rather than a thin LLM wrapper; energy/utilities is an 'open window' vertical per theses.md and not yet represented elsewhere in this tracker.",
+    verdict: "watch",
+    verdict_rationale: "A dated (Sept 2026), multi-source-verified funding event with a credible growth-stage lead (Insight Partners) and named enterprise utility customers clears the bar, and the vertical is genuinely uncrowded in this tracker; not scored higher because Gridsight is Australian-headquartered and only now entering the U.S. market in force, so U.S. reference customers and pricing/ARR discipline are still unproven domestically — worth a check-in after 1-2 quarters of U.S. traction.",
+    last_updated: "2026-09-28"
+  },
+  {
+    id: "vestris",
+    name: "Vestris",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Real estate (title/escrow processing)",
+    stage: "Seed (YC S26)",
+    website: "https://vestris.ai",
+    socials: { twitter: "https://x.com/vestrisdotcom", linkedin: "https://linkedin.com/company/vestris" },
+    founding_team: "Aahil Valliani — previously founded Safe Kids AI (self-reported to have scaled to 10k+ users), holds three USPTO patents, spent a summer working inside a title shop to learn the processor workflow first-hand; Joshua 'Josh' Tang — Computer Engineering degree from University of Michigan, built live-telemetry/communications software for the school's Formula SAE racing team, also worked at a title desk. Both are University of Michigan roommates/friends; company is part of YC Summer 2026.",
+    product_wedge: "Automates residential title processing end-to-end — contract intake and file creation, tax/utility/HOA/special-assessment proration calculations, Schedule A/B title commitment drafting, and closing-disclosure-to-settlement-statement reconciliation — though every step currently requires human approval before proceeding, closer to assisted automation than fully autonomous execution.",
+    funding_history: [
+      { date: "2026-08", event: "YC Summer 2026 batch (standard YC deal; terms not separately disclosed)", valuation: null, lead: "Y Combinator" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "pilot", value: "Running in parallel (shadow mode, not fully live) at one title shop described as 'settling millions in deals a month'; no disclosed customer count, revenue, ARR, or deal-volume-processed figures" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08", note: "Launched via YC's Launch YC program (~August 2026); no other press, partnership, or hiring signal found." }
+    ],
+    thesis_fit: "Moderate — real estate/title insurance is a data-rich, regulated, under-covered niche relative to this tracker's existing crowded verticals, and the wedge (owning contract-to-close title processing, not one narrow task) fits the 'own the full workflow' criterion, but the human-approval-gated design is closer to assistive copilot than the thesis's autonomous-execution bar.",
+    verdict: "revisit",
+    verdict_rationale: "Too early for conviction — one shadow-mode pilot customer, no revenue or deal-volume figure disclosed, and a two-person team with limited direct title-industry tenure — but the founders embedded in a title shop before building and the vertical is a legitimately underexploited data-rich niche; revisit in 2-3 months once the pilot converts to a live paying engagement and a traction figure becomes disclosable.",
+    last_updated: "2026-09-28"
   }
 ];
