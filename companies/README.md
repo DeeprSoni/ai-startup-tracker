@@ -1,6 +1,6 @@
-# Company Tracker — 98 companies
+# Company Tracker — 103 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-09-28.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-10-05.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -103,6 +103,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Footprint](https://onefootprint.com) | AI-native fintech — financial-crime compliance/AML/KYC-KYB | Series B | unconfirmed | n/a (named customers Bilt, Nuvei, MoonPay, regulated banks; 30x faster watchlist review, no ARR disclosed) | Watch — QED-led across 3 rounds, real regulated-bank deployment, but 5th AML/compliance company logged |
 | [Gridsight](https://gridsight.ai) | Vertical SaaS AI-native — energy/utilities (electric grid capacity modeling) | Series B | unconfirmed | ~$33.5M total raised; customers incl. Xcel Energy, United Illuminating | Watch — genuinely uncrowded "open window" vertical, Insight Partners-led, still unproven in the US market |
 | [Vestris](https://vestris.ai) | Vertical SaaS AI-native — real estate (title/escrow processing) | Seed (YC S26) | unconfirmed | n/a (one shadow-mode pilot customer, no revenue/deal-volume disclosed) | Revisit — right data-rich niche and embedded founders, too early, human-approval-gated not autonomous |
+| [Composio](https://composio.dev) | Agent infrastructure — tool integration/auth layer for agents | Series A | unconfirmed | $1M+ ARR (Aug 2026); $29M total raised | Revisit — real developer traction (100K+ devs), but thin ARR for capital raised, overlaps with Arcade |
+| [HelmGuard](https://helmguard.ai) | Agent infrastructure — agentic governance/risk/compliance (GRC) | Seed | unconfirmed | n/a (no customer/usage figures disclosed) | Revisit — credible ex-Palantir team, on-thesis wedge, zero disclosed traction, overlaps Zenity/WitnessAI |
+| [LightTable](https://www.lighttable.ai) | Vertical SaaS AI-native — construction (pre-construction design QA/QC) | Series A | unconfirmed | n/a (20M+ sqft, $3.5B project costs reviewed; 70% vs. 30% error-catch rate) | Watch — quantified efficiency edge in an underhyped "open window" vertical |
+| [Outmarket AI](https://outmarket.ai) | Vertical SaaS AI-native — insurance (brokerage/agency workflow intelligence) | Series A | unconfirmed | 5x YoY ARR growth; 250+ brokerages (May 2026) | Watch — fastest growth this batch, differentiated niche vs. crowded carrier-underwriting side |
+| [Flex](https://flex.one) | AI-native fintech — AI-native private banking/credit for business owners | Series B | unconfirmed | 4x YoY revenue growth; $3B annualized TPV; $105M total equity raised | Watch — AI embedded at a real regulated underwriting decision point, but already growth-stage |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -209,6 +214,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Footprint — `rec:01M3K1GBKTF2PRQDJ2XZ422JGP`
 - Gridsight — `rec:01M3K1GP9DS2F2C92REBW6G32T`
 - Vestris — `rec:01M3K1GYMVBV67WAW0QNYEY2BZ`
+- Composio — `rec:01M452H329XHXPDYH4822SA0RX`
+- HelmGuard — `rec:01M452H9D1B1DWM8Z2Z76YQHZB`
+- LightTable — `rec:01M452HG7QHJG70AS1PS2KA07F`
+- Outmarket AI — `rec:01M452HQHTT90ZR98ECHB38S13`
+- Flex — `rec:01M452HZ2FYGJ03AY5JJ9NJSPR`
 
 ## How to update a company over time
 

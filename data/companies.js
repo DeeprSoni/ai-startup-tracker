@@ -2610,5 +2610,136 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Too early for conviction — one shadow-mode pilot customer, no revenue or deal-volume figure disclosed, and a two-person team with limited direct title-industry tenure — but the founders embedded in a title shop before building and the vertical is a legitimately underexploited data-rich niche; revisit in 2-3 months once the pilot converts to a live paying engagement and a traction figure becomes disclosable.",
     last_updated: "2026-09-28"
+  },
+  {
+    id: "composio",
+    name: "Composio",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Tool integration / auth layer for agents",
+    stage: "Series A",
+    website: "https://composio.dev",
+    socials: { twitter: "https://x.com/composio", linkedin: "https://www.linkedin.com/company/composiohq/" },
+    founding_team: "Soham Ganatra and Karan Vaidya, co-founders; San Francisco and Bengaluru-based, founded June 2023.",
+    product_wedge: "Gives AI agents authenticated, delegated access to 1,000+ third-party business apps through a single API/MCP endpoint, plus tool execution infrastructure aimed at production agent workloads — framed by the company as 'learning infrastructure' (agents improving from execution feedback), not just a connector catalog.",
+    funding_history: [
+      { date: "2023", event: "$4M seed", valuation: null, lead: "unconfirmed" },
+      { date: "2025-07", event: "$25M Series A", valuation: null, lead: "Lightspeed Venture Partners", other_investors: "Elevation Capital, Together Fund; angels incl. Gokul Rajaram, Soham Mazumdar (Rubrik), Dharmesh Shah (HubSpot), Guillermo Rauch (Vercel)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "developers / ARR", value: "100,000+ developers on platform, 200+ startups/enterprises using it, $1M+ ARR; $29M total raised to date" }
+    ],
+    qualitative_signal: [
+      { date: "2025-07", note: "Series A messaging pivoted toward agent 'learning infrastructure' (agents learning from experience), beyond pure tool-connector positioning." }
+    ],
+    thesis_fit: "Moderate — auth/tool-access is a real, named production gap for agents (not a thin LLM wrapper) and the open developer-adoption motion (100K+ devs) matches the thesis's preferred pre-Series-B distribution pattern, but it overlaps with Arcade's authorization/identity wedge already tracked, and $1M+ ARR is thin relative to $29M raised and 2+ years of operating history.",
+    verdict: "revisit",
+    verdict_rationale: "Real developer-adoption signal (100K+ devs, 200+ orgs) and a legitimate infra wedge, but monetization looks thin for the capital and time invested, and the niche already has a stronger-evidenced comp (Arcade) in this tracker — revisit if ARR growth accelerates or a clearer production-reliability story (vs. developer ergonomics) emerges.",
+    last_updated: "2026-10-05"
+  },
+  {
+    id: "helmguard",
+    name: "HelmGuard",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Agentic governance, risk & compliance (GRC)",
+    stage: "Seed",
+    website: "https://helmguard.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "John Daley (CEO), former Palantir executive; Jack Miller (CTO), AI researcher. London-based, founded 2024.",
+    product_wedge: "Agentic GRC platform pitched as 'decisions over documents' — agents connect directly to source systems (not just unstructured document intake) to run continuous third-party reviews, control-gap analysis, and assurance workflows, compressing assessment cycles from weeks to hours; also building an 'agent assurance layer' to monitor how deployed AI agents behave in production.",
+    funding_history: [
+      { date: "2026-09", event: "$7.3M seed", valuation: null, lead: "Infinity Ventures, Frontline (co-led)", other_investors: "FinTech Collective, Stage 2 Capital, Entrepreneurs First" }
+    ],
+    disclosed_traction: [
+      { date: "2026-09", metric: "customers / usage", value: "Not disclosed — no customer count, ARR, or usage volume found in available coverage." }
+    ],
+    qualitative_signal: [
+      { date: "2026-09", note: "Raise funds a US expansion (new New York and San Francisco offices) alongside London HQ, plus hiring across engineering and go-to-market." }
+    ],
+    thesis_fit: "Moderate — agent governance/assurance is on-thesis (the 'guardrails' production problem), and the 'decisions not documents' framing is a real differentiation attempt versus static GRC tooling, but it's an unproven seed-stage team entering a sub-category where this tracker already holds two comps (Zenity, WitnessAI) with disclosed funding/traction HelmGuard hasn't yet matched.",
+    verdict: "revisit",
+    verdict_rationale: "Credible, well-pedigreed founding team (ex-Palantir) and legitimate thematic fit, but zero disclosed customer or usage traction at seed stage, and the agent-governance niche is already represented here by better-evidenced companies — revisit once a named customer or usage metric surfaces.",
+    last_updated: "2026-10-05"
+  },
+  {
+    id: "lighttable",
+    name: "LightTable",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction (pre-construction design QA/QC)",
+    stage: "Series A",
+    website: "https://www.lighttable.ai",
+    socials: { twitter: "unconfirmed", linkedin: "https://www.linkedin.com/company/lighttable-ai/" },
+    founding_team: "Paul Zeckser (CEO), Dan Becker, PhD (CTO), Ben Waters, AIA (Head of Growth, former architect at Gensler). Founded 2024, Denver-based; incubated via Primary Venture Partners.",
+    product_wedge: "AI-native pre-construction review platform that replaces traditional multi-firm peer review of architectural, structural, and MEP documents with a unified AI-driven review — company reports it catches ~70% of design errors that would otherwise cause change orders, versus ~30% via human-only review (4x more issues found).",
+    funding_history: [
+      { date: "2025-08", event: "$6M seed (stealth exit)", valuation: null, lead: "unconfirmed" },
+      { date: "2026-05/06", event: "$22M Series A", valuation: null, lead: "Innovation Endeavors", other_investors: "Blackhorn Ventures, DivcoWest Ventures, 9Yards Capital, Primary Venture Partners, MetaProp, Banter Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "usage volume", value: "20M+ square feet of construction documents reviewed; $3.5B in total project costs reviewed since Aug 2025 launch" },
+      { date: "2026-06", metric: "error-detection rate", value: "~70% of design errors caught pre-construction vs. ~30% via human-only peer review" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Leased new Denver (LoDo) office alongside Series A close — signal of headcount growth." }
+    ],
+    thesis_fit: "High — construction is explicitly flagged as an underhyped 'open window' vertical in this tracker's thesis; LightTable owns a full workflow step (design QA/QC) rather than bolting a copilot onto existing software, and has a disclosed, concrete efficiency metric (70% vs. 30% error catch rate) rather than vague productivity claims.",
+    verdict: "watch",
+    verdict_rationale: "Real, quantified efficiency advantage over the status quo, a differentiated niche within an underexploited vertical, and a credible lead investor — one of the stronger-evidenced vertical SaaS picks sourced this cycle, though still pre-revenue-disclosure (no ARR figure yet).",
+    last_updated: "2026-10-05"
+  },
+  {
+    id: "outmarket-ai",
+    name: "Outmarket AI",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (brokerage/agency workflow intelligence)",
+    stage: "Series A",
+    website: "https://outmarket.ai",
+    socials: { twitter: "unconfirmed", linkedin: "https://www.linkedin.com/company/outmarket-ai" },
+    founding_team: "Vishal Sankhla, co-founder/CEO — previously led the platform team at Uber, Director of Engineering at Facebook, Head of Product at Ethos Life Insurance; additional co-founders from Uber, Meta, Adobe, IBM Watson per company materials. San Francisco-based, founded 2023.",
+    product_wedge: "Integrates directly into insurance agency management systems to turn fragmented brokerage data into an intelligence layer — automates quote comparisons, coverage-gap and tower analysis, policy review, and proposal generation across commercial, benefits, personal lines, and specialty insurance; distinct from the carrier/underwriting-side AI already tracked here (Sixfold, Corgi, FurtherAI) by sitting on the brokerage/agency side of the workflow.",
+    funding_history: [
+      { date: "2023", event: "$4.7M seed", valuation: null, lead: "Fika Ventures", other_investors: "TTV Capital, Dash Fund" },
+      { date: "2026-05", event: "$17M Series A", valuation: null, lead: "Permanent Capital Ventures", other_investors: "SignalFire, Fika Ventures, TTV Capital, Dash Fund" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "ARR growth", value: "5x year-on-year ARR growth" },
+      { date: "2026-05", metric: "customers", value: "250+ insurance brokerages on platform; processes millions of quotes, policies, and applications" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05", note: "Raise earmarked for expanding AI workflows across commercial, benefits, personal lines, and specialty insurance lines." }
+    ],
+    thesis_fit: "High — insurance is a named 'open window' vertical, and the brokerage/agency-workflow wedge is meaningfully differentiated from the already-crowded carrier-underwriting sub-niche this tracker holds multiple positions in; fast disclosed ARR growth (5x YoY) and a real customer base (250+ brokerages) signal genuine PMF rather than hype.",
+    verdict: "watch",
+    verdict_rationale: "Fastest disclosed revenue growth in this week's batch plus a differentiated niche (brokerage ops, not underwriting) within an already-crowded vertical — best-evidenced pick this cycle alongside LightTable.",
+    last_updated: "2026-10-05"
+  },
+  {
+    id: "flex",
+    name: "Flex",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "AI-native private banking / credit for business owners",
+    stage: "Series B",
+    website: "https://flex.one",
+    socials: { twitter: "https://x.com/FlexSuperApp", linkedin: "https://www.linkedin.com/company/flex-super-app/" },
+    founding_team: "Zaid Rahman (CEO) — Thiel Fellow, previously founded Volley (AI knowledge startup backed by JPMorgan, Zuckerberg Ventures); Hadi Solh (co-founder, also Managing Partner at Atmos Ventures); YeTong Shao (co-founder/CPO). Founded 2022.",
+    product_wedge: "AI-native 'private bank' for mid-market business owners ($3M-$200M revenue) — deploys AI directly into the regulated decision point of its own private-credit arm (underwriting and risk pricing for credit extended to customers), plus AI-driven cash management and back-office ops ('AI CFO' framing), rather than a chat layer bolted onto conventional banking rails.",
+    funding_history: [
+      { date: "2025", event: "$200M debt + $25M equity raised", valuation: null, lead: "unconfirmed" },
+      { date: "2025-12", event: "$60M Series B", valuation: null, lead: "Portage", other_investors: "CrossLink Capital, Wellington, Titanium Ventures, Companyon Ventures, Tusk Venture Partners, others; total equity raised to date $105M" }
+    ],
+    disclosed_traction: [
+      { date: "2025-12", metric: "revenue / payments volume", value: "Revenue quadrupled YoY; payments volume tripled to $3B annualized (TPV); nine-figure annualized revenue; path to profitability targeted late 2026" }
+    ],
+    qualitative_signal: [
+      { date: "2025-12", note: "Preparing to launch 'Flex Elite,' an invite-only consumer card/membership positioned as a direct Amex Centurion competitor." }
+    ],
+    thesis_fit: "High — AI sits at an actual regulated decision point (the company's own private-credit underwriting and risk pricing), not a support-ticket chatbot over legacy rails, and proprietary transaction/cash-flow data from its banking relationship feeds that underwriting model — a real fit versus the thesis's 'overhyped chat-layer fintech' warning.",
+    verdict: "watch",
+    verdict_rationale: "Genuine AI-native underwriting embedded in a regulated decision point with strong disclosed revenue growth (4x YoY, $3B TPV), but already growth-stage ($105M equity raised, nine-figure revenue) — best treated as a category comp to track rather than a ground-floor pick.",
+    last_updated: "2026-10-05"
   }
 ];
