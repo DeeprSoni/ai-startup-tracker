@@ -2741,5 +2741,134 @@ window.COMPANIES = [
     verdict: "watch",
     verdict_rationale: "Genuine AI-native underwriting embedded in a regulated decision point with strong disclosed revenue growth (4x YoY, $3B TPV), but already growth-stage ($105M equity raised, nine-figure revenue) — best treated as a category comp to track rather than a ground-floor pick.",
     last_updated: "2026-10-05"
+  },
+  {
+    id: "restate",
+    name: "Restate",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Durable execution / orchestration",
+    stage: "Series A",
+    website: "https://restate.dev",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Stephan Ewen, Till Rohrmann, and Igal Shilman — co-founders. All are co-creators/PMC members of Apache Flink and former colleagues at Data Artisans/Ververica (acquired by Alibaba). Berlin-based.",
+    product_wedge: "Open-source durable execution runtime purpose-built for long-running AI agent workflows — journals every agent step and automatically replays/resumes from the last completed step after a crash, timeout, or interruption. Positions directly against Temporal (already tracked) as a lighter-weight, agent-native durable-execution alternative built by the people who built Flink's distributed-processing core.",
+    funding_history: [
+      { date: "2024-06", event: "$7M seed", valuation: null, lead: "unconfirmed" },
+      { date: "2026-09-30", event: "$20M Series A", valuation: null, lead: "Singular", other_investors: "Redpoint Ventures, Capital One Ventures; total funding to date ~$27M" }
+    ],
+    disclosed_traction: [
+      { date: "2026-09", metric: "named customer / usage mix", value: "Replit named as a customer; company says AI agent workloads now make up the majority of new use cases (no absolute usage figures disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-09-30", note: "Opening a commercial hub in San Francisco for US expansion; founder frames the round as competing directly with Temporal in durable execution for agents." }
+    ],
+    thesis_fit: "High — durable execution is one of the two sub-categories the thesis flags as most likely to matter in 3 years, and the founding team has a decade of prior production distributed-systems experience (Apache Flink, Data Artisans/Ververica) rather than just agent-demo background.",
+    verdict: "watch",
+    verdict_rationale: "Freshest, most credible durable-execution entrant sourced to date — same sub-category as category leader Temporal (already tracked) but earlier-stage, open-source-first, and led by founders with real prior distributed-systems operating history; thin disclosed customer list (just Replit) is the main gap.",
+    last_updated: "2026-10-12"
+  },
+  {
+    id: "take2",
+    name: "Take2",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Healthcare (recruiting / hiring agents)",
+    stage: "Series A",
+    website: "https://take2.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Kaushik Narasimhan and Yaniv Shimoni, co-founders — met as classmates at Stanford Graduate School of Business; R&D team based in Israel.",
+    product_wedge: "Autonomous AI agents purpose-built for healthcare recruiting — leads with an 'AI Interviewer' that phones candidates 24/7, conducts dynamic interviews, scores them, records calls, and pushes results into applicant tracking systems with no human in the loop; roadmap extends to sourcing, screening, credential verification, scheduling, and onboarding agents. Distinct from every other healthcare company already tracked (Bunkerhill Health, Assort Health, Adonis, Alan) by sitting in the back-office hiring/staffing workflow rather than clinical or revenue-cycle operations.",
+    funding_history: [
+      { date: "2026-02-11", event: "$14M Series A", valuation: null, lead: "Human Capital", other_investors: "Bertelsmann Healthcare Investments, Reach Capital, SemperVirens VC, Honeystone Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-02", metric: "customer growth", value: "Quadrupled customer base over the prior 6 months (company-reported); customers include unnamed 'Top 10' health systems and DSOs" }
+    ],
+    qualitative_signal: [
+      { date: "2026-02-11", note: "Axios Pro broke the raise exclusively; funding earmarked to expand beyond interviewing into sourcing, screening, credential verification, scheduling, and onboarding agents." }
+    ],
+    thesis_fit: "Moderate-high — genuine autonomous execution (zero-human-in-loop interviewing) in a real labor-constrained vertical (healthcare staffing), with fast disclosed customer growth; the hiring/interview data moat is thinner than the clinical-data moats held by peers like Bunkerhill Health.",
+    verdict: "watch",
+    verdict_rationale: "Cleanest 'software that does, not assists' healthcare pick sourced this week — autonomous, zero-human-in-loop execution and 4x customer growth in 6 months — but it's a staffing/ops wedge rather than a clinical-data moat, so it ranks a notch below Bunkerhill Health/Adonis on long-term defensibility.",
+    last_updated: "2026-10-12"
+  },
+  {
+    id: "gridcare",
+    name: "GridCARE",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Energy / utilities (AI-datacenter power activation)",
+    stage: "Series A",
+    website: "https://www.gridcare.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Amit Narayan (co-founder/CEO) — previously founded AutoGrid (acquired by Schneider Electric, 2022), ex-Director of Smart Grid Research at Stanford, PhD UC Berkeley. Co-founders Ram Rajagopal (CTO), Arun Majumdar (ex-Google VP Energy, ex-ARPA-E), and Liang Min (Stanford Bits & Watts lab). Founded 2024, Redwood City.",
+    product_wedge: "Physics-based AI platform ('Energize') that finds and unlocks spare capacity on existing grid infrastructure to cut time-to-power for new AI-datacenter clusters — targets the roughly 70% of grid capacity the company says sits idle, aiming to compress multi-year utility interconnection timelines to 6-12 months. Distinct wedge from Gridsight (already tracked; utility-side grid-capacity modeling generally) by focusing specifically on datacenter power activation/interconnection speed — the direct physical bottleneck behind the AI infrastructure buildout.",
+    funding_history: [
+      { date: "2025-05", event: "$13.5M seed", valuation: null, lead: "Xora Innovation" },
+      { date: "2026-05", event: "$64M Series A", valuation: null, lead: "Sutter Hill Ventures, John Doerr (co-led)", other_investors: "National Grid Partners, Future Energy Ventures, Emerson Collective, Stanford University, Laurene Powell Jobs family office" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "named relationships", value: "Endorsements/pilot relationships disclosed at raise with National Grid, Portland General Electric, and PG&E executives; no customer count or revenue disclosed" }
+    ],
+    qualitative_signal: [
+      { date: "2025-05", note: "Launched publicly from stealth explicitly framed as 'eliminating AI's biggest bottleneck: immediate access to power'; Google founding board member Ram Shriram joined the board of directors." }
+    ],
+    thesis_fit: "High — energy/utilities is a named 'open window' vertical going into H2 2026, and the company sits on proprietary utility-relationship and physics-modeling data a horizontal AI platform can't easily replicate; founding team already built and sold one grid-AI company (AutoGrid), not just a demo.",
+    verdict: "watch",
+    verdict_rationale: "Best-timed pick this week — power availability is the single most-cited constraint on the AI infrastructure buildout right now, and the founding team already built and sold one grid-AI company — but all signal so far is utility-relationship/endorsement based, with zero disclosed revenue or customer count.",
+    last_updated: "2026-10-12"
+  },
+  {
+    id: "lama-ai",
+    name: "Lama AI",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Credit underwriting / loan origination (community & regional banks)",
+    stage: "Series A",
+    website: "https://lama.ai",
+    socials: { twitter: "unconfirmed", linkedin: "https://www.linkedin.com/company/lamaai" },
+    founding_team: "Omri Yacubovich (co-founder/CEO) and Ran Magen (co-founder/CTO). New York HQ with a Tel Aviv R&D center.",
+    product_wedge: "Agentic underwriting platform automating credit decisioning for community and regional banks — covers small-business loan applications, commercial lending, real estate financing, and credit cards; pitched as compressing underwriting timelines and increasing approval throughput for banks that can't build this in-house.",
+    funding_history: [
+      { date: "unconfirmed", event: "Seed (amount unconfirmed)", valuation: null, lead: "unconfirmed" },
+      { date: "2026-06", event: "$12M Series A", valuation: null, lead: "EJF Ventures", other_investors: "Fin Capital, 1st & Main, SixThirty, Viola Ventures, Hetz Ventures; total funding raised past $20M. Note: one outlet (SiliconANGLE) reports this same round at $10M — treat the exact figure as unconfirmed pending a primary-source check." }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "revenue growth", value: "300% YoY growth (company-reported); customers report 'several hundred percent' improvement in unspecified underwriting metrics (company-reported, no absolute figures disclosed)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06", note: "Raise earmarked specifically for US bank go-to-market expansion (sales/marketing), signaling a push beyond its Israeli roots into the US regional-bank market." }
+    ],
+    thesis_fit: "High on paper — AI sits directly at the regulated underwriting decision point for banks, the thesis's core 'wedge that wins' — but this tracker already holds five-plus companies in adjacent lending/underwriting/credit niches (Casca, Rezolv, Saris, Accend, Kita), so the marginal differentiation of one more bank-underwriting-automation vendor is thin without a distinguishing data or regulatory angle beyond 'faster, for banks.'",
+    verdict: "revisit",
+    verdict_rationale: "Real regulated-decision-point fit and credible 300% YoY growth, but this is at least the sixth credit-underwriting/lending-automation fintech logged in this tracker — worth revisiting only if it discloses a differentiated data moat or named bank customers that set it apart from the pile of similar entrants already tracked.",
+    last_updated: "2026-10-12"
+  },
+  {
+    id: "plannerpal",
+    name: "PlannerPal",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Wealth management / financial-adviser workflow tools",
+    stage: "Seed",
+    website: "https://www.plannerpal.co.uk",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Mark Whitcroft (CEO); additional co-founders not disclosed in available coverage — flag for next update. London, UK-based.",
+    product_wedge: "AI tool for financial advisers that captures client meetings, auto-generates documents/notes, and syncs data into CRM/back-office systems; expanding from note-taking into a broader 'client intelligence' layer connecting conversations, documents, and CRM data. No underwriting, risk, or execution decision runs through the product — it assists adviser admin rather than sitting at a regulated decision point.",
+    funding_history: [
+      { date: "2024-02", event: "Pre-seed (amount unconfirmed)", valuation: null, lead: "Ada Ventures" },
+      { date: "2026-10-07", event: "$6M (~£4.3M) round", valuation: null, lead: "Mercia Ventures", other_investors: "Ada Ventures (existing), unnamed strategic fintech investors and angels" }
+    ],
+    disclosed_traction: [
+      { date: "2026-10", metric: "customers", value: "250+ UK advice firms, including 20% of the UK's top 20 wealth managers; named customers Canaccord Wealth, ValidPath, Amber River" }
+    ],
+    qualitative_signal: [
+      { date: "2026-10-07", note: "Explicitly positions the raise as moving 'beyond note-taking' into a broader client-intelligence product; staying deliberately UK-only for now, with an eye on expanding into mortgage advice." }
+    ],
+    thesis_fit: "Low — this matches the thesis's named 'overhyped' pattern exactly: an AI layer that assists a human adviser's workflow (notes, docs, CRM sync) rather than sitting at a regulated decision point (advice, suitability, execution); real adviser-firm adoption (250+ firms) is a genuine data point, but the product itself is replicable by any CRM or compliance vendor within a product cycle.",
+    verdict: "pass",
+    verdict_rationale: "Strong UK adviser adoption and a credible fresh raise, but the product is an admin/note-taking assistant layered onto existing advisory workflows — precisely the 'AI bolt-on with no regulated decision point' pattern the fintech thesis flags as overhyped and easily replicated by incumbents.",
+    last_updated: "2026-10-12"
   }
 ];

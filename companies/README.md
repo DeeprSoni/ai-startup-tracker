@@ -1,6 +1,6 @@
-# Company Tracker — 103 companies
+# Company Tracker — 108 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-10-05.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-10-12.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -108,6 +108,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [LightTable](https://www.lighttable.ai) | Vertical SaaS AI-native — construction (pre-construction design QA/QC) | Series A | unconfirmed | n/a (20M+ sqft, $3.5B project costs reviewed; 70% vs. 30% error-catch rate) | Watch — quantified efficiency edge in an underhyped "open window" vertical |
 | [Outmarket AI](https://outmarket.ai) | Vertical SaaS AI-native — insurance (brokerage/agency workflow intelligence) | Series A | unconfirmed | 5x YoY ARR growth; 250+ brokerages (May 2026) | Watch — fastest growth this batch, differentiated niche vs. crowded carrier-underwriting side |
 | [Flex](https://flex.one) | AI-native fintech — AI-native private banking/credit for business owners | Series B | unconfirmed | 4x YoY revenue growth; $3B annualized TPV; $105M total equity raised | Watch — AI embedded at a real regulated underwriting decision point, but already growth-stage |
+| [Restate](https://restate.dev) | Agent infrastructure — durable execution/orchestration | Series A | unconfirmed | n/a (named customer Replit, no ARR disclosed) | Watch — freshest durable-execution entrant, founders built Apache Flink, direct Temporal challenger |
+| [Take2](https://take2.ai) | Vertical SaaS AI-native — healthcare (recruiting/hiring agents) | Series A | unconfirmed | n/a (4x customer growth in 6mo, no ARR disclosed); Top 10 health systems/DSOs as customers | Watch — autonomous zero-human-in-loop hiring agent, distinct niche from clinical/RCM healthcare peers |
+| [GridCARE](https://www.gridcare.ai) | Vertical SaaS AI-native — energy/utilities (AI-datacenter power activation) | Series A | unconfirmed | n/a (no ARR/customer count disclosed; utility endorsements only) | Watch — best-timed pick this week on the AI-power-bottleneck theme, repeat grid-AI founder (AutoGrid exit) |
+| [Lama AI](https://lama.ai) | AI-native fintech — credit underwriting/loan origination (community & regional banks) | Series A | unconfirmed | 300% YoY revenue growth (Jun 2026) | Revisit — real regulated-decision-point fit, but 6th+ lending/underwriting fintech logged in this tracker |
+| [PlannerPal](https://www.plannerpal.co.uk) | AI-native fintech — wealth management/adviser workflow tools | Seed | unconfirmed | n/a (250+ UK advice firms, no ARR disclosed) | Pass — adviser admin/note-taking assistant, no regulated decision point, easily replicable by incumbents |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -219,6 +224,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - LightTable — `rec:01M452HG7QHJG70AS1PS2KA07F`
 - Outmarket AI — `rec:01M452HQHTT90ZR98ECHB38S13`
 - Flex — `rec:01M452HZ2FYGJ03AY5JJ9NJSPR`
+- Restate — `rec:01M4Q3FMG1ZD3GYJG0NDRKGK8E`
+- Take2 — `rec:01M4Q3FXHM250DEQW6R7J2QFR8`
+- GridCARE — `rec:01M4Q3G84HFNJZCDPVV5CBJVF2`
+- Lama AI — `rec:01M4Q3GJAP3PEZ1DT5KFVGB1QZ`
+- PlannerPal — `rec:01M4Q3GTTNJ210PD3KPX2B7RDK`
 
 ## How to update a company over time
 
