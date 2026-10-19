@@ -2870,5 +2870,136 @@ window.COMPANIES = [
     verdict: "pass",
     verdict_rationale: "Strong UK adviser adoption and a credible fresh raise, but the product is an admin/note-taking assistant layered onto existing advisory workflows — precisely the 'AI bolt-on with no regulated decision point' pattern the fintech thesis flags as overhyped and easily replicated by incumbents.",
     last_updated: "2026-10-12"
+  },
+  {
+    id: "federato",
+    name: "Federato",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (AI-native underwriting / full policy lifecycle)",
+    stage: "Series D",
+    website: "https://www.federato.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Will Ross (co-founder/CEO, ex-IBM Watson Group) and William Steenbergen (co-founder/CTO); Megan Bock, COO. Founded 2020.",
+    product_wedge: "AI-native 'RiskOps' platform spanning the full underwriting lifecycle (risk selection, pricing, portfolio steering) for insurance carriers, MGAs, and mutuals — positioned as the operating system for underwriting decisions rather than a copilot bolted onto legacy policy-admin systems.",
+    funding_history: [
+      { date: "2025-11", event: "$100M Series D", valuation: null, lead: "Growth Equity at Goldman Sachs Alternatives", other_investors: "Emergence Capital, Caffeinated Capital, Stepstone Group, Pear VC (existing investors)" }
+    ],
+    disclosed_traction: [
+      { date: "2025-11", metric: "total funding raised", value: "$180M+ across all rounds since 2020 founding (company-reported); no ARR, premium volume, or customer count disclosed" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Appointed Tim Mossing as Chief Customer Officer, framed as supporting continued platform investment and global carrier expansion." },
+      { date: "2026-09", note: "Named to the 2026 CB Insights Insurtech 50." }
+    ],
+    thesis_fit: "High — AI sits directly at the regulated underwriting decision point (risk selection and pricing) for carriers/MGAs/mutuals, not an assistive bolt-on; proprietary underwriting-outcome data is the moat the thesis calls for. Weak point: no ARR, premium, or customer-count figure has been disclosed despite $180M+ raised.",
+    verdict: "watch",
+    verdict_rationale: "A $100M Series D on top of $80M in prior rounds, continued C-suite build-out, and a 2026 industry-list placement are real momentum signals for a company sitting at a genuinely regulated decision point — but the complete absence of any disclosed revenue or customer-count figure after six years and $180M+ raised is a real gap worth re-checking at the next update.",
+    last_updated: "2026-10-19"
+  },
+  {
+    id: "e2b",
+    name: "E2B",
+    category: "agent-infrastructure",
+    category_label: "Agent Infrastructure",
+    subcategory: "Sandboxed code execution / agent runtime infrastructure",
+    stage: "Series A",
+    website: "https://e2b.dev",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Vasek Mlejnsky (co-founder/CEO) and Tomas Valenta (co-founder/CTO) — childhood friends from the Czech Republic; Mlejnsky relocated to San Francisco in 2021 via the Pioneer accelerator. Founded 2023.",
+    product_wedge: "Open-source cloud infrastructure giving each AI agent an isolated sandbox (Firecracker microVMs) to safely execute AI-generated code — a specific, named production problem (secure, scalable code execution for agents) rather than a generic agent-building framework; monetizes via managed cloud on top of the open-source core.",
+    funding_history: [
+      { date: "2025-07", event: "$21M Series A", valuation: null, lead: "Insight Partners", other_investors: "Decibel, Sunflower Capital, Kaya Capital; angel Scott Johnston (former Docker CEO)" }
+    ],
+    disclosed_traction: [
+      { date: "2025-07", metric: "enterprise adoption", value: "88% of the Fortune 100 reported signed up (company-reported, no revenue/ARR disclosed)" },
+      { date: "2025-07", metric: "named customers", value: "Hugging Face, Perplexity, Groq, Manus — Hugging Face and LMArena reportedly run tens of thousands of concurrent sandboxes" }
+    ],
+    qualitative_signal: [
+      { date: "2025-07", note: "Positioned explicitly around open-source-core/paid-cloud distribution via developer adoption — the model the thesis flags as the one likely to win pre-Series B in this layer." }
+    ],
+    thesis_fit: "High — solves one specific, named production problem (secure isolated execution for agent-generated code) rather than competing on generic agent-builder ergonomics; open-source-core distribution with real large-logo usage (Hugging Face, Perplexity, Groq) matches the thesis's stated winning pattern for this layer.",
+    verdict: "watch",
+    verdict_rationale: "Narrow, concrete wedge (isolated agent code execution) with genuine large-scale usage from credible AI-native logos and an open-source distribution model matching the thesis's stated winning pattern — main caveat is the Series A is now over a year old with no newer funding or disclosed-revenue signal found this week, so freshness should be rechecked next pass.",
+    last_updated: "2026-10-19"
+  },
+  {
+    id: "catalyst",
+    name: "Catalyst",
+    category: "ai-native-fintech",
+    category_label: "AI-native Fintech",
+    subcategory: "Agentic trading / retail brokerage execution",
+    stage: "Seed",
+    website: "https://catalyst.app",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Justin Zheng (co-founder/CEO, 25, ex-Worldcoin) and Dylan Iskandar (co-founder, 21, published DoD-affiliated cybersecurity research in high school). Founded 2025, operates as Catos Labs, Inc.",
+    product_wedge: "AI agents that turn a retail investor's plain-language thesis into researched, backtested trading strategies with automated (non-custodial) execution across spot tokens, perpetuals, tokenized stocks, and prediction markets — every money-moving step requires explicit user confirmation, so the product is agent-assisted research/execution rather than fully autonomous trading.",
+    funding_history: [
+      { date: "2026-10-08", event: "$30M seed", valuation: null, lead: "Sequoia Capital", other_investors: "Jump Trading, Peak XV Partners, Lux Capital, AntiFund, Coinbase, Premji Invest" }
+    ],
+    disclosed_traction: [
+      { date: "2026-10-08", metric: "pilot trading volume", value: "\"hundreds of millions\" of dollars in trading volume over a few weeks during a closed pilot with power traders (company-reported, not independently verified); product is waitlist-gated, not yet widely available" }
+    ],
+    qualitative_signal: [
+      { date: "2026-10-08", note: "Elite-tier seed syndicate (Sequoia lead, plus Jump Trading and Coinbase as strategic participants) for a two-person founding team with no prior company track record." }
+    ],
+    thesis_fit: "Medium — sits squarely in the agentic-trading/agent-first-execution sub-thread the fintech thesis flags as the least-crowded and highest-priority area to source, and the investor syndicate is unusually strong for a seed round; held back from 'high' because every trade still requires human confirmation, so the AI is doing research/strategy generation rather than sitting at the actual regulated execution decision the thesis's 'wedge that wins' describes.",
+    verdict: "watch",
+    verdict_rationale: "Freshest signal sourced this week (closed Oct 8, 2026) with a top-tier lead (Sequoia) and real strategic participants (Jump Trading, Coinbase) validating the least-crowded fintech sub-thread named in the thesis — worth tracking closely, but the self-reported pilot-volume figure is unverified and the human-in-the-loop execution model means it isn't yet the fully agent-first brokerage the thesis is watching for.",
+    last_updated: "2026-10-19"
+  },
+  {
+    id: "chamelio",
+    name: "Chamelio",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Legal (in-house legal ops / contract lifecycle management)",
+    stage: "Series A",
+    website: "https://www.chamelio.ai",
+    socials: { twitter: "unconfirmed", linkedin: "https://www.linkedin.com/company/chamelio" },
+    founding_team: "Alex Zilberman (co-founder/CEO), Gal Lellouche (co-founder/CTO), and Gil Banyas (co-founder/COO, former general counsel). Founded 2024, Israeli-founded with New York HQ.",
+    product_wedge: "AI-native operating layer for in-house legal teams — drafts agreements from a company's own contract history, reviews and negotiates terms, routes requests, and manages obligations, positioned as a replacement for (not a copilot bolted onto) traditional contract lifecycle management systems.",
+    funding_history: [
+      { date: "2026-01", event: "Seed round", valuation: null, lead: "unconfirmed", other_investors: "brought total prior funding to ~$10M" },
+      { date: "2026-09-22", event: "$26M Series A", valuation: null, lead: "Entrée Capital", other_investors: "Work-Bench, Emerge Ventures, Bright Pixel Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-09", metric: "ARR growth", value: "~4x since seed round (company-reported, no absolute ARR figure disclosed)" },
+      { date: "2026-09", metric: "named customers", value: "Wiz, monday.com, Socure, AppsFlyer, Wonderful.ai, among 'hundreds' of customers (company-reported)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-09-22", note: "Raise earmarked for a proprietary 'legal action model' plus product/legal-engineering and onboarding — signals ambition to own more of the legal-ops workflow, not just contract review." }
+    ],
+    thesis_fit: "Medium — AI-native architecture and real named-customer traction fit the vertical thesis well on paper, but legal is explicitly called out as an already-crowded vertical in the thesis, and this tracker already holds Harvey (legal, broad), Ivo (contract AI specifically — direct product overlap), and Manifest OS (AI-native law firm model) — so the marginal differentiation of a fourth legal-adjacent logged company is thin without a sharper wedge than 'AI-native CLM.'",
+    verdict: "revisit",
+    verdict_rationale: "Genuinely strong reported metrics (~4x ARR growth, credible named customers, a focused Series A) for a well-regarded niche (in-house legal ops vs. law-firm-facing), but it is at minimum the fourth legal/contract-AI company in this tracker and overlaps directly with the already-logged Ivo on contract AI — worth revisiting only if it discloses an absolute ARR figure or a differentiator sharp enough to separate it from the pile.",
+    last_updated: "2026-10-19"
+  },
+  {
+    id: "miter",
+    name: "Miter",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction (workforce management / back-office operations)",
+    stage: "Series B",
+    website: "https://www.miter.com",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Connor Watumull (co-founder/CEO) and Tobin Paxton (co-founder/COO). Founded 2021, San Francisco.",
+    product_wedge: "AI-powered workforce-management platform for construction contractors, connecting payroll, HR, field operations, job costing, and expenses — AI structures data from invoices/receipts/pay-rate tables, flags labor and job-cost trends, generates safety reports from photos/voice notes, and summarizes job status; proprietary payroll/job-cost data from a large share of the US construction workforce is the moat.",
+    funding_history: [
+      { date: "2025-05", event: "Series A", valuation: null, lead: "unconfirmed", other_investors: "Bessemer Venture Partners, Coatue (prior investors); prior total raised ~$38M" },
+      { date: "2026-09-30", event: "$40M Series B", valuation: null, lead: "Battery Ventures", other_investors: "Bessemer Venture Partners, Coatue (existing)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-09-30", metric: "customers", value: "2,000+ contractors, tripled since the May 2025 Series A" },
+      { date: "2026-09-30", metric: "workforce penetration", value: "~2% of all U.S. construction workers reportedly paid through the platform (company-reported)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-09-30", note: "Round explicitly earmarked for more AI product work on 'back offices and jobsites' plus US go-to-market expansion, rather than new geography or adjacent verticals." }
+    ],
+    thesis_fit: "High — construction is a named 'open window' vertical the thesis flags for extra sourcing attention, and Miter owns a proprietary, hard-to-replicate data asset (payroll/job-cost records across a meaningful share of the US construction workforce) rather than a thin feature bolt-on; some risk that the product is closer to 'AI-assisted back-office ops' than full autonomous execution of core construction work.",
+    verdict: "watch",
+    verdict_rationale: "Real, quantifiable penetration (2,000+ contractors, ~2% of US construction workers, tripled customer count in under 18 months) in an underhyped open-window vertical, backed by a credible growth-investor syndicate (Battery, Bessemer, Coatue) — the one caveat is that the AI today mostly automates back-office workflows (payroll, job costing) rather than autonomously executing the physical work itself, so it's closer to an 'AI-native ops layer' than the thesis's ideal 'software that does the work.'",
+    last_updated: "2026-10-19"
   }
 ];

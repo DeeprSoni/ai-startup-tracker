@@ -1,6 +1,6 @@
-# Company Tracker — 108 companies
+# Company Tracker — 113 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-10-12.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-10-19.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -113,6 +113,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [GridCARE](https://www.gridcare.ai) | Vertical SaaS AI-native — energy/utilities (AI-datacenter power activation) | Series A | unconfirmed | n/a (no ARR/customer count disclosed; utility endorsements only) | Watch — best-timed pick this week on the AI-power-bottleneck theme, repeat grid-AI founder (AutoGrid exit) |
 | [Lama AI](https://lama.ai) | AI-native fintech — credit underwriting/loan origination (community & regional banks) | Series A | unconfirmed | 300% YoY revenue growth (Jun 2026) | Revisit — real regulated-decision-point fit, but 6th+ lending/underwriting fintech logged in this tracker |
 | [PlannerPal](https://www.plannerpal.co.uk) | AI-native fintech — wealth management/adviser workflow tools | Seed | unconfirmed | n/a (250+ UK advice firms, no ARR disclosed) | Pass — adviser admin/note-taking assistant, no regulated decision point, easily replicable by incumbents |
+| [Federato](https://www.federato.ai) | Vertical SaaS AI-native — insurance (AI-native underwriting) | Series D | unconfirmed | n/a ($180M+ total raised, no ARR/customer count disclosed) | Watch — regulated decision point, real multi-round momentum, but zero disclosed revenue after 6 years |
+| [E2B](https://e2b.dev) | Agent infrastructure — sandboxed code execution for agents | Series A | unconfirmed | n/a (88% of Fortune 100 signed up; no ARR disclosed) | Watch — named production wedge, real large-logo usage (Hugging Face, Perplexity, Groq), round is 1yr+ stale |
+| [Catalyst](https://catalyst.app) | AI-native fintech — agentic trading/retail brokerage execution | Seed | unconfirmed | n/a ("hundreds of millions" in pilot volume, self-reported, waitlist-gated) | Watch — freshest pick this week (Oct 8 2026), Sequoia-led, but human-approval-gated not fully autonomous |
+| [Chamelio](https://www.chamelio.ai) | Vertical SaaS AI-native — legal (in-house legal ops/CLM) | Series A | unconfirmed | ~4x ARR growth since seed (no absolute figure); named customers Wiz, monday.com, Socure | Revisit — real traction, but 4th legal/contract-AI company logged, overlaps directly with Ivo |
+| [Miter](https://www.miter.com) | Vertical SaaS AI-native — construction (workforce management) | Series B | unconfirmed | 2,000+ contractors (tripled in <18mo); ~2% of US construction workers paid via platform | Watch — open-window vertical, quantifiable penetration, but closer to AI-assisted back-office than autonomous execution |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -229,6 +234,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - GridCARE — `rec:01M4Q3G84HFNJZCDPVV5CBJVF2`
 - Lama AI — `rec:01M4Q3GJAP3PEZ1DT5KFVGB1QZ`
 - PlannerPal — `rec:01M4Q3GTTNJ210PD3KPX2B7RDK`
+- Federato — `rec:01M5945QD3WG4H4HZJ5BZJ0WTF`
+- E2B — `rec:01M5945Z8ABKEPDG852XGDTYGJ`
+- Catalyst — `rec:01M59467RBJ8CT7AZCRCD8EKWM`
+- Chamelio — `rec:01M5946H8BHZT6K3BSH0XN17ES`
+- Miter — `rec:01M5946SBH11H48YW1A0QN3HNV`
 
 ## How to update a company over time
 
