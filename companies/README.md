@@ -1,6 +1,6 @@
-# Company Tracker — 113 companies
+# Company Tracker — 118 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-10-19.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-10-26.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -118,6 +118,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Catalyst](https://catalyst.app) | AI-native fintech — agentic trading/retail brokerage execution | Seed | unconfirmed | n/a ("hundreds of millions" in pilot volume, self-reported, waitlist-gated) | Watch — freshest pick this week (Oct 8 2026), Sequoia-led, but human-approval-gated not fully autonomous |
 | [Chamelio](https://www.chamelio.ai) | Vertical SaaS AI-native — legal (in-house legal ops/CLM) | Series A | unconfirmed | ~4x ARR growth since seed (no absolute figure); named customers Wiz, monday.com, Socure | Revisit — real traction, but 4th legal/contract-AI company logged, overlaps directly with Ivo |
 | [Miter](https://www.miter.com) | Vertical SaaS AI-native — construction (workforce management) | Series B | unconfirmed | 2,000+ contractors (tripled in <18mo); ~2% of US construction workers paid via platform | Watch — open-window vertical, quantifiable penetration, but closer to AI-assisted back-office than autonomous execution |
+| [Prime Intellect](https://www.primeintellect.ai) | Agent infrastructure — training/eval/compute infra for agents | Series A | $1B (Jul 2026) | $100M+ ARR run-rate (company-reported); 6,000+ clients | Watch — real, verifiable revenue and strategic backers (NVIDIA, Intel, Dell), but stack scope is widening fast |
+| [CopilotKit](https://www.copilotkit.ai) | Agent infrastructure — agent-to-app UI protocol (AG-UI) | Series A | unconfirmed | n/a (unverified "majority of Fortune 500" claim; no disclosed ARR) | Revisit — real open-source wedge, but adjacent to (not inside) the thesis's top sub-categories, no verified revenue |
+| [Latent (Latent Health)](https://www.latenthealth.com) | Vertical SaaS AI-native — healthcare (pharmacy/medication-access) | Series A | unconfirmed | n/a ($80M Series A Mar 2026; 4→45+ health systems in 1yr, now 60+; 30%+ denial reduction) | Watch — strongest evidence bar this batch, distinct niche from other healthcare picks |
+| [Ledgebrook](https://www.ledgebrook.com) | Vertical SaaS AI-native — insurance (AI-native E&S carrier/MGA) | Growth | unconfirmed | $200M raised (Oct 2026); on track for $1B+ cumulative written premium | Revisit — huge round and reinsurer backing, but human-in-loop underwriting and 2nd "AI-native carrier" logged after Corgi |
+| [Prism Data](https://www.prismdata.com) | AI-native fintech — credit underwriting infrastructure | Series A | unconfirmed | $20M Series A (Oct 2026); 3 of top 5 US fintech lenders, 6 of top 10 digital banks as customers | Watch — cleanest regulated-decision-point fit this week, real disclosed distribution via Equifax/Plaid |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -239,6 +244,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Catalyst — `rec:01M59467RBJ8CT7AZCRCD8EKWM`
 - Chamelio — `rec:01M5946H8BHZT6K3BSH0XN17ES`
 - Miter — `rec:01M5946SBH11H48YW1A0QN3HNV`
+- Prime Intellect — `rec:01M5V4MGGXV1T0Q8VANYFRANTG`
+- CopilotKit — `rec:01M5V4MTBFX9FNKT0H6Y0QADBF`
+- Latent (Latent Health) — `rec:01M5V4N4AQPYCZQ656EQS64MP0`
+- Ledgebrook — `rec:01M5V4NDK1QBMG6YDHSDDJ13VM`
+- Prism Data — `rec:01M5V4NQJ0ANCN0PV2CXFRG7MV`
 
 ## How to update a company over time
 

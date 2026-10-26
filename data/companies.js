@@ -3001,5 +3001,141 @@ window.COMPANIES = [
     verdict: "watch",
     verdict_rationale: "Real, quantifiable penetration (2,000+ contractors, ~2% of US construction workers, tripled customer count in under 18 months) in an underhyped open-window vertical, backed by a credible growth-investor syndicate (Battery, Bessemer, Coatue) — the one caveat is that the AI today mostly automates back-office workflows (payroll, job costing) rather than autonomously executing the physical work itself, so it's closer to an 'AI-native ops layer' than the thesis's ideal 'software that does the work.'",
     last_updated: "2026-10-19"
+  },
+  {
+    id: "prime-intellect",
+    name: "Prime Intellect",
+    category: "agent-infrastructure",
+    category_label: "Agent infrastructure",
+    subcategory: "Agent training / evaluation / compute infrastructure (RL environments, eval, inference, sandboxes)",
+    stage: "Series A",
+    website: "https://www.primeintellect.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Vincent Weisser (co-founder/CEO) and Johannes Hagemann (co-founder). Founded 2023, San Francisco.",
+    product_wedge: "Full-stack infrastructure for training, evaluating, and deploying AI agents — RL environments (built on the open-source Verifiers library, 2,500+ community environments on its Environment Hub), hosted evaluation/benchmarking across 100+ open models, hosted large-scale training, inference (own hosted models plus a third-party model gateway), on-demand/reserved GPU compute sourced from 50+ providers, and sandboxed code execution — pitched as letting enterprises own their reward signals, sandboxes, and eval suites instead of depending on frontier labs.",
+    funding_history: [
+      { date: "2024-04", event: "$5.5M seed", valuation: null, lead: "unconfirmed" },
+      { date: "2025-03", event: "$15M round", valuation: null, lead: "Founders Fund" },
+      { date: "2026-07-08", event: "$130M Series A", valuation: 1000, lead: "Radical Ventures", other_investors: "NVIDIA Ventures, Intel Capital, Dell Technologies Capital, ICONIQ" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "ARR", value: "$100M+ annualized revenue run-rate (company-reported, cited by TechCrunch)" },
+      { date: "2026-07", metric: "customers", value: "6,000+ enterprise and startup clients (company-reported); named customers incl. Ramp, Zapier, Goodfire" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07-08", note: "Raise framed explicitly around enterprises owning their RL reward signals, sandboxes, and eval suites rather than depending on frontier labs; released INTELLECT-3, a 100B+ parameter MoE model, around the same period." }
+    ],
+    thesis_fit: "High — solves named production failure modes (ground-truth evaluation, training infrastructure, inference/compute control) that foundation model labs don't want to own as a business; founding team has operated this stack since 2023, not just built a demo; distribution blends open-source community adoption (Verifiers, Environment Hub) with enterprise paid infrastructure, matching the thesis's preferred pre-Series-B motion.",
+    verdict: "watch",
+    verdict_rationale: "Genuinely large, verifiable revenue ($100M+ ARR run-rate) and a strategic investor syndicate (NVIDIA, Intel, Dell) validate real enterprise demand for agent training/eval infrastructure rather than hype; the risk is scope creep — the stack now spans compute, inference, evals, and a hosted agent harness, which could dilute the focused wedge the thesis says actually wins.",
+    last_updated: "2026-10-26"
+  },
+  {
+    id: "copilotkit",
+    name: "CopilotKit",
+    category: "agent-infrastructure",
+    category_label: "Agent infrastructure",
+    subcategory: "Agent-to-application UI layer / frontend integration protocol (AG-UI)",
+    stage: "Series A",
+    website: "https://www.copilotkit.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Atai Barkai (co-founder/CEO, ex-Meta/Doximity developer infrastructure) and Uli Barkai (co-founder, head of growth). Operates as Tawkit, Inc.; based in Seattle; founded 2023.",
+    product_wedge: "Open-source AG-UI protocol standardizing bi-directional communication between agentic backends (LangChain, Google ADK, Claude Agent SDK, CrewAI, etc.) and user-facing application frontends (React/Angular/Vue, iOS, Android, Slack, Teams, WhatsApp) — generative UI, human-in-the-loop approvals, frontend tools, shared state. Monetizes via a self-hosted 'CopilotKit Intelligence' enterprise product layered on the open-source core.",
+    funding_history: [
+      { date: "2026-05", event: "$27M raise (reported as ~$20M Series A plus a previously-unannounced $7M seed; exact split disputed across outlets)", valuation: null, lead: "Glilot Capital Partners, NFX, SignalFire", other_investors: "Discovery Ventures, Vermilion Cliffs Ventures, DVC, Abstraction Capital, 97212 Ventures, Deep Acre, J-Ventures, Gurtin Ventures, Fresh Fund" }
+    ],
+    disclosed_traction: [
+      { date: "2026-05", metric: "adoption claim", value: "company says AG-UI is used by 'the majority of the Fortune 500s and Global 50' (unverified marketing claim, no independent confirmation found)" },
+      { date: "2026-05", metric: "headcount", value: "~20 employees at time of raise" }
+    ],
+    qualitative_signal: [
+      { date: "2026-05", note: "Raise earmarked for generative UI, self-improving agents that learn from human feedback, and pushing AG-UI as an open standard; expanding the Seattle team." }
+    ],
+    thesis_fit: "Low-to-medium — AG-UI addresses a real, named gap (how agents talk to app frontends) rather than being a pure chat-wrapper, and the open-source-core/paid-cloud model matches the thesis's preferred distribution motion; but it doesn't map to the thesis's three highest-conviction sub-categories (durable execution, evaluation, gateways/cost control), and the 'majority of Fortune 500' adoption claim is unverified company marketing rather than disclosed logos or revenue.",
+    verdict: "revisit",
+    verdict_rationale: "Real open-source traction and a differentiated wedge (agent-to-UI protocol) make this worth tracking, but there's no disclosed revenue or verified customer list to assess actual enterprise conversion, and the wedge sits adjacent to — not squarely inside — the production-reliability problems (durable execution, eval, cost control) the thesis flags as mattering most; revisit if a paid-customer count or ARR figure surfaces.",
+    last_updated: "2026-10-26"
+  },
+  {
+    id: "latent-health",
+    name: "Latent (Latent Health)",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Healthcare (pharmacy / medication-access intelligence — prior authorization, appeals)",
+    stage: "Series A",
+    website: "https://www.latenthealth.com",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Rishabh Jain and Sriram ('Sri') Somasundaram, co-CEOs; Somasundaram previously on the founding team of Hebbia and researched molecular binding patterns at Stanford. Founded 2022, San Francisco.",
+    product_wedge: "Clinical agentic engine ('Clinical Reasoning Engine') automating the pharmacy/medication-access workflow end to end — prior authorization, appeals, and patient access — by reading EHR data, payer guidelines, and pharmacy operations and taking autonomous action rather than just assisting a human reviewer; proprietary integration depth across 60+ health systems is the moat.",
+    funding_history: [
+      { date: "2026-03-30", event: "$80M Series A", valuation: null, lead: "Spark Capital, Transformation Capital (co-led)", other_investors: "Conviction, McKesson Ventures, General Catalyst, Y Combinator; brings total raised to ~$93M (per Dealroom)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-03", metric: "health system partners", value: "grew from 4 to 45+ over the prior year; works with 50% of the top 20 U.S. health systems (company-reported)" },
+      { date: "2026-03", metric: "outcome metric", value: "30%+ reduction in medication denials (company-reported)" },
+      { date: "2026-10", metric: "scale", value: "60+ health systems, 5M+ patient medication journeys/year, incl. Mount Sinai, Yale New Haven Health, Ochsner Health, UNC Health (per company website)" },
+      { date: "2026-10", metric: "named customer outcomes", value: "Mount Sinai: 15-20% YoY prescription volume growth absorbed without adding staff; Yale New Haven Health: 2x prior authorizations per person/month; Ochsner Health: appeal drafting cut from ~30 to ~7 minutes; St. Luke's Health System: $300K/yr labor cost avoided (company-reported case studies)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-03", note: "Raise explicitly framed around widening scope beyond prior authorization into the broader medication-access workflow (identify, access, treat, engage)." }
+    ],
+    thesis_fit: "High — healthcare is a named high-proof-point vertical in the thesis (alongside Abridge, Harvey, Sierra), and Latent's wedge (proprietary EHR/payer/pharmacy integration across 60+ health systems, autonomous prior-auth/appeals execution rather than assistive note-taking) fits the 'owns the full workflow' pattern the thesis rewards; distinct sub-niche (pharmacy/medication access) from the already-logged Bunkerhill Health (general health-system AI), Assort Health (patient-access voice agents), Adonis (RCM), and Take2 (recruiting).",
+    verdict: "watch",
+    verdict_rationale: "Real, dated, named-customer outcome metrics at a large and fast-growing health-system base (4 → 45+ in a year, now 60+) are the strongest evidence bar in this batch, and the vertical (medication access / prior auth) is a genuinely distinct niche from the other healthcare companies already in this tracker rather than a sixth copy of the same wedge.",
+    last_updated: "2026-10-26"
+  },
+  {
+    id: "ledgebrook",
+    name: "Ledgebrook",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Insurance (AI-native E&S specialty carrier / MGA)",
+    stage: "Growth (primary equity financing)",
+    website: "https://www.ledgebrook.com",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Gage Caligaris (founder/CEO), former actuary at Liberty Mutual and commodity-derivatives trader at Barclays. Founded 2021-2022 (sources conflict on exact year), Boston.",
+    product_wedge: "'Blackbird,' an in-house AI underwriting platform that reads submissions, classifies risk, and calculates technical pricing for hard-to-place general liability, professional liability, and specialty E&S risks for mid-sized businesses, distributed exclusively through wholesale brokers; AI accelerates and prices risk but experienced human underwriters retain final underwriting authority.",
+    funding_history: [
+      { date: "2025-06", event: "$65M raise", valuation: null, lead: "unconfirmed" },
+      { date: "2026-10-07", event: "$200M primary equity financing", valuation: null, lead: "Allianz X, Rockefeller Capital Management (co-led)", other_investors: "existing and new investors, not individually disclosed; paired with a separate multi-year reinsurance arrangement with Allianz Re" }
+    ],
+    disclosed_traction: [
+      { date: "2026-10", metric: "cumulative written premium", value: "on track to surpass $1B cumulative written premium since underwriting began in 2023 (company-reported)" },
+      { date: "2026-08", metric: "rating", value: "A- (Excellent) financial strength rating from AM Best" }
+    ],
+    qualitative_signal: [
+      { date: "2026-10-07", note: "Raise paired with a strategic reinsurance deal (Allianz Re) rather than financial investors alone — signals the AI-underwriting thesis is being underwritten by a reinsurer, not just VCs." }
+    ],
+    thesis_fit: "Medium — AI sits directly at the underwriting/pricing decision point in a regulated, data-rich vertical (E&S specialty insurance), which is the thesis's core wedge; but Ledgebrook keeps a human underwriter as the final decision-maker (assistive, not fully autonomous execution), and it's the second 'AI-native company that takes on insurance risk itself as a carrier/MGA' in this tracker after Corgi Insurance, in an insurance vertical that already has a dozen-plus entries.",
+    verdict: "revisit",
+    verdict_rationale: "The $200M round size and blue-chip co-leads (Allianz X, Rockefeller Capital Management) plus a direct reinsurance commitment from Allianz Re are a real institutional signal that's hard to dismiss, but the underwriting itself is explicitly human-in-the-loop rather than autonomous, and insurance is now the most crowded vertical in this tracker — worth revisiting only if Ledgebrook discloses how much of the underwriting decision Blackbird actually makes without human override.",
+    last_updated: "2026-10-26"
+  },
+  {
+    id: "prism-data",
+    name: "Prism Data",
+    category: "ai-native-fintech",
+    category_label: "AI-native fintech",
+    subcategory: "Credit underwriting infrastructure (cash-flow underwriting / alternative credit data)",
+    stage: "Series A",
+    website: "https://www.prismdata.com",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Jason Rosen (CEO/co-founder); also co-founder/CEO of Petal, from which Prism Data was spun out as a B2B data-infrastructure unit.",
+    product_wedge: "Cash-flow underwriting infrastructure sold directly into lenders' underwriting stacks — CashScore (FCRA-compliant 1-999 score built from near-real-time bank-transaction history), plus Insights, Income, Categories, and the newer REFRACT AI engine that classifies transactions (e.g. separating earned income from borrowed funds); distributed through Equifax, Plaid, and embedded in decisioning platforms including Taktile and Alloy — AI sits directly inside the credit-approval/pricing decision, not a chat layer on top of it.",
+    funding_history: [
+      { date: "2023", event: "$5M seed", valuation: null, lead: "Obvious Ventures", other_investors: "Citi Impact Fund, Core Innovation Capital" },
+      { date: "2026-10-19", event: "$20M Series A", valuation: null, lead: "Story Ventures", other_investors: "FINTOP, Core VC, Obvious Ventures, 1st & Main Growth Partners, Mana Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-10", metric: "customers", value: "3 of the 5 largest U.S. fintech lenders; 6 of the 10 largest digital banks (company-reported)" },
+      { date: "2026-10", metric: "distribution", value: "embedded in Equifax, Plaid, LexisNexis, and decisioning platforms Taktile and Alloy" }
+    ],
+    qualitative_signal: [
+      { date: "2026-10-19", note: "Raise earmarked for US/Canada expansion and further investment in REFRACT, the newer AI transaction-classification engine, alongside the existing CashScore product." }
+    ],
+    thesis_fit: "High — AI sits directly at the regulated underwriting/pricing decision point (not a support layer), the founding team has deep fintech/credit-data operating history (spun out of Petal, a real consumer-lending company), and the product is proprietary transaction-level data infrastructure a bank can't easily replicate or buy off the shelf; distribution through major data aggregators (Equifax, Plaid) and decisioning platforms (including the already-logged Taktile) gives real reach without owning the full lending relationship.",
+    verdict: "watch",
+    verdict_rationale: "A disclosed customer base naming 3 of the top 5 U.S. fintech lenders and 6 of the top 10 digital banks, embedded distribution through Equifax/Plaid, and a fresh Series A (Oct 19, 2026) make this the cleanest regulated-decision-point fit sourced this week — the main caveat is Prism sells scoring infrastructure rather than making underwriting decisions itself, so it's closer to 'input to underwriting' than 'underwriting agent,' and valuation/ARR remain undisclosed.",
+    last_updated: "2026-10-26"
   }
 ];
