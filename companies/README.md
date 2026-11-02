@@ -1,6 +1,6 @@
-# Company Tracker — 118 companies
+# Company Tracker — 123 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-10-26.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-11-02.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -123,6 +123,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Latent (Latent Health)](https://www.latenthealth.com) | Vertical SaaS AI-native — healthcare (pharmacy/medication-access) | Series A | unconfirmed | n/a ($80M Series A Mar 2026; 4→45+ health systems in 1yr, now 60+; 30%+ denial reduction) | Watch — strongest evidence bar this batch, distinct niche from other healthcare picks |
 | [Ledgebrook](https://www.ledgebrook.com) | Vertical SaaS AI-native — insurance (AI-native E&S carrier/MGA) | Growth | unconfirmed | $200M raised (Oct 2026); on track for $1B+ cumulative written premium | Revisit — huge round and reinsurer backing, but human-in-loop underwriting and 2nd "AI-native carrier" logged after Corgi |
 | [Prism Data](https://www.prismdata.com) | AI-native fintech — credit underwriting infrastructure | Series A | unconfirmed | $20M Series A (Oct 2026); 3 of top 5 US fintech lenders, 6 of top 10 digital banks as customers | Watch — cleanest regulated-decision-point fit this week, real disclosed distribution via Equifax/Plaid |
+| [EliseAI](https://www.eliseai.com) | Vertical SaaS AI-native — housing/healthcare operations | Series F | $4B (Sep 2026) | >$200M ARR (company-reported, Jun 2026) | Watch — most mature pick this week, Apollo launch signals shift to autonomous execution |
+| [Orkes](https://orkes.io) | Agent infrastructure — durable execution/orchestration | Series B | unconfirmed | n/a ($60M Series B Apr 2026; 3,000+ enterprise customers, no ARR disclosed) | Watch — Netflix-Conductor founding team, real durable-execution wedge, faces much larger Temporal |
+| [TerraFirma](https://terrafirma.build) | Vertical SaaS AI-native — construction (semi-autonomous heavy equipment) | Series A | unconfirmed | n/a ($115M raise Jul 2026; zero revenue/customer/machine-count disclosed) | Revisit — right vertical and founding team, but unproven hardware bet with no disclosed traction |
+| [Uptiq](https://uptiq.ai) | AI-native fintech — banking/credit-union AI agents (lending, wealth) | Series B | unconfirmed | n/a ($10B+ cumulative loan balances processed; 150+ FIs, no ARR disclosed) | Watch — strongest regulated-decision-point fit this week, Curql strategic investor |
+| [Acrab](https://acrab.ai) | Agent infrastructure — edge compute/inference hardware for agents | Series B | unconfirmed | n/a ($350M+ total raised; no revenue/customers disclosed) | Pass — well-funded but hardware wedge sits outside the thesis's defined agent-infra sub-categories |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -249,6 +254,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Latent (Latent Health) — `rec:01M5V4N4AQPYCZQ656EQS64MP0`
 - Ledgebrook — `rec:01M5V4NDK1QBMG6YDHSDDJ13VM`
 - Prism Data — `rec:01M5V4NQJ0ANCN0PV2CXFRG7MV`
+- EliseAI — `rec:01M6D5EEQ86D9JGR4R56NA65BP`
+- Orkes — `rec:01M6D5ESDJDZCYZSG7EJTK1ATX`
+- TerraFirma — `rec:01M6D5F4CPBH9NBFYYG31JQZSK`
+- Uptiq — `rec:01M6D5FJE6M6H5RCRG7YG8TKW9`
+- Acrab — `rec:01M6D5FWEHV6KXMZXC4J02GCJ3`
 
 ## How to update a company over time
 

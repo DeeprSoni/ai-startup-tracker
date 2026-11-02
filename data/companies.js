@@ -3137,5 +3137,140 @@ window.COMPANIES = [
     verdict: "watch",
     verdict_rationale: "A disclosed customer base naming 3 of the top 5 U.S. fintech lenders and 6 of the top 10 digital banks, embedded distribution through Equifax/Plaid, and a fresh Series A (Oct 19, 2026) make this the cleanest regulated-decision-point fit sourced this week — the main caveat is Prism sells scoring infrastructure rather than making underwriting decisions itself, so it's closer to 'input to underwriting' than 'underwriting agent,' and valuation/ARR remain undisclosed.",
     last_updated: "2026-10-26"
+  },
+  {
+    id: "eliseai",
+    name: "EliseAI",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Housing & healthcare operations (agentic leasing / patient-access communications)",
+    stage: "Series F",
+    website: "https://www.eliseai.com",
+    socials: { twitter: "https://x.com/elise_ai", linkedin: "https://www.linkedin.com/company/eliseai" },
+    founding_team: "Minna Song (co-founder/CEO) and Stoyan 'Tony' Stoyanov (co-founder/CTO); founded 2017 as MeetElise, New York City.",
+    product_wedge: "AI agents automating resident/prospect communications and leasing workflows for multifamily housing operators, expanded into healthcare patient-access/scheduling operations; recently launched Apollo, an agentic AI teammate that autonomously executes tasks across the Elise platform (messaging prospects, reassigning tasks/tours, updating knowledge, adjusting settings, building dashboards) within each user's permissions — an explicit move from assistive copilot toward autonomous execution.",
+    funding_history: [
+      { date: "2025-08", event: "$250M Series E", valuation: 2200, lead: "unconfirmed" },
+      { date: "2026-09-29", event: "$350M raise (widely reported as Series F)", valuation: 4000, lead: "Andreessen Horowitz, Bessemer Venture Partners (co-led)", other_investors: "Ontario Teachers' Pension Plan (new); existing backers not individually disclosed" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "ARR", value: "exceeds $200M (company-reported; exact figure and methodology not disclosed)" },
+      { date: "2026-09", metric: "adoption", value: "company says roughly 1 in 6 US apartments run leasing conversations through EliseAI (one source says 1 in 5, ~6.5M units — figures conflict); named customer Asset Living (2nd-largest manager on the NMHC Top 50) runs 5 EliseAI modules across 450,000+ units" }
+    ],
+    qualitative_signal: [
+      { date: "2026-09-29", note: "Raise coincided with the launch of Apollo, the company's first agentic AI teammate capable of autonomously executing platform tasks; proceeds earmarked for expanding the NYC HQ and standing up a new San Francisco engineering hub." }
+    ],
+    thesis_fit: "High — housing and healthcare are thesis-named proof-point verticals (alongside Abridge, Harvey, Sierra already in this tracker); EliseAI already has large, if company-reported, scale (>$200M ARR, blue-chip operator Asset Living across 450K+ units) and is explicitly shifting from assistive copilot to autonomous execution with Apollo, matching the thesis's described 18-month frontier move from 'time saved' to 'actions completed.'",
+    verdict: "watch",
+    verdict_rationale: "The most mature company sourced this week — doubling its valuation to $4B in about 13 months signals real, sustained demand, and the dated Apollo launch is a concrete product move toward autonomous execution rather than a cosmetic AI relabel; the caveat is that at $4B and 9 years old this is a late-stage bellwether comp (like Harvey/Sierra) rather than a ground-floor pick, and the >$200M ARR figure is unverified company messaging.",
+    last_updated: "2026-11-02"
+  },
+  {
+    id: "orkes",
+    name: "Orkes",
+    category: "agent-infrastructure",
+    category_label: "Agent infrastructure",
+    subcategory: "Durable execution / agentic workflow orchestration",
+    stage: "Series B",
+    website: "https://orkes.io",
+    socials: { twitter: "https://twitter.com/orkesio", linkedin: "https://www.linkedin.com/company/orkes-inc" },
+    founding_team: "Jeu George (co-founder/CEO), Viren Baraiya (co-founder/CTO, original creator of Netflix Conductor), Boney Sekh and Dilip Lukose (co-founders) — the team built and operated Conductor at Netflix before founding Orkes in 2021/2022; HQ Cupertino, CA.",
+    product_wedge: "Commercializes Netflix's open-source Conductor workflow-orchestration engine (which Orkes now stewards after Netflix stepped back from maintenance), extended for agentic use cases — durable, stateful execution of long-running multi-step workflows and AI agents across failures/retries, plus newer Agentspan (a durable AI agent runtime) and an MCP Gateway exposing internal APIs to LLMs/agents; distribution blends open-source adoption with a paid enterprise cloud, matching the thesis's preferred pre-Series-B motion.",
+    funding_history: [
+      { date: "2024-02", event: "$20M Series A", valuation: null, lead: "Nexus Venture Partners" },
+      { date: "2026-04-24", event: "$60M Series B", valuation: null, lead: "AVP", other_investors: "Prosperity7 Ventures (new); Nexus Venture Partners, Battery Ventures, Vertex Ventures US (existing); cumulative funding reported between ~$89M-$98.6M depending on source" }
+    ],
+    disclosed_traction: [
+      { date: "2026-04", metric: "customers", value: "3,000+ global enterprises (company-reported); named production reference customer Naveo Commerce (European commerce platform running fulfillment/inventory agents on Orkes); broader logo list circulating in third-party blog coverage (Twilio, LinkedIn, JPMorgan Chase, Tesla, American Express, United Wholesale Mortgage, Quest Diagnostics, Woodside Energy) is unverified beyond the company's own figure" }
+    ],
+    qualitative_signal: [
+      { date: "2026-01", note: "Expanded specifically into agent-oriented infrastructure (Agentspan durable agent runtime, MCP Gateway) beyond general microservice orchestration." },
+      { date: "2026-04-24", note: "Raise explicitly framed around developers deploying AI 'confidently in production' — the durable-execution wedge, not a generic agent-builder pitch." }
+    ],
+    thesis_fit: "High — durable execution is one of the two sub-categories the thesis flags as most likely to matter in 3 years; the founding team operated Conductor at Netflix at massive production scale before founding the company (real prior operating experience, not a demo); open-source-core-plus-paid-cloud distribution matches the thesis's preferred pre-Series-B motion exactly.",
+    verdict: "watch",
+    verdict_rationale: "A named, verifiable production failure mode (durable execution for long-running agent workflows), a founding team with genuine prior-operator credibility, and a claimed 3,000+ enterprise customer base make this a strong fit; the key risk — flagged by the thesis's own consolidation warning — is that Temporal (already logged, $5B valuation off a $300M Series D) is a far larger, better-capitalized direct competitor in the same sub-category, so Orkes's path depends on differentiating beyond 'Conductor with agents bolted on.'",
+    last_updated: "2026-11-02"
+  },
+  {
+    id: "terrafirma",
+    name: "TerraFirma",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction (semi-autonomous heavy equipment / remote-operated earthworks)",
+    stage: "Series A",
+    website: "https://terrafirma.build",
+    socials: { twitter: "unconfirmed", linkedin: "https://www.linkedin.com/company/terrafirma-build/" },
+    founding_team: "Noah Schochet (co-founder/CEO) and Noah McGuinness (co-founder/CTO), both former SpaceX engineers (Starshield, Starlink, Starship programs); founded 2024, Austin, TX.",
+    product_wedge: "Full-stack platform combining AI-enabled pre-construction planning software, a remote command-and-control center, and retrofitted semi-autonomous heavy construction equipment (excavators and similar) for robotic earthworks and site operations; explicitly positioned as human-supervised remote/semi-autonomous rather than full automation — the goal is multiplying operator effectiveness, not workforce replacement.",
+    funding_history: [
+      { date: "2026-07-14", event: "$115M raise (reported as a $100M Series A plus ~$15M additional; exact structure unconfirmed)", valuation: null, lead: "Kleiner Perkins", other_investors: "Bain Capital Ventures, Glade Brook Capital, PEAK6, Magnetar Capital, BANNER VC, Saga Ventures, Trust Ventures, Definition Capital, Ravelin Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "traction", value: "company explicitly declined to disclose revenue, contract value, current machine count, or valuation; claims equipment operators can be up to 300% more effective (company-reported, unverified)" },
+      { date: "2026-07", metric: "hiring plan", value: "plans to hire 300 employees over the next year and stand up a Texas manufacturing factory plus a mission-control center (stated plan, not yet realized)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07-14", note: "Raise is explicitly benchmarked by press against category comp Bedrock Robotics (same 2024 founding year, ex-Waymo team, $270M Series B at $1.75B valuation in Feb 2026) — signals investor conviction that construction robotics is becoming a competitive, well-funded category rather than a one-off bet." }
+    ],
+    thesis_fit: "Medium — construction is one of the thesis's explicitly named 'open window' verticals worth extra sourcing attention, and TerraFirma's wedge (owning both the planning software and physical execution via retrofitted equipment) is a genuine full-workflow play rather than a point solution; but the thesis's vertical-SaaS scoring cues emphasize evidence of autonomous execution with disclosed revenue/ARR growth, and TerraFirma has disclosed zero revenue, customer, or deployed-machine figures — this reads as much like a capital-intensive hardware/robotics bet as an AI-native software company.",
+    verdict: "revisit",
+    verdict_rationale: "The construction vertical and combined software-plus-hardware approach are a good thesis match on paper, and a $115M round from Kleiner Perkins plus a credible SpaceX-engineering founding team is a real signal, but with zero disclosed revenue, customers, or machine-deployment data there is no way yet to tell whether this is 'software that does the work' or an expensive hardware bet still searching for product-market fit — revisit once usage or revenue numbers surface.",
+    last_updated: "2026-11-02"
+  },
+  {
+    id: "uptiq",
+    name: "Uptiq",
+    category: "ai-native-fintech",
+    category_label: "AI-native fintech",
+    subcategory: "Banking / credit-union AI agents (lending, wealth, embedded-finance orchestration)",
+    stage: "Series B",
+    website: "https://uptiq.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Snehal Fulzele (founder/CEO); founded 2022 as Cion Digital, later rebranded Uptiq; HQ reported as both McKinney and Dallas, TX (sources conflict). Recent senior hires (Aug 2026): Gagan Kanjlia, Chief Banking Officer (ex-Alkami Technology CPO, ex-Silicon Valley Bank CPO, 17 years at Capital One incl. founding the Capital One Garage); Amit Parmar, EVP Strategic Accounts & Data Strategy (ex-JPMorgan Chase GM/MD of Business Lending, 14 years at American Express incl. the Kabbage relaunch); Marc Billanti, SVP Sales (ex-JUDI.AI Chief Sales Officer, 25-year fintech sales career).",
+    product_wedge: "Qore, an AI agent orchestration platform purpose-built for regulated financial institutions — deploys AI agents directly into lending, wealth-management, and embedded-finance workflows at community/regional banks and credit unions, plus a newer self-serve 'Qore for Builders' tier for fintechs and internal bank innovation teams; AI sits inside the underwriting/lending decision workflow itself rather than as a chat layer on top of it.",
+    funding_history: [
+      { date: "2025-10-29", event: "$12M raise", valuation: null, lead: "Silverton Partners", other_investors: "Live Oak Venture Partners, Tau Ventures, First Capital, Green Visor Capital" },
+      { date: "2026-02-12", event: "$25M Series B", valuation: null, lead: "Curql", other_investors: "Silverton Partners, 645 Ventures, Broadridge, Green Visor Capital, Live Oak Ventures, First Capital, Epic Ventures, Tau Ventures, Evolution VC" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08-18", metric: "scale", value: "150+ financial institutions on the platform; processed $10B+ in cumulative loan balances (company-reported, exact measurement period not specified)" },
+      { date: "2026-08-18", metric: "customers", value: "named customers/partners include Focus Financial Partners, Orion, Broadridge, Nano Banc, TransPecos Banks" },
+      { date: "2026-02", metric: "outcome claims", value: "company claims customers see up to 41% faster underwriting decisions, 29% lower operational costs, and 2x loan-application volume without added headcount (company-reported, unverified)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08-18", note: "Hired three senior banking/fintech operating executives (backgrounds at Capital One, Alkami, Silicon Valley Bank, JPMorgan Chase, American Express, JUDI.AI) specifically to scale bank/credit-union go-to-market." },
+      { date: "2026-02-17", note: "Curql, a credit-union-owned fintech investment collaborative, made a strategic investment specifically to accelerate AI adoption across credit unions — a distribution-aligned investor, not just financial capital." }
+    ],
+    thesis_fit: "High — AI sits directly at the regulated lending/underwriting decision point inside banks and credit unions rather than a support/chat layer, which is exactly the thesis's core fintech wedge; Curql's strategic (not purely financial) investment is a credible distribution signal into a historically hard-to-penetrate buyer base (community banks/credit unions); the founding team and newer executive hires carry deep regulated-lending operating experience (Capital One, JPMorgan, American Express, SVB).",
+    verdict: "watch",
+    verdict_rationale: "$10B+ in processed loan balances and 150+ live financial-institution customers represent real, verifiable-scale production usage at a regulated decision point — the strongest fintech thesis-fit sourced this week — though the efficiency-metric claims (41% faster underwriting, etc.) are company-reported and unaudited, and no ARR figure has been disclosed, so watch rather than a higher-conviction call.",
+    last_updated: "2026-11-02"
+  },
+  {
+    id: "acrab",
+    name: "Acrab",
+    category: "agent-infrastructure",
+    category_label: "Agent infrastructure",
+    subcategory: "Edge compute / inference hardware for agentic AI (adjacent to core thesis sub-categories)",
+    stage: "Series B",
+    website: "https://acrab.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Dr. Ken Phua (founder/CEO), former co-CEO of Arm China; founded 2024, Singapore. Other co-founders not named in available press coverage.",
+    product_wedge: "Full-stack agentic AI compute platform spanning custom silicon (GΞLIX 1, a 5nm edge AI system-on-chip), local LLM inference, system software, multimodal interfaces, and agent orchestration; flagship product Agent Box is a personal edge AI device claiming to run 100B+ parameter models locally without cloud dependency — the wedge is edge/on-device compute and inference cost/latency control for agents, distinct from the thesis's software-layer wedges (durable execution, evaluation, gateways).",
+    funding_history: [
+      { date: "2026-06", event: "$350M+ cumulative financing disclosed since 2024 founding (prior round-by-round breakdown not disclosed)", valuation: null, lead: "unconfirmed" },
+      { date: "2026-08-06", event: "$130M Series B", valuation: null, lead: "Vertex Ventures SEA & India / Vertex Growth (reported as continuing existing backers; some coverage describes this as 'Vertex-backed' rather than a confirmed sole lead)", other_investors: "unnamed European and Southeast Asian institutional investors" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07-23", metric: "product launch", value: "launched GΞLIX 1 SoC and Agent Box hardware (first commercial product); claims 700 TOPS processing power and local inference of 100B+ parameter models (company-reported, unverified third-party benchmarks)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08-06", note: "Vertex Holdings' CEO publicly framed the investment thesis around AI increasingly running at the edge rather than in the cloud — a different bet in kind from the thesis's described agent-infra wedges (durable execution, evaluation, gateways), which are cloud/software production-reliability problems." }
+    ],
+    thesis_fit: "Low — the thesis's agent-infrastructure wedge is explicitly about software solving named production-reliability problems (durable execution, evaluation, cost/latency control at the orchestration layer) and warns that 'the winners look boring — systems software,' not custom chips; Acrab is a capital-intensive hardware/silicon bet on edge inference, a fundamentally different business model with no disclosed revenue or customer traction to offset the mismatch.",
+    verdict: "pass",
+    verdict_rationale: "A large, well-capitalized raise ($350M+ total, $130M Series B from a credible Singapore investor syndicate) and a credible chip-industry founder (ex-Arm China co-CEO) make this notable, but the wedge — custom edge silicon for local agent inference — sits outside the thesis's defined agent-infrastructure sub-categories entirely, is far more capital-intensive and hardware-cycle-dependent than the software pattern the thesis says wins, and has zero disclosed revenue or customer traction to date.",
+    last_updated: "2026-11-02"
   }
 ];
