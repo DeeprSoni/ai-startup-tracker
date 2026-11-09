@@ -3272,5 +3272,128 @@ window.COMPANIES = [
     verdict: "pass",
     verdict_rationale: "A large, well-capitalized raise ($350M+ total, $130M Series B from a credible Singapore investor syndicate) and a credible chip-industry founder (ex-Arm China co-CEO) make this notable, but the wedge — custom edge silicon for local agent inference — sits outside the thesis's defined agent-infrastructure sub-categories entirely, is far more capital-intensive and hardware-cycle-dependent than the software pattern the thesis says wins, and has zero disclosed revenue or customer traction to date.",
     last_updated: "2026-11-02"
+  },
+  {
+    id: "sapiom",
+    name: "Sapiom",
+    category: "agent-infrastructure",
+    category_label: "Agent infrastructure",
+    subcategory: "Cost / latency control & inference routing",
+    stage: "Series A",
+    website: "https://sapiom.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Ilan Zerbib (founder/CEO); SF-based, founded 2025. No co-founders or prior-operating background found in available coverage — thin/unconfirmed.",
+    product_wedge: "Routes AI-agent inference traffic across models to cut token costs and latency at scale; product suite is Sapiom Router, Agent Studio, and Runtime — a named production cost/latency-control wedge, not a generic agent builder.",
+    funding_history: [
+      { date: "2026-02", event: "$15M seed (date approximate)", valuation: null, lead: "unconfirmed" },
+      { date: "2026-08-05", event: "$35M Series A ($50M total disclosed)", valuation: null, lead: "Dragonfly (Haseeb Qureshi joining board)", other_investors: "Accel, Gradient, Coinbase Ventures, Anthropic, Menlo Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2026-08", metric: "usage", value: ">270M transactions processed, >100,000 agent runs/day (company-reported, not independently verified)" },
+      { date: "2026-08", metric: "customer case study", value: "Polsia reportedly cut a $1.2M/mo Anthropic bill to ~$100K/mo (company-sourced claim, not independently verified)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-08-05", note: "Anthropic itself is a backer; reached $50M total raised within 11 months of founding." }
+    ],
+    thesis_fit: "High — cost/latency control at scale is explicitly named in theses.md as a winning agent-infra wedge, and Sapiom shows real usage metrics and logs proving the problem is real, per the thesis's high-fit scoring cue.",
+    verdict: "watch",
+    verdict_rationale: "Real, named production problem with disclosed usage metrics and a credible lead investor (plus Anthropic as backer), but the founding-team background is thin/unverified beyond the solo named founder, and the company is only 11 months old — worth tracking as a leading cost-control-wedge candidate while confirming team depth over time.",
+    last_updated: "2026-11-09"
+  },
+  {
+    id: "harper",
+    name: "Harper",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Commercial insurance brokerage",
+    stage: "Series A",
+    website: "https://harperinsure.com",
+    socials: { twitter: "unconfirmed", linkedin: "https://linkedin.com/company/harperinsure" },
+    founding_team: "Dakotah Rice (CEO) and Tushar Nair (co-founder/CTO) — both previously built Poolit (since shut down), giving them real prior operating experience in the insurance-adjacent space.",
+    product_wedge: "Harper is itself the commercial-insurance brokerage, not software sold to brokers — AI automates submission routing, carrier follow-up, and underwriting prep end to end, replacing the brokerage workflow rather than assisting it.",
+    funding_history: [
+      { date: "2026-02-25", event: "Combined seed + Series A, ~$47M ($46.8M per some reports)", valuation: null, lead: "Emergence Capital", other_investors: "Y Combinator, Peak XV, Antler, 10X Founders, Fellows Fund, Outset Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-02", metric: "customers", value: ">5,000 customers; >1,000 new customers/month vs. 20-30/month for a typical human-led brokerage team (company-reported)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-02", note: "Competes directly with Gyde, Vantel, and FurtherAI (already tracked) in AI-native insurance brokerage — a crowding signal in this specific sub-niche." }
+    ],
+    thesis_fit: "High — matches the vertical-SaaS thesis's high-fit cue of 'evidence of autonomous execution (not just assistive copilot)' and 'owning a full end-to-end workflow'; Harper replaces the brokerage itself rather than bolting AI onto existing broker software.",
+    verdict: "watch",
+    verdict_rationale: "Genuine autonomous-execution wedge with disclosed customer-growth numbers and operator-founders with relevant prior-company experience, but the sub-niche (AI-native commercial insurance brokerage) is getting crowded fast with 3+ well-funded competitors — worth tracking as an early leader rather than a ground-floor pick.",
+    last_updated: "2026-11-09"
+  },
+  {
+    id: "bobyard",
+    name: "Bobyard",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction estimating / takeoffs",
+    stage: "Series A",
+    website: "https://bobyard.com",
+    socials: { twitter: "unconfirmed", linkedin: "https://linkedin.com/company/bobyard" },
+    founding_team: "Michael Ding, founder (Stanford-trained engineer); founded 2023. No co-founders found in available coverage.",
+    product_wedge: "Computer-vision/NLP models that automate construction takeoffs and estimates, starting in landscaping and expanding trade by trade into electrical, plumbing, drywall, flooring, HVAC, and framing — a path to owning more of the estimating workflow over time.",
+    funding_history: [
+      { date: "2025-12-10", event: "$35M Series A", valuation: null, lead: "8VC", other_investors: "Pear VC, Primary Venture Partners, Tishman Speyer, RXR, Caffeinated Capital, Merrick Ventures" }
+    ],
+    disclosed_traction: [
+      { date: "2025-12", metric: "customers", value: "~3,000 customers at raise announcement; company stated plan to triple by end of 2026 (company-reported, unverified)" }
+    ],
+    qualitative_signal: [
+      { date: "2026-04", note: "Shipped 'Bobyard 2.0' unified AI workbench." },
+      { date: "2026", note: "Launched trade-specific products roughly every 1-2 months through 2026 (plumbing, electrical, flooring/drywall/paint) — a concrete, observable moat-building cadence." }
+    ],
+    thesis_fit: "High — construction is explicitly flagged in theses.md as an 'open window' vertical worth extra sourcing attention (less crowded than legal/healthcare), and Bobyard shows real disclosed customer-count traction plus the trade-by-trade expansion the thesis names as the winning wedge pattern.",
+    verdict: "watch",
+    verdict_rationale: "Real estate/construction strategics (Tishman Speyer, RXR) in the cap table signal genuine customer-side validation, and the trade-expansion cadence is a concrete, observable moat-building motion rather than hype — a solid pick in an underexplored vertical.",
+    last_updated: "2026-11-09"
+  },
+  {
+    id: "kastle",
+    name: "Kastle",
+    category: "ai-native-fintech",
+    category_label: "AI-native fintech",
+    subcategory: "Consumer lending servicing / collections agents",
+    stage: "Series A",
+    website: "https://kastle.ai",
+    socials: { twitter: "unconfirmed", linkedin: "https://linkedin.com/company/kastleai" },
+    founding_team: "Rishi Choudhary (CEO) and Nitish Poddar (CTO); founded 2024 (YC S24).",
+    product_wedge: "AI voice/messaging agents that run on top of lenders' existing legacy core systems (no rip-and-replace), starting with mortgage/consumer-lending servicing and collections communications.",
+    funding_history: [
+      { date: "2026-09-22", event: "$24M Series A", valuation: null, lead: "Insight Partners", other_investors: "Y Combinator, Commerce Ventures (existing); Fifth Wall (new per some sources, disputed as existing by others)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-09", metric: "named customers", value: "Newrez, Valley Bank, Carrington Mortgage Services, New American Funding, Planet Home, Selene Finance" },
+      { date: "2026-09", metric: "transaction volume", value: ">$1.8B processed by agents (company-reported, not independently verified)" }
+    ],
+    qualitative_signal: [],
+    thesis_fit: "Mixed/low — theses.md's high-fit cue requires AI sitting at a regulated decision point (underwriting/risk/execution/compliance); Kastle's current wedge is servicing/collections-communications automation, closer to the pattern theses.md explicitly flags as overhyped ('AI copilot for your bank' tools that don't touch the actual decision, really just support-ticket deflection with fintech branding).",
+    verdict: "revisit",
+    verdict_rationale: "Credible funding (Insight Partners-led), named enterprise lending customers, and real operational traction, but the product sits one layer below the regulated decision point the thesis rewards most — worth revisiting if/when Kastle's agents move into actual underwriting or credit-risk decisioning rather than servicing comms.",
+    last_updated: "2026-11-09"
+  },
+  {
+    id: "paygentic",
+    name: "Paygentic",
+    category: "ai-native-fintech",
+    category_label: "AI-native fintech",
+    subcategory: "Agentic payments / usage-based billing infrastructure",
+    stage: "Pre-seed",
+    website: "https://paygentic.io",
+    socials: { twitter: "unconfirmed", linkedin: "https://linkedin.com/company/paygentic" },
+    founding_team: "Susan O'Neill and Samuel Alarco Cantos, co-founders. HQ disputed across sources (SF, Tel Aviv, Dublin, London all appear) — unconfirmed.",
+    product_wedge: "Billing/payments infrastructure built for AI-native, agent-driven businesses — hybrid/usage-based/outcome-based billing models for companies with variable AI compute costs that legacy billing systems can't handle.",
+    funding_history: [
+      { date: "2025-10-23", event: "$2M pre-seed (figure disputed across sources: $2.0M vs. €1.7M)", valuation: null, lead: "MiddleGame Ventures", other_investors: "Anamcara Capital, Aperture, Tech Operators" }
+    ],
+    disclosed_traction: [],
+    qualitative_signal: [],
+    thesis_fit: "Thematically high but unproven — theses.md explicitly flags agentic payments as 'the newest and least-crowded sub-thread — worth disproportionate sourcing attention,' and Paygentic is a direct hit on that named sub-thread, though with no disclosed traction to date.",
+    verdict: "revisit",
+    verdict_rationale: "Thesis-aligned sub-category with real (if tiny) institutional backing, but the signal is thin: no disclosed customer or revenue traction, basic facts (HQ, exact raise amount) conflict across sources, and the round is now over a year old with no follow-on reported — worth a check-in for a Series A or clearer public disclosure before upgrading to watch.",
+    last_updated: "2026-11-09"
   }
 ];

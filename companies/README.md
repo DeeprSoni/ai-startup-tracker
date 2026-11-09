@@ -1,6 +1,6 @@
-# Company Tracker — 123 companies
+# Company Tracker — 128 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-11-02.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-11-09.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -128,6 +128,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [TerraFirma](https://terrafirma.build) | Vertical SaaS AI-native — construction (semi-autonomous heavy equipment) | Series A | unconfirmed | n/a ($115M raise Jul 2026; zero revenue/customer/machine-count disclosed) | Revisit — right vertical and founding team, but unproven hardware bet with no disclosed traction |
 | [Uptiq](https://uptiq.ai) | AI-native fintech — banking/credit-union AI agents (lending, wealth) | Series B | unconfirmed | n/a ($10B+ cumulative loan balances processed; 150+ FIs, no ARR disclosed) | Watch — strongest regulated-decision-point fit this week, Curql strategic investor |
 | [Acrab](https://acrab.ai) | Agent infrastructure — edge compute/inference hardware for agents | Series B | unconfirmed | n/a ($350M+ total raised; no revenue/customers disclosed) | Pass — well-funded but hardware wedge sits outside the thesis's defined agent-infra sub-categories |
+| [Sapiom](https://sapiom.ai) | Agent infrastructure — cost/latency control & inference routing | Series A | unconfirmed | n/a ($50M total raised; >270M transactions, >100K agent runs/day, company-reported) | Watch — named production cost-control wedge, Anthropic-backed, but founding team thin on record |
+| [Harper](https://harperinsure.com) | Vertical SaaS AI-native — commercial insurance brokerage | Series A | unconfirmed | n/a (~$47M raised; >5,000 customers, company-reported) | Watch — Harper is the brokerage itself (autonomous execution), but sub-niche crowding fast (Gyde, Vantel, FurtherAI) |
+| [Bobyard](https://bobyard.com) | Vertical SaaS AI-native — construction estimating/takeoffs | Series A | unconfirmed | n/a ($35M Series A Dec 2025; ~3,000 customers, company-reported) | Watch — real estate strategics in cap table, trade-by-trade expansion cadence is a concrete moat-building motion |
+| [Kastle](https://kastle.ai) | AI-native fintech — consumer lending servicing/collections agents | Series A | unconfirmed | n/a ($24M Series A Sep 2026; named customers Newrez, Valley Bank, Carrington) | Revisit — real lending-enterprise traction, but sits one layer below the regulated decision point (servicing, not underwriting) |
+| [Paygentic](https://paygentic.io) | AI-native fintech — agentic payments/usage-based billing infra | Pre-seed | unconfirmed | n/a (no customer/revenue traction disclosed) | Revisit — thesis-aligned sub-thread (agentic payments) but thin signal, conflicting basic facts, stale 1yr+ round |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -259,6 +264,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - TerraFirma — `rec:01M6D5F4CPBH9NBFYYG31JQZSK`
 - Uptiq — `rec:01M6D5FJE6M6H5RCRG7YG8TKW9`
 - Acrab — `rec:01M6D5FWEHV6KXMZXC4J02GCJ3`
+- Sapiom — `rec:01M6Z63XRFTDWHN9FF4RFRH46M`
+- Harper — `rec:01M6Z644YRWNQM1518F59C2809`
+- Bobyard — `rec:01M6Z64C15ESVAXCEV7BASHTQ0`
+- Kastle — `rec:01M6Z64KHV50M17W7XWVYDBVCB`
+- Paygentic — `rec:01M6Z64S0ZJM1K6S8GH32WYB2V`
 
 ## How to update a company over time
 
