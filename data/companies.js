@@ -3395,5 +3395,133 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Thesis-aligned sub-category with real (if tiny) institutional backing, but the signal is thin: no disclosed customer or revenue traction, basic facts (HQ, exact raise amount) conflict across sources, and the round is now over a year old with no follow-on reported — worth a check-in for a Series A or clearer public disclosure before upgrading to watch.",
     last_updated: "2026-11-09"
+  },
+  {
+    id: "graphon-labs",
+    name: "Graphon Labs",
+    category: "agent-infrastructure",
+    category_label: "Agent infrastructure",
+    subcategory: "Persistent memory / context infrastructure for agents",
+    stage: "Series A",
+    website: "https://www.graphon.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Arbaaz Khan (CEO) and Clark Zhang (CTO), co-founders, grew out of their PhD work on graphons for robot memory; a secondary source also names Deepak Mishra as COO (unconfirmed). ~20-person team based in San Francisco.",
+    product_wedge: "Builds graph-based persistent memory for AI agents ('Persistent Intelligence') so agents can continuously access, recall, and build on everything that happened in prior sessions — a named fix for the production failure mode of agents losing context/state across long-running or repeated interactions, rather than a generic memory/vector-DB wrapper.",
+    funding_history: [
+      { date: "2026-05-14", event: "$8.3M seed (reported as Graphon AI)", valuation: null, lead: "unconfirmed" },
+      { date: "2026-11-10", event: "$35M Series A (total funding $43.3M disclosed)", valuation: null, lead: "RRE Ventures", other_investors: "HP, Energy Impact Partners, Hitachi Ventures, Gaia VC" }
+    ],
+    disclosed_traction: [
+      { date: "2026-11", metric: "named customers", value: "HP, Hitachi, and the San Francisco 49ers are cited as early customers (company-reported, not independently verified)" },
+      { date: "2026-11", metric: "benchmark", value: "Company reports 93.9% on LoCoMo and 81.7% on ATM-Bench — self-reported benchmarks, not independently verified" }
+    ],
+    qualitative_signal: [
+      { date: "2026-11-10", note: "Series A closed at ~4.2x the seed valuation roughly 180 days after the seed closed, per secondary coverage; company rebranded from 'Graphon AI' to 'Graphon Labs' between the two rounds." }
+    ],
+    thesis_fit: "High — theses.md names memory layers among the fragmented agent-infra sub-categories and calls out 'durable state across long-running agent workflows' as a wedge the labs won't solve themselves; Graphon's context-persistence problem is named and concrete, and named enterprise customers (HP, Hitachi) support that the problem is real rather than hypothetical.",
+    verdict: "watch",
+    verdict_rationale: "Fast follow-on (4.2x in ~180 days) from a credible infra-focused lead (RRE) plus strategic corporate backers (HP, Hitachi, Energy Impact Partners) and named enterprise customers give this real signal on a thesis-aligned wedge; the main caveat is that traction figures and benchmarks are entirely company-reported, and the team's operating (vs. academic) background is still thin in public coverage.",
+    last_updated: "2026-11-16"
+  },
+  {
+    id: "plurai",
+    name: "Plurai",
+    category: "agent-infrastructure",
+    category_label: "Agent infrastructure",
+    subcategory: "Agent evaluation / pre-launch simulation (digital-twin pretraining)",
+    stage: "Seed",
+    website: "https://www.plurai.ai",
+    socials: { twitter: "unconfirmed", linkedin: "https://linkedin.com/company/plurai" },
+    founding_team: "Ilan Kadar and Elad Levi, co-founders, both previously at Nexar (dashcam/computer-vision startup); Kadar's background includes self-driving simulation work with Waymo, a direct precedent for applying autonomous-vehicle-style simulation testing to AI agents.",
+    product_wedge: "Builds a digital twin of an enterprise's AI agent plus its environment (knowledge base, tools, policies), runs thousands of simulated scenarios to surface failures before an agent ever reaches production, auto-generates fixes, and uses the simulation data to train small, per-agent language models — ground-truth evaluation of agent decisions pre-launch, not just post-hoc output-quality scoring.",
+    funding_history: [
+      { date: "2026-11-11", event: "$13M seed (announced alongside general-availability launch)", valuation: null, lead: "Team8", other_investors: "U&I, Velocity, Mercer" }
+    ],
+    disclosed_traction: [
+      { date: "2026-11-11", metric: "product stage", value: "Moved from a limited private pilot with select partners/customers to general availability with a free tier; no named customers, ARR, or usage volume disclosed" }
+    ],
+    qualitative_signal: [
+      { date: "2026-11-11", note: "Some aggregator sites list conflicting figures (a $20M seed in Feb 2026, $10M total raised); the PR Newswire release and TechCrunch-sourced coverage of the Nov 11 $13M round are treated as the reliable source here." }
+    ],
+    thesis_fit: "High — theses.md explicitly flags 'ground-truth evaluation of agent decisions (not just output quality)' as one of the two agent-infra sub-categories most likely to matter in 3 years, and the founders' prior production experience building and testing autonomous systems (via Nexar/Waymo-adjacent work) matches the thesis's high-fit cue of a team that has 'operated agents in production before.'",
+    verdict: "watch",
+    verdict_rationale: "Direct hit on the evaluation/simulation wedge theses.md calls out as a durable sub-category, with a founding team whose self-driving-simulation background is a genuine, named precedent rather than a generic AI pivot; downgraded from a stronger conviction only because the company just moved from private pilot to GA and has no disclosed customers, revenue, or usage metrics yet.",
+    last_updated: "2026-11-16"
+  },
+  {
+    id: "permitflow",
+    name: "PermitFlow",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction permitting, inspections & license-management workflow automation",
+    stage: "Series B",
+    website: "https://www.permitflow.com",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Francis Thumpasery (CEO) and Sam Lam (CTO), co-founders, Y Combinator W22; Lam previously a software engineer at Uber and studied CS & Statistics at Harvard. Company founded 2021/2022 (sources disagree on exact year).",
+    product_wedge: "AI agents handle the construction permitting workflow end-to-end for contractors and developers — permit filing, inspections coordination, and license management — built on a proprietary set of 12M+ permitting data points, replacing the manual permit-chasing workflow rather than just assisting a permit coordinator.",
+    funding_history: [
+      { date: "2023 (approximate)", event: "$5.5M seed", valuation: null, lead: "unconfirmed" },
+      { date: "2024-02 (approximate)", event: "$31M Series A", valuation: null, lead: "Kleiner Perkins" },
+      { date: "2025-12-02", event: "$54M Series B (total raised ~$90M per one unconfirmed secondary source)", valuation: "~$500M per a single secondary source (Foundamental), not independently confirmed", lead: "Accel", other_investors: "Kleiner Perkins, Felicis, Initialized Capital, Altos Ventures, Y Combinator" }
+    ],
+    disclosed_traction: [
+      { date: "2025-12", metric: "efficiency claim", value: "Company claims its agents cut permitting timelines by up to 60% and workload by 90% (company-reported, not independently verified)" },
+      { date: "2025-12", metric: "named customers", value: "One secondary report (repeated by a second outlet) names Amazon, IKEA, and Lennar as customers — not independently confirmed via a primary source" }
+    ],
+    qualitative_signal: [],
+    thesis_fit: "High — theses.md names construction explicitly as a vertical with an 'open window' worth disproportionate sourcing attention precisely because it's less crowded than legal/healthcare/CX, and PermitFlow owns a full regulated workflow (permitting/inspections/licensing) backed by a proprietary data moat (12M+ permitting data points) that a horizontal platform can't easily replicate.",
+    verdict: "watch",
+    verdict_rationale: "Real end-to-end workflow ownership in an explicitly-flagged open-window vertical, a proprietary data moat, and a Series B from top-tier investors (Accel, Kleiner Perkins) make this a strong thesis fit; kept at 'watch' rather than higher conviction because the efficiency claims and named customers are not independently verified and basic facts (founding year, total raised, valuation) conflict across secondary sources.",
+    last_updated: "2026-11-16"
+  },
+  {
+    id: "enfi",
+    name: "EnFi",
+    category: "ai-native-fintech",
+    category_label: "AI-native fintech",
+    subcategory: "Agentic commercial lending / credit underwriting",
+    stage: "Series A",
+    website: "https://www.enfi.ai",
+    socials: { twitter: "unconfirmed", linkedin: "https://www.linkedin.com/company/enfi-ai/" },
+    founding_team: "Joshua Summers (CEO), Scott Weller (CTO), and Michelle Breitman Hipwood (CFO), co-founders; company founded 2023, based in Boston. No prior-company/operating background disclosed in available coverage beyond titles — thin/unconfirmed.",
+    product_wedge: "AI agents handle commercial lending workflows end-to-end — deal screening, credit analysis, and portfolio monitoring — for banks, private credit funds, credit unions, and fintech lenders, putting AI directly at the regulated credit-decisioning point rather than assisting a human underwriter.",
+    funding_history: [
+      { date: "2024 (approximate)", event: "$7.5M seed", valuation: null, lead: "Unusual Ventures" },
+      { date: "2026-02-04", event: "$15M Series A (total funding $22.5M disclosed)", valuation: null, lead: "FINTOP", other_investors: "Patriot Financial Partners, Commerce Ventures, Unusual Ventures, Boston Seed Capital" }
+    ],
+    disclosed_traction: [
+      { date: "2026-02", metric: "customer segments", value: "Used by banks, private credit funds, credit unions, and fintech lenders per company/press description — no named customers, customer count, or ARR disclosed" }
+    ],
+    qualitative_signal: [
+      { date: "2026-02-04", note: "Covered by Reuters and multiple fintech trade outlets as part of a broader wave of agentic-AI-in-credit-decisioning raises; positioned by the company as building an 'AI credit workforce.'" }
+    ],
+    thesis_fit: "High — theses.md's fintech scoring cue is explicit that high fit means 'AI sits at a regulated decision point (underwriting/risk/execution/compliance), not just a chat UI,' and EnFi's agents sit directly in deal screening and credit analysis/decisioning, the core regulated decision point in commercial lending.",
+    verdict: "watch",
+    verdict_rationale: "Textbook thesis fit on the regulated-decision-point criterion with a credible fintech-focused lead investor (FINTOP) and a real follow-on round, but the public record discloses no named customers, customer counts, or ARR, and the founding team's prior fintech/regulatory operating experience isn't documented beyond titles — worth tracking for a disclosed-traction update before upgrading conviction further.",
+    last_updated: "2026-11-16"
+  },
+  {
+    id: "worth",
+    name: "Worth",
+    category: "ai-native-fintech",
+    category_label: "AI-native fintech",
+    subcategory: "SMB onboarding, identity & underwriting risk decisioning",
+    stage: "Series A",
+    website: "https://www.worth.ai",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Sal Rehmetullah and Suneera Madhani, co-founders — both previously co-founded and built Stax, a payments-processing company; Jacques Fu as CTO. Real, verifiable repeat-founder fintech operating experience.",
+    product_wedge: "A 'crosswalking engine' that links business-identity data across sources to automate identity verification, fraud detection, and credit-risk assessment for banks, fintechs, and payment processors onboarding small/medium businesses — AI sits at the onboarding/underwriting decision point rather than being a chat layer bolted onto existing onboarding software.",
+    funding_history: [
+      { date: "unconfirmed", event: "$2.55M seed", valuation: null, lead: "unconfirmed" },
+      { date: "2026-03-24", event: "$30M Series A", valuation: null, lead: "Fulcrum Equity Partners", other_investors: "Amex Ventures, TTV Capital" }
+    ],
+    disclosed_traction: [],
+    qualitative_signal: [
+      { date: "2026-03-24", note: "Company says it will use the round to launch a 'Worth Wallet' onboarding product and plans pilots with mid-size banks in late 2026 (forward-looking, not yet realized). A claim that the crosswalking engine links '700M+ businesses across 200+ countries' appears only in a low-reliability aggregator profile and is not verified here." }
+    ],
+    thesis_fit: "Moderate-to-high — the product sits at a regulated decision point (identity/fraud/credit-risk at onboarding) per theses.md's high-fit cue, and the founding team has real, verifiable fintech operating experience (Stax), but no ARR, customer count, or named bank/fintech customer is disclosed, and the underwriting/compliance sub-category is already well represented in this tracker (Taktile, Casca, Prism Data, Spektr, Hadrius), raising the bar for what counts as differentiated here.",
+    verdict: "revisit",
+    verdict_rationale: "Strong repeat-founder signal and a thesis-aligned regulated-decision-point wedge keep this from a 'pass,' but with zero disclosed traction (no ARR, no named customers, pilots still forward-looking as of the raise) and a crowded underwriting/compliance sub-category already well covered in the tracker, this is better revisited once Worth discloses real bank/fintech customer traction than scored 'watch' on team pedigree alone.",
+    last_updated: "2026-11-16"
   }
 ];

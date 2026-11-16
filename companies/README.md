@@ -1,6 +1,6 @@
-# Company Tracker — 128 companies
+# Company Tracker — 133 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-11-09.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-11-16.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -133,6 +133,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [Bobyard](https://bobyard.com) | Vertical SaaS AI-native — construction estimating/takeoffs | Series A | unconfirmed | n/a ($35M Series A Dec 2025; ~3,000 customers, company-reported) | Watch — real estate strategics in cap table, trade-by-trade expansion cadence is a concrete moat-building motion |
 | [Kastle](https://kastle.ai) | AI-native fintech — consumer lending servicing/collections agents | Series A | unconfirmed | n/a ($24M Series A Sep 2026; named customers Newrez, Valley Bank, Carrington) | Revisit — real lending-enterprise traction, but sits one layer below the regulated decision point (servicing, not underwriting) |
 | [Paygentic](https://paygentic.io) | AI-native fintech — agentic payments/usage-based billing infra | Pre-seed | unconfirmed | n/a (no customer/revenue traction disclosed) | Revisit — thesis-aligned sub-thread (agentic payments) but thin signal, conflicting basic facts, stale 1yr+ round |
+| [Graphon Labs](https://www.graphon.ai) | Agent infrastructure — persistent memory/context infrastructure for agents | Series A | unconfirmed | n/a ($43.3M total raised; named customers HP, Hitachi, SF 49ers, company-reported) | Watch — fast 4.2x follow-on with named enterprise customers on a thesis-named memory wedge |
+| [Plurai](https://www.plurai.ai) | Agent infrastructure — agent evaluation/pre-launch simulation | Seed | unconfirmed | n/a ($13M seed Nov 2026; just moved to GA, no customers/ARR disclosed) | Watch — direct hit on the evaluation sub-category with a founding team with real production-simulation background |
+| [PermitFlow](https://www.permitflow.com) | Vertical SaaS AI-native — construction permitting/inspections/licensing | Series B | ~$500M (unconfirmed, single source) | n/a ($54M Series B Dec 2025; claimed 60% faster timelines, company-reported) | Watch — full workflow ownership + proprietary data moat in an explicitly flagged "open window" vertical |
+| [EnFi](https://www.enfi.ai) | AI-native fintech — agentic commercial lending/credit underwriting | Series A | unconfirmed | n/a ($22.5M total raised; no named customers/ARR disclosed) | Watch — textbook regulated-decision-point fit with a credible fintech lead investor (FINTOP) |
+| [Worth](https://www.worth.ai) | AI-native fintech — SMB onboarding/identity/underwriting risk decisioning | Series A | unconfirmed | n/a ($30M Series A Mar 2026; no ARR/customers disclosed) | Revisit — strong repeat-founder (Stax) pedigree but zero disclosed traction in an already-crowded underwriting niche |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -269,6 +274,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - Bobyard — `rec:01M6Z64C15ESVAXCEV7BASHTQ0`
 - Kastle — `rec:01M6Z64KHV50M17W7XWVYDBVCB`
 - Paygentic — `rec:01M6Z64S0ZJM1K6S8GH32WYB2V`
+- Graphon Labs — `rec:01M7H6VCFVJVC7EJFXRFPFJE0W`
+- Plurai — `rec:01M7H6VMW57EDM694809ZVZJY9`
+- PermitFlow — `rec:01M7H6VX5C984KJ1BY2WMZXDVV`
+- EnFi — `rec:01M7H6W6AZA49FHMHZTZNDXY9D`
+- Worth — `rec:01M7H6WEVN7B0NMXTBDNR23V08`
 
 ## How to update a company over time
 
