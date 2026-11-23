@@ -3523,5 +3523,138 @@ window.COMPANIES = [
     verdict: "revisit",
     verdict_rationale: "Strong repeat-founder signal and a thesis-aligned regulated-decision-point wedge keep this from a 'pass,' but with zero disclosed traction (no ARR, no named customers, pilots still forward-looking as of the raise) and a crowded underwriting/compliance sub-category already well covered in the tracker, this is better revisited once Worth discloses real bank/fintech customer traction than scored 'watch' on team pedigree alone.",
     last_updated: "2026-11-16"
+  },
+  {
+    id: "traversal",
+    name: "Traversal",
+    category: "agent-infrastructure",
+    category_label: "Agent infrastructure",
+    subcategory: "AI SRE / production incident diagnosis & reliability",
+    stage: "Series B",
+    website: "https://traversal.com",
+    socials: { twitter: "https://x.com/traversal_ai", linkedin: "https://www.linkedin.com/company/traversal-ai/" },
+    founding_team: "Anish Agarwal (CEO) with co-founders Raj Agrawal, Ahmed Lone and Raaz Dwivedi — per Sequoia, three PhDs from MIT/Berkeley/Columbia/Cornell with backgrounds in causal ML and reinforcement learning, plus a former Citadel Securities quant trader; founded 2024, launched out of stealth June 2025.",
+    product_wedge: "An autonomous 'AI SRE' agent that investigates and fixes production incidents and continuously triages alerts, built on a self-updating 'Production World Model' that distinguishes true multi-hop root causes from coincidental correlations; deploys read-only by default with bring-your-own-cloud/bring-your-own-model options — a named production-reliability failure mode, not a generic agent framework.",
+    funding_history: [
+      { date: "2025-06", event: "$48M combined seed + Series A at launch from stealth", valuation: null, lead: "Sequoia Capital, Kleiner Perkins", other_investors: "NFDG, Hanabi" },
+      { date: "2026-11-03", event: "$120M Series B", valuation: 1000, lead: "Kleiner Perkins, Redpoint Ventures, Khosla Ventures (co-led)", other_investors: "Sequoia Capital, Battery Ventures, Amex Ventures (existing backers Kleiner Perkins and Sequoia increased their stakes)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-11", metric: "ARR growth", value: "Company says ARR grew ~9x year-over-year as of the Series B announcement (company-reported, not independently verified)" },
+      { date: "2026-11", metric: "named customers", value: "PepsiCo, Nubank" }
+    ],
+    qualitative_signal: [
+      { date: "2026-11-03", note: "Total funding reaches ~$173M at a $1B valuation roughly 17 months after launch. Redpoint's partners called it the fastest-growing and largest AI SRE vendor by scale (investor claim, not independently verified); March 2026 saw six senior GTM/engineering leadership hires." }
+    ],
+    thesis_fit: "High — theses.md's agent-infrastructure cue is explicit that the winning wedge is 'solving one gnarly, concrete production problem... closer to systems software for a new runtime,' and Traversal's root-cause diagnosis/incident-fix agent is exactly that, evidenced by named enterprise customers (PepsiCo, Nubank) rather than a hypothetical use case; it sits closer to the observability/reliability sub-category theses.md flags as one of the two most likely to matter in 3 years.",
+    verdict: "watch",
+    verdict_rationale: "Textbook production-reliability wedge with real named customers and a credible, technical founding team, but a $1B valuation and $173M total raised after only ~17 months puts it in the same 'bellwether, already richly valued' bucket as Harvey/Sierra/Temporal in this tracker rather than a ground-floor pick — worth tracking as the category comp for AI-driven incident response/SRE.",
+    last_updated: "2026-11-23"
+  },
+  {
+    id: "grailpay",
+    name: "GrailPay",
+    category: "ai-native-fintech",
+    category_label: "AI-native fintech",
+    subcategory: "Risk decisioning infrastructure for instant & agentic B2B payments",
+    stage: "Series A",
+    website: "https://www.grailpay.com",
+    socials: { twitter: "https://x.com/grailpay", linkedin: "https://www.linkedin.com/company/grailpay" },
+    founding_team: "Not disclosed in public sources found (company site links only to a careers page, no named founders) — flag for next update.",
+    product_wedge: "A composable risk-decisioning engine paired with a payments platform ('Account Intelligence') that verifies bank-account ownership, checks historical payment reliability, and assesses the risk of moving funds before settlement — combining first-party payments-processing data with third-party sources, explicitly positioned for instant and agentic payments via a 'Payments Identity Network.'",
+    funding_history: [
+      { date: "2026-06-25", event: "$10.5M Series A", valuation: null, lead: "MissionOG", other_investors: "EJF Ventures, Counterpart Ventures, Construct Capital, Commerce Ventures, SSC Venture Partners" }
+    ],
+    disclosed_traction: [
+      { date: "2026-06", metric: "total funding", value: "$17.2M raised to date" },
+      { date: "2026-06", metric: "network coverage / churn", value: "Company claims its network covers 99%+ of US bank accounts and zero customer churn to date — company-sourced figures, not independently verified" }
+    ],
+    qualitative_signal: [
+      { date: "2026-06-25", note: "Funds earmarked for data/modeling research and go-to-market expansion specifically into instant and agentic payments — theses.md calls agentic payments 'the newest and least-crowded sub-thread' in AI-native fintech, worth disproportionate sourcing attention." }
+    ],
+    thesis_fit: "High — theses.md's fintech high-fit cue is 'AI sits at a regulated decision point (underwriting/risk/execution/compliance), not just a chat UI,' and GrailPay's risk-decisioning model sits directly in the authorization path before funds move, on the specific agentic-payments sub-thread the thesis flags as least crowded.",
+    verdict: "watch",
+    verdict_rationale: "Clean thesis-fit on the exact regulated-decision-point and agentic-payments criteria theses.md highlights, with a credible fintech-focused Series A investor syndicate, but it's an early, small round ($10.5M) with no named customers or independently verifiable scale claims and an undisclosed founding team — worth tracking for a traction update before upgrading conviction.",
+    last_updated: "2026-11-23"
+  },
+  {
+    id: "agave",
+    name: "Agave",
+    category: "vertical-saas-ai-native",
+    category_label: "Vertical SaaS — AI-native",
+    subcategory: "Construction financial back-office automation",
+    stage: "Series A",
+    website: "https://www.useagave.com",
+    socials: { twitter: "unconfirmed", linkedin: "unconfirmed" },
+    founding_team: "Tom Reno, John Zucchi and Pooria Azimi, co-founders; founded late 2021 in San Francisco, went through YC (W22).",
+    product_wedge: "AI agents and integrations connecting contractors' field and accounting systems to automate back-office work — AP invoice capture/approval/ERP posting, expense/card reconciliation, vendor compliance and insurance-document tracking, two-way ERP sync, and an MCP server exposing project/ERP data to ChatGPT, Claude and Copilot — owning the data-integration layer specific to construction financial workflows rather than a generic bolt-on.",
+    funding_history: [
+      { date: "2026-07-07", event: "$15M Series A", valuation: null, lead: "Accel", other_investors: "Y Combinator (continued); one source adds Khosla Ventures and Spencer Rascoff as unconfirmed" }
+    ],
+    disclosed_traction: [
+      { date: "2026-07", metric: "customers", value: "'600+ contractors' per company website (self-reported); no ARR or revenue figure disclosed" },
+      { date: "2026-07", metric: "total funding", value: ">$20M raised since 2021 founding" }
+    ],
+    qualitative_signal: [
+      { date: "2026-07-07", note: "Construction is explicitly named in theses.md as a vertical with an 'open window' going into H2 2026, worth extra sourcing attention precisely because legal/healthcare/CX are already crowded — Agave is the first construction-financials-specific pick logged in this tracker." }
+    ],
+    thesis_fit: "Moderate-to-high — hits theses.md's 'open window' vertical criterion squarely (construction, not legal/healthcare/CX), and the ERP/field-system integration is a real workflow-access moat a horizontal platform can't easily replicate; but the product is still closer to assistive back-office automation (AP, compliance, ERP sync) than full autonomous execution of a regulated decision, and no ARR is disclosed.",
+    verdict: "watch",
+    verdict_rationale: "Best-fit pick this week against theses.md's explicit construction 'open window' callout, with a real customer base (600+ contractors) and a credible Accel-led Series A, but the lack of any disclosed ARR and an unverified/undisclosed social presence keep this a step below the tracker's most-evidenced vertical SaaS picks (e.g. Model ML, XBuild) until revenue traction surfaces.",
+    last_updated: "2026-11-23"
+  },
+  {
+    id: "griffin",
+    name: "Griffin",
+    category: "ai-native-fintech",
+    category_label: "AI-native fintech",
+    subcategory: "Agent-first embedded banking infrastructure (BaaS + agentic banking/stablecoins)",
+    stage: "Series B",
+    website: "https://www.griffin.com",
+    socials: { twitter: "https://x.com/griffinbank", linkedin: "https://www.linkedin.com/company/griffin-bank/" },
+    founding_team: "David Jarvis (CEO, ex-Airbnb/CircleCI infrastructure engineer, worked on Standard Treasury's core banking system) and Allen Rohner (CTO, Clojure contributor, CircleCI co-founder) — co-founded the company in 2017 in London; Griffin received a full UK banking licence from the PRA/FCA in March 2024.",
+    product_wedge: "A fully licensed UK bank offering embedded bank accounts, payments, and KYC/onboarding ('Verify') via API, now extending into card issuing, stablecoin reserve infrastructure, and an MCP server that lets AI agents interact directly with its banking APIs ('agentic banking') — the regulatory licence itself, not just the AI layer, is the moat.",
+    funding_history: [
+      { date: "2020-02", event: "£3M seed", valuation: null, lead: "unconfirmed" },
+      { date: "2026-11-11", event: "$20M Series B", valuation: 100, lead: "Octagon Partners", other_investors: "Notion Capital, A+ Ventures, Nordic Ninja, Breega (per one tracker, not independently cross-verified)" }
+    ],
+    disclosed_traction: [
+      { date: "2026-11", metric: "customers / payment volume", value: "80+ customer companies and ~10M annual payments per a single press source — not independently verified" },
+      { date: "2026-11", metric: "total funding", value: ">$60M raised to date" }
+    ],
+    qualitative_signal: [
+      { date: "2026-11-11", note: "Round earmarked for branded card issuing and stablecoin/on-chain cross-border payments; separately launched an MCP server for AI-agent banking access — theses.md calls agent-first banking/execution infrastructure 'the newest and least-crowded sub-thread' in AI-native fintech." }
+    ],
+    thesis_fit: "High — theses.md's high-fit cue is AI at a regulated decision point with real regulatory sophistication as the moat; Griffin is a PRA/FCA-licensed bank (hard and slow to replicate) now explicitly building an agent-first banking layer on top, differentiating it from this tracker's existing agent-first-brokerage comp (Alpaca) by owning full UK banking rails rather than trading infrastructure.",
+    verdict: "watch",
+    verdict_rationale: "Genuine, hard-to-copy regulatory moat (a real bank licence, not a partnership) plus a concrete agentic-banking wedge (the MCP server) make this a clean thesis fit, but the Series B is still small ($20M, ~$100M valuation) relative to the licence it holds, traction figures come from a single unverified source, and the agent-banking angle is new atop a years-old BaaS business — worth tracking as the agent-first-banking comp to Alpaca's agent-first-brokerage.",
+    last_updated: "2026-11-23"
+  },
+  {
+    id: "collective",
+    name: "Collective",
+    category: "ai-native-fintech",
+    category_label: "AI-native fintech",
+    subcategory: "SMB/solopreneur financial back-office bundle (accounting, tax, payroll, insurance)",
+    stage: "Series B",
+    website: "https://www.collective.com",
+    socials: { twitter: "https://twitter.com/CollectiveFin", linkedin: "https://www.linkedin.com/company/collective" },
+    founding_team: "Hooman Radfar (CEO/chairman, previously co-founded AddThis, acquired by Oracle), with co-founders Ugur Kaner and Bugra Akcay; company founded 2020 in San Francisco.",
+    product_wedge: "A bundled back-office service for 'businesses-of-one' — entity formation, bookkeeping/accounting, invoicing, payroll, tax preparation, insurance and support — marketed as 'expert approved, powered by AI,' with AI described as 'increasingly' automating these workflows (Collective Accounting AI suite launched 2024); fundamentally a human-plus-software service bundle with AI layered on, not an AI-native architecture built around a single regulated decision.",
+    funding_history: [
+      { date: "2023-07", event: "$50M raised to add AI tooling", valuation: null, lead: "unconfirmed" },
+      { date: "2026-10-29", event: "$100M new financing (reported as $40M Series B equity + $60M General Catalyst growth facility)", valuation: null, lead: "General Catalyst (growth facility)", other_investors: "unconfirmed for the equity portion" }
+    ],
+    disclosed_traction: [
+      { date: "2026-10", metric: "ARR growth", value: "Company claims ~120% YoY ARR growth — company-reported, not independently verified" },
+      { date: "2026-10", metric: "cumulative tax savings claim", value: "Company claims $350M in taxes saved for solo business owners to date — company-reported, not independently verified" }
+    ],
+    qualitative_signal: [
+      { date: "2026-10-29", note: "Plans to launch dedicated banking and insurance offerings and expand its 'AI-native financial operating system' positioning; company says it is the largest platform serving the ~30M-business US solo-business market (both company estimates, unverified)." }
+    ],
+    thesis_fit: "Low — theses.md explicitly names this pattern as overhyped in AI-native fintech: '\"AI-powered\" personal finance apps and budgeting tools with a thin LLM chat layer over existing rails' and 'generic AI copilot... that don't touch the actual decision.' Collective's AI role is described only vaguely ('expert approved, powered by AI,' 'increasingly' automating) rather than sitting at a specific regulated decision point (underwriting/risk/execution/compliance) the way this tracker's stronger fintech picks (Taktile, Casca, GrailPay) do.",
+    verdict: "pass",
+    verdict_rationale: "A large raise and a real, revenue-generating back-office service business, but by the thesis's own explicit scoring cues this reads as the overhyped pattern rather than a genuine AI-native, regulated-decision-point fintech — AI is a feature layered onto an existing human-plus-software service model, not the architecture itself, and every traction figure disclosed is a company self-report with no independent verification.",
+    last_updated: "2026-11-23"
   }
 ];

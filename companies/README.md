@@ -1,6 +1,6 @@
-# Company Tracker — 133 companies
+# Company Tracker — 138 companies
 
-Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-11-16.
+Full structured records live in WorkNode (source of truth — each has a dated changelog you can extend over time). This file is a quick-reference mirror, last synced 2026-11-23.
 
 | Company | Category | Stage | Last valuation | Latest disclosed ARR | Verdict |
 |---|---|---|---|---|---|
@@ -138,6 +138,11 @@ Full structured records live in WorkNode (source of truth — each has a dated c
 | [PermitFlow](https://www.permitflow.com) | Vertical SaaS AI-native — construction permitting/inspections/licensing | Series B | ~$500M (unconfirmed, single source) | n/a ($54M Series B Dec 2025; claimed 60% faster timelines, company-reported) | Watch — full workflow ownership + proprietary data moat in an explicitly flagged "open window" vertical |
 | [EnFi](https://www.enfi.ai) | AI-native fintech — agentic commercial lending/credit underwriting | Series A | unconfirmed | n/a ($22.5M total raised; no named customers/ARR disclosed) | Watch — textbook regulated-decision-point fit with a credible fintech lead investor (FINTOP) |
 | [Worth](https://www.worth.ai) | AI-native fintech — SMB onboarding/identity/underwriting risk decisioning | Series A | unconfirmed | n/a ($30M Series A Mar 2026; no ARR/customers disclosed) | Revisit — strong repeat-founder (Stax) pedigree but zero disclosed traction in an already-crowded underwriting niche |
+| [Traversal](https://traversal.com) | Agent infrastructure — AI SRE / production incident diagnosis | Series B | $1B (Nov 2026) | n/a (company claims ~9x YoY ARR growth; customers PepsiCo, Nubank) | Watch — textbook production-reliability wedge, but already a $1B bellwether comp |
+| [GrailPay](https://www.grailpay.com) | AI-native fintech — risk decisioning for instant/agentic B2B payments | Series A | unconfirmed | n/a ($17.2M total raised; no named customers disclosed) | Watch — clean regulated-decision-point fit on the least-crowded agentic-payments sub-thread |
+| [Agave](https://www.useagave.com) | Vertical SaaS AI-native — construction financial back-office | Series A | unconfirmed | n/a (600+ contractors per company; no ARR disclosed) | Watch — best fit yet for theses.md's "open window" construction vertical |
+| [Griffin](https://www.griffin.com) | AI-native fintech — agent-first embedded banking (BaaS + stablecoins) | Series B | ~$100M (Nov 2026) | n/a (80+ customers, ~10M payments/yr per single source) | Watch — real UK banking licence moat plus a concrete agentic-banking (MCP) wedge |
+| [Collective](https://www.collective.com) | AI-native fintech — SMB/solopreneur financial back-office bundle | Series B | unconfirmed | n/a (company claims ~120% YoY ARR growth) | Pass — matches theses.md's own "overhyped" pattern: AI layered on a service bundle, not at a regulated decision point |
 
 **Note on the observability/eval sub-category:** 3 comparable companies (Langfuse, Helicone, Galileo) were acquired in 2026 (by ClickHouse, Mintlify, and Cisco respectively). Braintrust and Arize AI are being tracked as the two most likely independent survivors — worth flagging as a risk in any future memo on either.
 
@@ -279,6 +284,11 @@ To pull the latest full record for any company, query WorkNode by record id:
 - PermitFlow — `rec:01M7H6VX5C984KJ1BY2WMZXDVV`
 - EnFi — `rec:01M7H6W6AZA49FHMHZTZNDXY9D`
 - Worth — `rec:01M7H6WEVN7B0NMXTBDNR23V08`
+- Traversal — `rec:01M837QJBPE10YFWDNX6251KYS`
+- GrailPay — `rec:01M837QT7MYSW4DS19K7Y2NBP2`
+- Agave — `rec:01M837R439ZP9XX3XJ4DYWTZ5V`
+- Griffin — `rec:01M837RDY5RCWYH4V99ZNTKGAT`
+- Collective — `rec:01M837RRH7SGQ2WMJVRN7QS2TN`
 
 ## How to update a company over time
 
